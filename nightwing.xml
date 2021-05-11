@@ -1,0 +1,1876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/ding/nightwing/nightwing.sch</source>
+    <date>Mon 10 May 2021 05:40:38 AM CDT</date>
+    <tool>Eeschema 5.1.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nightwing.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="C-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6076C5F2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATMEGA32U4</value>
+      <footprint>keebio_parts:ATMEGA32U4-AU</footprint>
+      <libsource lib="keyboard_parts" part="ATMEGA32U4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60590795</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="R_US-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60679433</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>Green</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="LED-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606594E0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="R_Small_US-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6084A57C</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper</value>
+      <footprint>reversible-kicad-footprints:SolderJumper-1.0x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="Jumper-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60E3FD21</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="C-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60D8F0AC</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="CP1_Small-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6093E73B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5219-5.0YMM</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5219-500mA-Peak-Output-LDO-Regulator-DS20006021A.pdf</datasheet>
+      <libsource lib="nightwing-rescue" part="MIC5219-5.0YMM-Regulator_Linear-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60843220</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607F0B43</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-10_Kemet-I</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="CP1_Small-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609BC551</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="C-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A66C17</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="C-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A69A80</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="R_US-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BC9C7D</tstamp>
+    </comp>
+    <comp ref="RED1">
+      <value>LED1</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="LED-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60BCAFF0</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>OLED</value>
+      <footprint>reversible-kicad-footprints:OLED-SSD1306-128x64</footprint>
+      <libsource lib="Private" part="OLED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6061FF7E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="R_US-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60900530</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="R_US-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608DE27F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="C_Small-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607A0A59</tstamp>
+    </comp>
+    <comp ref="L12">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60785A9B</tstamp>
+    </comp>
+    <comp ref="L11">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60781831</tstamp>
+    </comp>
+    <comp ref="L10">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60779B84</tstamp>
+    </comp>
+    <comp ref="L31">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60974678</tstamp>
+    </comp>
+    <comp ref="L30">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6097466F</tstamp>
+    </comp>
+    <comp ref="L29">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60974666</tstamp>
+    </comp>
+    <comp ref="L28">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6097465D</tstamp>
+    </comp>
+    <comp ref="L27">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60974657</tstamp>
+    </comp>
+    <comp ref="L26">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6088D17F</tstamp>
+    </comp>
+    <comp ref="L25">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6088D176</tstamp>
+    </comp>
+    <comp ref="L24">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6088D16D</tstamp>
+    </comp>
+    <comp ref="L23">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6088D164</tstamp>
+    </comp>
+    <comp ref="L22">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6088D15B</tstamp>
+    </comp>
+    <comp ref="L21">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6088D155</tstamp>
+    </comp>
+    <comp ref="L20">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60853B86</tstamp>
+    </comp>
+    <comp ref="L19">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6084C0A6</tstamp>
+    </comp>
+    <comp ref="L18">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608449F0</tstamp>
+    </comp>
+    <comp ref="L17">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60836139</tstamp>
+    </comp>
+    <comp ref="L16">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60827EF7</tstamp>
+    </comp>
+    <comp ref="L15">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60803E86</tstamp>
+    </comp>
+    <comp ref="L14">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6078E8F5</tstamp>
+    </comp>
+    <comp ref="L13">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6078A03A</tstamp>
+    </comp>
+    <comp ref="L9">
+      <value>SK6812_mini</value>
+      <footprint>reversible-kicad-footprints:SK6812Mini-E</footprint>
+      <libsource lib="keyboard_parts" part="SK6812_mini" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60578ABF</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60542481</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6054B129</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60587579</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6058757F</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60597C8A</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60597CA0</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60597CA6</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60597C90</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070971B</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60709727</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60709721</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60709715</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070970F</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60709705</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096FF</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096F9</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096F2</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096EC</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096E0</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096D4</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096CE</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096C7</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096C1</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096BB</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096B0</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096A9</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607096A3</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070969B</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60709693</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6070968D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED5D0</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED5C2</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED5BC</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED5B5</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED5AF</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED5A9</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED59E</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED597</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED591</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED589</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED582</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606ED57C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C0569</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C9673</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C966D</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C965C</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C9656</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C6A91</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C6A8B</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C6A7A</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C6A74</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C31D0</tstamp>
+    </comp>
+    <comp ref="RESET_SW1">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B5FE8</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6063E22B</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:MX-1U-Hotswap</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6063DEB9</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>Rotary_Encoder</value>
+      <footprint>keebio_parts:RotaryEncoder_EC11</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="Rotary_Encoder_Switch-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FFF05C</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>D</value>
+      <footprint>reversible-kicad-footprints:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60709732</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>reversible-kicad-footprints:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="reversible-kicad-symbols" part="HRO-TYPE-C-31-M-12-HandSoldering-NoSBU" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60658E93</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="R_US-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60628AD4</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="R_US-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60657B13</tstamp>
+    </comp>
+    <comp ref="L33">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B56F8</tstamp>
+    </comp>
+    <comp ref="L34">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B56FE</tstamp>
+    </comp>
+    <comp ref="L35">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B570B</tstamp>
+    </comp>
+    <comp ref="L36">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606B5711</tstamp>
+    </comp>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>private:Buzzer</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="Buzzer-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606C87A5</tstamp>
+    </comp>
+    <comp ref="L39">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60894C12</tstamp>
+    </comp>
+    <comp ref="L38">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60894C18</tstamp>
+    </comp>
+    <comp ref="L37">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60894C24</tstamp>
+    </comp>
+    <comp ref="L32">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60894C2A</tstamp>
+    </comp>
+    <comp ref="L40">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A221F0</tstamp>
+    </comp>
+    <comp ref="L41">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A221F6</tstamp>
+    </comp>
+    <comp ref="L42">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A22202</tstamp>
+    </comp>
+    <comp ref="L43">
+      <value>WS2812_LED</value>
+      <footprint>reversible-kicad-footprints:WS2812B_LED</footprint>
+      <libsource lib="keyboard_parts" part="WS2812_LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A22208</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>PPTC</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <libsource lib="keyboard_parts" part="PPTC" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6060CBCC</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="R_Small_US-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60847536</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>Yellow</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="LED-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6084753D</tstamp>
+    </comp>
+    <comp ref="Boot1">
+      <value>SW_PUSH</value>
+      <footprint>reversible-kicad-footprints:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <libsource lib="keyboard_parts" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608DAD1D</tstamp>
+    </comp>
+    <comp ref="16mhz1">
+      <value>Crystal</value>
+      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="nightwing-rescue" part="Crystal-Device-monarch-rescue-butterfly-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60882EA9</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>reversible-kicad-footprints:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="reversible-kicad-symbols" part="HRO-TYPE-C-31-M-12-HandSoldering-NoSBU" description="USB 2.0-only Type-C Receptacle connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6056609A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Private" part="OLED">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OLED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="ATMEGA32U4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATMEGA32U4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6/AIN0" type="BiDi"/>
+        <pin num="2" name="UVcc" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGnd" type="power_in"/>
+        <pin num="6" name="UCap" type="input"/>
+        <pin num="7" name="VBus" type="input"/>
+        <pin num="8" name="PB0/SS" type="BiDi"/>
+        <pin num="9" name="PB1/SCK" type="BiDi"/>
+        <pin num="10" name="PB2/MOSI" type="BiDi"/>
+        <pin num="11" name="PB3/MISO" type="BiDi"/>
+        <pin num="12" name="PB7/~RTS" type="BiDi"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL1" type="input"/>
+        <pin num="17" name="XTAL2" type="output"/>
+        <pin num="18" name="PD0/INT0" type="BiDi"/>
+        <pin num="19" name="PD1/INT1" type="BiDi"/>
+        <pin num="20" name="PD2/RXD1" type="BiDi"/>
+        <pin num="21" name="PD3/TXD1" type="BiDi"/>
+        <pin num="22" name="PD5/XCK1" type="BiDi"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="ICP1/PD4" type="BiDi"/>
+        <pin num="26" name="T1/PD6" type="BiDi"/>
+        <pin num="27" name="T0/PD7" type="BiDi"/>
+        <pin num="28" name="PB4" type="BiDi"/>
+        <pin num="29" name="PB5" type="BiDi"/>
+        <pin num="30" name="PB6" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="~HWB/PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="power_in"/>
+        <pin num="35" name="GND" type="power_in"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PF6" type="BiDi"/>
+        <pin num="38" name="PF5" type="BiDi"/>
+        <pin num="39" name="PF4" type="BiDi"/>
+        <pin num="40" name="PF1" type="BiDi"/>
+        <pin num="41" name="PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="input"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="PPTC">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">PPTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="SK6812_mini">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">SK6812_mini</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="unspc"/>
+        <pin num="2" name="GND" type="unspc"/>
+        <pin num="3" name="DIN" type="unspc"/>
+        <pin num="4" name="VCC" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="WS2812_LED">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">WS2812_LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DOUT" type="unspc"/>
+        <pin num="2" name="GND" type="unspc"/>
+        <pin num="3" name="DIN" type="unspc"/>
+        <pin num="4" name="VCC" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="Buzzer-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="C-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="CP1_Small-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="C_Small-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="Crystal-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="D-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="Jumper-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>SolderJumper*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="LED-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="MIC5219-5.0YMM-Regulator_Linear-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5219-5.0YMM-Regulator_Linear-monarch-rescue-butterfly-rescue</field>
+        <field name="Footprint">Package_SO:MSOP-8_3x3mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="IN" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="GND" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="R_Small_US-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="R_US-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nightwing-rescue" part="Rotary_Encoder_Switch-Device-monarch-rescue-butterfly-rescue">
+      <footprints>
+        <fp>RotaryEncoder*Switch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder_Switch-Device-monarch-rescue-butterfly-rescue</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="reversible-kicad-symbols" part="HRO-TYPE-C-31-M-12-HandSoldering-NoSBU">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HRO-TYPE-C-31-M-12-HandSoldering-NoSBU</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Private">
+      <uri>/home/ding/nightwing/Private.lib</uri>
+    </library>
+    <library logical="keyboard_parts">
+      <uri>/home/ding/kicad_keyboard_library/keyboard_library/keyboard_parts.lib</uri>
+    </library>
+    <library logical="nightwing-rescue">
+      <uri>/home/ding/nightwing/nightwing-rescue.lib</uri>
+    </library>
+    <library logical="reversible-kicad-symbols">
+      <uri>/home/ding/reference_keyboards/djinn/Rev2a/reversible-kicad/reversible-kicad-symbols.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+      <node ref="SW11" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="SW12" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D7-Pad2)">
+      <node ref="SW7" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="SW8" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D9-Pad2)">
+      <node ref="SW9" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="SW10" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D16-Pad2)">
+      <node ref="SW16" pin="2"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D15-Pad2)">
+      <node ref="D15" pin="2"/>
+      <node ref="SW15" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D17-Pad2)">
+      <node ref="SW17" pin="2"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D18-Pad2)">
+      <node ref="SW18" pin="2"/>
+      <node ref="D18" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D13-Pad2)">
+      <node ref="SW13" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="SW14" pin="2"/>
+    </net>
+    <net code="13" name="D3">
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="14" name="COL4">
+      <node ref="SW17" pin="1"/>
+      <node ref="U1" pin="28"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="SW23" pin="1"/>
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="15" name="COL3">
+      <node ref="SW22" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="SW10" pin="1"/>
+    </net>
+    <net code="16" name="COL2">
+      <node ref="SW21" pin="1"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="U1" pin="26"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW15" pin="1"/>
+    </net>
+    <net code="17" name="COL1">
+      <node ref="SW20" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="U1" pin="31"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="18" name="D2">
+      <node ref="J3" pin="4"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="19" name="COL0">
+      <node ref="SW7" pin="1"/>
+      <node ref="SW13" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW19" pin="S2"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="20" name="Net-(D1-Pad2)">
+      <node ref="SW1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="22" name="RESET">
+      <node ref="U1" pin="13"/>
+      <node ref="R2" pin="2"/>
+      <node ref="RESET_SW1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(D19-Pad2)">
+      <node ref="SW19" pin="S1"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="24" name="GND">
+      <node ref="L19" pin="2"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="L43" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="L20" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="L40" pin="2"/>
+      <node ref="L28" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="J1" pin="S1"/>
+      <node ref="L18" pin="2"/>
+      <node ref="L17" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="5"/>
+      <node ref="L41" pin="2"/>
+      <node ref="L42" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="L9" pin="2"/>
+      <node ref="L15" pin="2"/>
+      <node ref="L16" pin="2"/>
+      <node ref="L35" pin="2"/>
+      <node ref="L36" pin="2"/>
+      <node ref="L22" pin="2"/>
+      <node ref="L26" pin="2"/>
+      <node ref="L25" pin="2"/>
+      <node ref="L23" pin="2"/>
+      <node ref="L13" pin="2"/>
+      <node ref="L37" pin="2"/>
+      <node ref="L32" pin="2"/>
+      <node ref="L14" pin="2"/>
+      <node ref="BZ1" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="L33" pin="2"/>
+      <node ref="L21" pin="2"/>
+      <node ref="L39" pin="2"/>
+      <node ref="L38" pin="2"/>
+      <node ref="J2" pin="B1"/>
+      <node ref="L24" pin="2"/>
+      <node ref="RED1" pin="1"/>
+      <node ref="J2" pin="A1"/>
+      <node ref="L34" pin="2"/>
+      <node ref="J2" pin="A5"/>
+      <node ref="Boot1" pin="2"/>
+      <node ref="J2" pin="B5"/>
+      <node ref="R4" pin="1"/>
+      <node ref="J2" pin="S1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="L4" pin="2"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="L7" pin="2"/>
+      <node ref="L6" pin="2"/>
+      <node ref="L5" pin="2"/>
+      <node ref="SW19" pin="C"/>
+      <node ref="L8" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="L3" pin="2"/>
+      <node ref="U1" pin="33"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U1" pin="35"/>
+      <node ref="U1" pin="15"/>
+      <node ref="RESET_SW1" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="L10" pin="2"/>
+      <node ref="L11" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="L12" pin="2"/>
+      <node ref="L31" pin="2"/>
+      <node ref="L27" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="L29" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="L30" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D6-Pad2)">
+      <node ref="SW6" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="26" name="Net-(D5-Pad2)">
+      <node ref="SW5" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="27" name="Net-(D3-Pad2)">
+      <node ref="SW3" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="28" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="29" name="Net-(L4-Pad1)">
+      <node ref="L4" pin="1"/>
+      <node ref="L5" pin="3"/>
+    </net>
+    <net code="30" name="Net-(L6-Pad1)">
+      <node ref="L6" pin="1"/>
+      <node ref="L7" pin="3"/>
+    </net>
+    <net code="31" name="Net-(L5-Pad1)">
+      <node ref="L6" pin="3"/>
+      <node ref="L5" pin="1"/>
+    </net>
+    <net code="32" name="Net-(L7-Pad1)">
+      <node ref="L8" pin="3"/>
+      <node ref="L7" pin="1"/>
+    </net>
+    <net code="33" name="Net-(L2-Pad1)">
+      <node ref="L3" pin="3"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="34" name="VCC">
+      <node ref="L23" pin="4"/>
+      <node ref="L22" pin="4"/>
+      <node ref="U1" pin="44"/>
+      <node ref="L21" pin="4"/>
+      <node ref="L36" pin="4"/>
+      <node ref="L35" pin="4"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="L20" pin="4"/>
+      <node ref="J3" pin="2"/>
+      <node ref="L26" pin="4"/>
+      <node ref="L24" pin="4"/>
+      <node ref="R1" pin="1"/>
+      <node ref="L25" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="34"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="L19" pin="4"/>
+      <node ref="L18" pin="4"/>
+      <node ref="D26" pin="2"/>
+      <node ref="L40" pin="4"/>
+      <node ref="L30" pin="4"/>
+      <node ref="L29" pin="4"/>
+      <node ref="L7" pin="4"/>
+      <node ref="L5" pin="4"/>
+      <node ref="L6" pin="4"/>
+      <node ref="L41" pin="4"/>
+      <node ref="L8" pin="4"/>
+      <node ref="L42" pin="4"/>
+      <node ref="L43" pin="4"/>
+      <node ref="L2" pin="4"/>
+      <node ref="L4" pin="4"/>
+      <node ref="L3" pin="4"/>
+      <node ref="L13" pin="4"/>
+      <node ref="L10" pin="4"/>
+      <node ref="L11" pin="4"/>
+      <node ref="L12" pin="4"/>
+      <node ref="L31" pin="4"/>
+      <node ref="L32" pin="4"/>
+      <node ref="L33" pin="4"/>
+      <node ref="L39" pin="4"/>
+      <node ref="L9" pin="4"/>
+      <node ref="L38" pin="4"/>
+      <node ref="L15" pin="4"/>
+      <node ref="L16" pin="4"/>
+      <node ref="L17" pin="4"/>
+      <node ref="D27" pin="2"/>
+      <node ref="J2" pin="B4"/>
+      <node ref="L1" pin="4"/>
+      <node ref="L37" pin="4"/>
+      <node ref="L14" pin="4"/>
+      <node ref="L28" pin="4"/>
+      <node ref="L27" pin="4"/>
+      <node ref="L34" pin="4"/>
+      <node ref="J2" pin="A4"/>
+    </net>
+    <net code="35" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="L2" pin="3"/>
+    </net>
+    <net code="36" name="Net-(L3-Pad1)">
+      <node ref="L3" pin="1"/>
+      <node ref="L4" pin="3"/>
+    </net>
+    <net code="37" name="Net-(D23-Pad2)">
+      <node ref="SW23" pin="2"/>
+      <node ref="D23" pin="2"/>
+    </net>
+    <net code="38" name="Net-(D22-Pad2)">
+      <node ref="SW22" pin="2"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="SW20" pin="2"/>
+    </net>
+    <net code="40" name="Net-(D21-Pad2)">
+      <node ref="SW21" pin="2"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D24-Pad2)">
+      <node ref="SW24" pin="2"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="42" name="Net-(L41-Pad1)">
+      <node ref="L41" pin="1"/>
+      <node ref="L42" pin="3"/>
+    </net>
+    <net code="43" name="Net-(L32-Pad1)">
+      <node ref="L32" pin="1"/>
+      <node ref="L40" pin="3"/>
+    </net>
+    <net code="44" name="Net-(L42-Pad1)">
+      <node ref="L43" pin="3"/>
+      <node ref="L42" pin="1"/>
+    </net>
+    <net code="45" name="Net-(L43-Pad1)">
+      <node ref="L43" pin="1"/>
+    </net>
+    <net code="46" name="Net-(L36-Pad1)">
+      <node ref="L36" pin="1"/>
+      <node ref="L39" pin="3"/>
+    </net>
+    <net code="47" name="Net-(D27-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="D27" pin="1"/>
+    </net>
+    <net code="48" name="Net-(L40-Pad1)">
+      <node ref="L40" pin="1"/>
+      <node ref="L41" pin="3"/>
+    </net>
+    <net code="49" name="Net-(16mhz1-Pad2)">
+      <node ref="U1" pin="17"/>
+      <node ref="16mhz1" pin="2"/>
+    </net>
+    <net code="50" name="Net-(16mhz1-Pad1)">
+      <node ref="U1" pin="16"/>
+      <node ref="16mhz1" pin="1"/>
+    </net>
+    <net code="51" name="TX">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="52" name="SCK">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="53" name="Net-(J1-PadA6)">
+      <node ref="R7" pin="2"/>
+      <node ref="J1" pin="A6"/>
+      <node ref="J1" pin="B6"/>
+    </net>
+    <net code="54" name="COL5">
+      <node ref="U1" pin="12"/>
+      <node ref="SW12" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SW24" pin="1"/>
+      <node ref="SW18" pin="1"/>
+    </net>
+    <net code="55" name="Net-(J1-PadA7)">
+      <node ref="J1" pin="B7"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J1" pin="A7"/>
+    </net>
+    <net code="56" name="Net-(R6-Pad1)">
+      <node ref="U1" pin="27"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="57" name="Net-(L37-Pad3)">
+      <node ref="L38" pin="1"/>
+      <node ref="L37" pin="3"/>
+    </net>
+    <net code="58" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="59" name="RX">
+      <node ref="J2" pin="A6"/>
+      <node ref="J2" pin="B7"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="60" name="Net-(BZ1-Pad1)">
+      <node ref="BZ1" pin="1"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="61" name="Net-(J2-PadB6)">
+      <node ref="J2" pin="B6"/>
+    </net>
+    <net code="62" name="Net-(J2-PadA7)">
+      <node ref="J2" pin="A7"/>
+    </net>
+    <net code="63" name="Net-(L33-Pad1)">
+      <node ref="L33" pin="1"/>
+      <node ref="L34" pin="3"/>
+    </net>
+    <net code="64" name="Net-(L33-Pad3)">
+      <node ref="L8" pin="1"/>
+      <node ref="L33" pin="3"/>
+    </net>
+    <net code="65" name="Net-(J1-PadB5)">
+      <node ref="J1" pin="B5"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="66" name="A4">
+      <node ref="SW19" pin="A"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="67" name="D10">
+      <node ref="U1" pin="30"/>
+      <node ref="L9" pin="3"/>
+    </net>
+    <net code="68" name="A5">
+      <node ref="SW19" pin="B"/>
+      <node ref="U1" pin="41"/>
+    </net>
+    <net code="69" name="Net-(L38-Pad3)">
+      <node ref="L38" pin="3"/>
+      <node ref="L39" pin="1"/>
+    </net>
+    <net code="70" name="Net-(L31-Pad1)">
+      <node ref="L31" pin="1"/>
+    </net>
+    <net code="71" name="Net-(L32-Pad3)">
+      <node ref="L32" pin="3"/>
+      <node ref="L37" pin="1"/>
+    </net>
+    <net code="72" name="Net-(L35-Pad1)">
+      <node ref="L36" pin="3"/>
+      <node ref="L35" pin="1"/>
+    </net>
+    <net code="73" name="Net-(L34-Pad1)">
+      <node ref="L35" pin="3"/>
+      <node ref="L34" pin="1"/>
+    </net>
+    <net code="74" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="RED1" pin="2"/>
+    </net>
+    <net code="75" name="UVCC">
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="J1" pin="A4"/>
+      <node ref="J1" pin="B4"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="76" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="78" name="A0">
+      <node ref="D22" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="U1" pin="36"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D21" pin="1"/>
+    </net>
+    <net code="79" name="A1">
+      <node ref="D18" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="80" name="A2">
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U1" pin="38"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="81" name="A3">
+      <node ref="D12" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="U1" pin="39"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="82" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="83" name="D-">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="84" name="D+">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="85" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="86" name="Net-(Boot1-Pad1)">
+      <node ref="Boot1" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="87" name="Net-(R8-Pad1)">
+      <node ref="U1" pin="22"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="88" name="MISO">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="89" name="MOSI">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="90" name="Net-(D26-Pad1)">
+      <node ref="R8" pin="2"/>
+      <node ref="D26" pin="1"/>
+    </net>
+    <net code="91" name="RAW">
+      <node ref="C19" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="D25" pin="1"/>
+    </net>
+    <net code="92" name="Net-(L20-Pad1)">
+      <node ref="L21" pin="3"/>
+      <node ref="L20" pin="1"/>
+    </net>
+    <net code="93" name="Net-(L19-Pad1)">
+      <node ref="L19" pin="1"/>
+      <node ref="L20" pin="3"/>
+    </net>
+    <net code="94" name="Net-(L17-Pad1)">
+      <node ref="L17" pin="1"/>
+      <node ref="L18" pin="3"/>
+    </net>
+    <net code="95" name="Net-(L16-Pad1)">
+      <node ref="L16" pin="1"/>
+      <node ref="L17" pin="3"/>
+    </net>
+    <net code="96" name="Net-(L18-Pad1)">
+      <node ref="L18" pin="1"/>
+      <node ref="L19" pin="3"/>
+    </net>
+    <net code="97" name="Net-(L22-Pad1)">
+      <node ref="L23" pin="3"/>
+      <node ref="L22" pin="1"/>
+    </net>
+    <net code="98" name="Net-(L24-Pad1)">
+      <node ref="L24" pin="1"/>
+      <node ref="L25" pin="3"/>
+    </net>
+    <net code="99" name="Net-(L23-Pad1)">
+      <node ref="L23" pin="1"/>
+      <node ref="L24" pin="3"/>
+    </net>
+    <net code="100" name="Net-(L25-Pad1)">
+      <node ref="L26" pin="3"/>
+      <node ref="L25" pin="1"/>
+    </net>
+    <net code="101" name="Net-(L21-Pad1)">
+      <node ref="L22" pin="3"/>
+      <node ref="L21" pin="1"/>
+    </net>
+    <net code="102" name="Net-(L12-Pad1)">
+      <node ref="L13" pin="3"/>
+      <node ref="L12" pin="1"/>
+    </net>
+    <net code="103" name="Net-(L10-Pad1)">
+      <node ref="L11" pin="3"/>
+      <node ref="L10" pin="1"/>
+    </net>
+    <net code="104" name="Net-(L11-Pad1)">
+      <node ref="L12" pin="3"/>
+      <node ref="L11" pin="1"/>
+    </net>
+    <net code="105" name="Net-(L13-Pad1)">
+      <node ref="L13" pin="1"/>
+      <node ref="L14" pin="3"/>
+    </net>
+    <net code="106" name="Net-(L14-Pad1)">
+      <node ref="L14" pin="1"/>
+      <node ref="L15" pin="3"/>
+    </net>
+    <net code="107" name="D9">
+      <node ref="L1" pin="3"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="108" name="Net-(L10-Pad3)">
+      <node ref="L10" pin="3"/>
+      <node ref="L9" pin="1"/>
+    </net>
+    <net code="109" name="Net-(L15-Pad1)">
+      <node ref="L16" pin="3"/>
+      <node ref="L15" pin="1"/>
+    </net>
+    <net code="110" name="Net-(L30-Pad1)">
+      <node ref="L30" pin="1"/>
+      <node ref="L31" pin="3"/>
+    </net>
+    <net code="111" name="Net-(L26-Pad1)">
+      <node ref="L27" pin="3"/>
+      <node ref="L26" pin="1"/>
+    </net>
+    <net code="112" name="Net-(L29-Pad1)">
+      <node ref="L29" pin="1"/>
+      <node ref="L30" pin="3"/>
+    </net>
+    <net code="113" name="Net-(L28-Pad1)">
+      <node ref="L29" pin="3"/>
+      <node ref="L28" pin="1"/>
+    </net>
+    <net code="114" name="Net-(L27-Pad1)">
+      <node ref="L28" pin="3"/>
+      <node ref="L27" pin="1"/>
+    </net>
+  </nets>
+</export>

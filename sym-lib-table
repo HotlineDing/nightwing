@@ -5,4 +5,5 @@
   (lib (name monarch-rescue)(type Legacy)(uri ${KIPRJMOD}/monarch-rescue.lib)(options "")(descr ""))
   (lib (name butterfly-rescue)(type Legacy)(uri ${KIPRJMOD}/butterfly-rescue.lib)(options "")(descr ""))
   (lib (name reversible-kicad-symbols)(type Legacy)(uri /home/ding/reference_keyboards/djinn/Rev2a/reversible-kicad/reversible-kicad-symbols.lib)(options "")(descr ""))
+  (lib (name nightwing-rescue)(type Legacy)(uri ${KIPRJMOD}/nightwing-rescue.lib)(options "")(descr ""))
 )

@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Buzzer-Device-monarch-rescue
+# Buzzer-Device-monarch-rescue-butterfly-rescue
 #
-DEF Buzzer-Device-monarch-rescue BZ 0 1 Y N 1 F N
+DEF Buzzer-Device-monarch-rescue-butterfly-rescue BZ 0 1 Y N 1 F N
 F0 "BZ" 150 50 50 H V L CNN
-F1 "Buzzer-Device-monarch-rescue" 150 -50 50 H V L CNN
+F1 "Buzzer-Device-monarch-rescue-butterfly-rescue" 150 -50 50 H V L CNN
 F2 "" -25 100 50 V I C CNN
 F3 "" -25 100 50 V I C CNN
 $FPLIST
@@ -21,11 +21,11 @@ X + 2 -100 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C-Device-monarch-rescue
+# C-Device-monarch-rescue-butterfly-rescue
 #
-DEF C-Device-monarch-rescue C 0 10 N Y 1 F N
+DEF C-Device-monarch-rescue-butterfly-rescue C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "C-Device-monarch-rescue" 25 -100 50 H V L CNN
+F1 "C-Device-monarch-rescue-butterfly-rescue" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -39,11 +39,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CP1_Small-Device-monarch-rescue
+# CP1_Small-Device-monarch-rescue-butterfly-rescue
 #
-DEF CP1_Small-Device-monarch-rescue C 0 10 N N 1 F N
+DEF CP1_Small-Device-monarch-rescue-butterfly-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CP1_Small-Device-monarch-rescue" 10 -80 50 H V L CNN
+F1 "CP1_Small-Device-monarch-rescue-butterfly-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -59,11 +59,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# C_Small-Device-monarch-rescue
+# C_Small-Device-monarch-rescue-butterfly-rescue
 #
-DEF C_Small-Device-monarch-rescue C 0 10 N N 1 F N
+DEF C_Small-Device-monarch-rescue-butterfly-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "C_Small-Device-monarch-rescue" 10 -80 50 H V L CNN
+F1 "C_Small-Device-monarch-rescue-butterfly-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -77,11 +77,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Crystal-Device-monarch-rescue
+# Crystal-Device-monarch-rescue-butterfly-rescue
 #
-DEF Crystal-Device-monarch-rescue Y 0 40 N N 1 F N
+DEF Crystal-Device-monarch-rescue-butterfly-rescue Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "Crystal-Device-monarch-rescue" 0 -150 50 H V C CNN
+F1 "Crystal-Device-monarch-rescue-butterfly-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -98,11 +98,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# D-Device-monarch-rescue
+# D-Device-monarch-rescue-butterfly-rescue
 #
-DEF D-Device-monarch-rescue D 0 40 N N 1 F N
+DEF D-Device-monarch-rescue-butterfly-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "D-Device-monarch-rescue" 0 -100 50 H V C CNN
+F1 "D-Device-monarch-rescue-butterfly-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -120,11 +120,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# GND-power-monarch-rescue
+# GND-power-monarch-rescue-butterfly-rescue
 #
-DEF GND-power-monarch-rescue #PWR 0 0 Y Y 1 F P
+DEF GND-power-monarch-rescue-butterfly-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "GND-power-monarch-rescue" 0 -150 50 H V C CNN
+F1 "GND-power-monarch-rescue-butterfly-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -133,11 +133,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Jumper-Device-monarch-rescue
+# Jumper-Device-monarch-rescue-butterfly-rescue
 #
-DEF Jumper-Device-monarch-rescue JP 0 30 Y N 1 F N
+DEF Jumper-Device-monarch-rescue-butterfly-rescue JP 0 30 Y N 1 F N
 F0 "JP" 0 150 50 H V C CNN
-F1 "Jumper-Device-monarch-rescue" 0 -80 50 H V C CNN
+F1 "Jumper-Device-monarch-rescue-butterfly-rescue" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -155,11 +155,11 @@ X 2 2 300 0 165 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# LED-Device-monarch-rescue
+# LED-Device-monarch-rescue-butterfly-rescue
 #
-DEF LED-Device-monarch-rescue D 0 40 N N 1 F N
+DEF LED-Device-monarch-rescue-butterfly-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "LED-Device-monarch-rescue" 0 -100 50 H V C CNN
+F1 "LED-Device-monarch-rescue-butterfly-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -178,11 +178,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MIC5219-5.0YMM-Regulator_Linear-monarch-rescue
+# MIC5219-5.0YMM-Regulator_Linear-monarch-rescue-butterfly-rescue
 #
-DEF MIC5219-5.0YMM-Regulator_Linear-monarch-rescue U 0 10 Y Y 1 F N
+DEF MIC5219-5.0YMM-Regulator_Linear-monarch-rescue-butterfly-rescue U 0 10 Y Y 1 F N
 F0 "U" -150 225 50 H V C CNN
-F1 "MIC5219-5.0YMM-Regulator_Linear-monarch-rescue" 0 225 50 H V L CNN
+F1 "MIC5219-5.0YMM-Regulator_Linear-monarch-rescue-butterfly-rescue" 0 225 50 H V L CNN
 F2 "Package_SO:MSOP-8_3x3mm_P0.65mm" 0 325 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -201,11 +201,11 @@ X GND 8 0 -300 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# R_Small_US-Device-monarch-rescue
+# R_Small_US-Device-monarch-rescue-butterfly-rescue
 #
-DEF R_Small_US-Device-monarch-rescue R 0 10 N N 1 F N
+DEF R_Small_US-Device-monarch-rescue-butterfly-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "R_Small_US-Device-monarch-rescue" 30 -40 50 H V L CNN
+F1 "R_Small_US-Device-monarch-rescue-butterfly-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -219,11 +219,11 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# R_US-Device-monarch-rescue
+# R_US-Device-monarch-rescue-butterfly-rescue
 #
-DEF R_US-Device-monarch-rescue R 0 0 N Y 1 F N
+DEF R_US-Device-monarch-rescue-butterfly-rescue R 0 0 N Y 1 F N
 F0 "R" 100 0 50 V V C CNN
-F1 "R_US-Device-monarch-rescue" -100 0 50 V V C CNN
+F1 "R_US-Device-monarch-rescue-butterfly-rescue" -100 0 50 V V C CNN
 F2 "" 40 -10 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -240,11 +240,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Rotary_Encoder_Switch-Device-monarch-rescue
+# Rotary_Encoder_Switch-Device-monarch-rescue-butterfly-rescue
 #
-DEF Rotary_Encoder_Switch-Device-monarch-rescue SW 0 10 Y N 1 F N
+DEF Rotary_Encoder_Switch-Device-monarch-rescue-butterfly-rescue SW 0 10 Y N 1 F N
 F0 "SW" 0 260 50 H V C CNN
-F1 "Rotary_Encoder_Switch-Device-monarch-rescue" 0 -260 50 H V C CNN
+F1 "Rotary_Encoder_Switch-Device-monarch-rescue-butterfly-rescue" 0 -260 50 H V C CNN
 F2 "" -150 160 50 H I C CNN
 F3 "" 0 260 50 H I C CNN
 $FPLIST
@@ -278,69 +278,11 @@ X S2 S2 300 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# USB_C_Receptacle_USB2.0-Connector-monarch-rescue
+# VCC-power-monarch-rescue-butterfly-rescue
 #
-DEF USB_C_Receptacle_USB2.0-Connector-monarch-rescue J 0 40 Y Y 1 F N
-F0 "J" -400 750 50 H V L CNN
-F1 "USB_C_Receptacle_USB2.0-Connector-monarch-rescue" 750 750 50 H V R CNN
-F2 "" 150 0 50 H I C CNN
-F3 "" 150 0 50 H I C CNN
-$FPLIST
- USB*C*Receptacle*
-$ENDFPLIST
-DRAW
-A -275 -150 75 -1799 -1 0 1 20 N -350 -150 -200 -150
-A -275 -150 25 -1799 -1 0 1 10 N -300 -150 -250 -150
-A -275 -150 25 -1799 -1 0 1 10 F -300 -150 -250 -150
-A -275 150 25 1 1799 0 1 10 F -250 150 -300 150
-A -275 150 25 1 1799 0 1 10 N -250 150 -300 150
-A -275 150 75 1 1799 0 1 20 N -200 150 -350 150
-C -100 45 25 0 1 10 F
-C 0 -230 50 0 1 0 F
-S -10 -700 10 -660 0 0 0 N
-S 400 -590 360 -610 0 0 0 N
-S 400 -490 360 -510 0 0 0 N
-S 400 -190 360 -210 0 0 0 N
-S 400 -90 360 -110 0 0 0 N
-S 400 10 360 -10 0 0 0 N
-S 400 110 360 90 0 0 0 N
-S 400 310 360 290 0 0 0 N
-S 400 410 360 390 0 0 0 N
-S 400 610 360 590 0 0 0 N
-S -400 700 400 -700 0 1 10 f
-S -300 -150 -250 150 0 1 10 F
-S 75 70 125 120 0 1 10 F
-P 2 0 1 20 -350 -150 -350 150 N
-P 2 0 1 20 -200 150 -200 -150 N
-P 2 0 1 20 0 -230 0 170 N
-P 3 0 1 20 0 -130 -100 -30 -100 20 N
-P 3 0 1 20 0 -80 100 20 100 70 N
-P 4 0 1 10 -50 170 0 270 50 170 -50 170 F
-X GND A1 0 -900 200 U 50 50 1 1 P
-X GND A12 0 -900 200 U 50 50 1 1 P N
-X VBUS A4 600 600 200 L 50 50 1 1 P
-X CC1 A5 600 400 200 L 50 50 1 1 B
-X D+ A6 600 -100 200 L 50 50 1 1 B
-X D- A7 600 100 200 L 50 50 1 1 B
-X SBU1 A8 600 -500 200 L 50 50 1 1 B
-X VBUS A9 600 600 200 L 50 50 1 1 P N
-X GND B1 0 -900 200 U 50 50 1 1 P N
-X GND B12 0 -900 200 U 50 50 1 1 P N
-X VBUS B4 600 600 200 L 50 50 1 1 P N
-X CC2 B5 600 300 200 L 50 50 1 1 B
-X D+ B6 600 -200 200 L 50 50 1 1 B
-X D- B7 600 0 200 L 50 50 1 1 B
-X SBU2 B8 600 -600 200 L 50 50 1 1 B
-X VBUS B9 600 600 200 L 50 50 1 1 P N
-X SHIELD S1 -300 -900 200 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# VCC-power-monarch-rescue
-#
-DEF VCC-power-monarch-rescue #PWR 0 0 Y Y 1 F P
+DEF VCC-power-monarch-rescue-butterfly-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "VCC-power-monarch-rescue" 0 150 50 H V C CNN
+F1 "VCC-power-monarch-rescue-butterfly-rescue" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
