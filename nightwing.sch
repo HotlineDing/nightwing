@@ -28,7 +28,7 @@ D2
 Text GLabel -3900 1500 0    50   Input ~ 0
 D7
 $Comp
-L butterfly-rescue:C-Device-monarch-rescue C5
+L nightwing-rescue:C-Device-monarch-rescue-butterfly-rescue C5
 U 1 1 6076C5F2
 P -4550 1400
 F 0 "C5" V -4600 1300 50  0000 C CNN
@@ -41,7 +41,7 @@ $EndComp
 Wire Wire Line
 	-4550 1100 -4550 1250
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0108
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0108
 U 1 1 607BA2AD
 P -3750 1100
 F 0 "#PWR0108" H -3750 950 50  0001 C CNN
@@ -60,7 +60,7 @@ Wire Wire Line
 Wire Wire Line
 	-3550 2100 -3550 1600
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0102
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0102
 U 1 1 607E4B98
 P -3500 4550
 F 0 "#PWR0102" H -3500 4400 50  0001 C CNN
@@ -90,7 +90,7 @@ Wire Wire Line
 Wire Wire Line
 	-4550 2000 -3500 2000
 $Comp
-L butterfly-rescue:R_US-Device-monarch-rescue R2
+L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R2
 U 1 1 60679433
 P -4200 4300
 F 0 "R2" H -4350 4400 50  0000 L CNN
@@ -103,7 +103,7 @@ $EndComp
 Wire Wire Line
 	-4200 4550 -4200 4450
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0127
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0127
 U 1 1 60E570C7
 P -4200 4550
 F 0 "#PWR0127" H -4200 4400 50  0001 C CNN
@@ -194,7 +194,7 @@ Wire Wire Line
 Wire Wire Line
 	-1000 6150 -450 6150
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0104
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0104
 U 1 1 608216F9
 P -4550 1100
 F 0 "#PWR0104" H -4550 850 50  0001 C CNN
@@ -205,7 +205,7 @@ F 3 "" H -4550 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0105
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0105
 U 1 1 608914A8
 P -4250 1100
 F 0 "#PWR0105" H -4250 850 50  0001 C CNN
@@ -216,7 +216,7 @@ F 3 "" H -4250 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0101
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0101
 U 1 1 60CD4DDF
 P -3750 4550
 F 0 "#PWR0101" H -3750 4300 50  0001 C CNN
@@ -227,7 +227,7 @@ F 3 "" H -3750 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:LED-Device-monarch-rescue D26
+L nightwing-rescue:LED-Device-monarch-rescue-butterfly-rescue D26
 U 1 1 606594E0
 P -3500 4200
 F 0 "D26" V -3553 4280 50  0000 L CNN
@@ -238,7 +238,7 @@ F 3 "~" H -3500 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L butterfly-rescue:R_Small_US-Device-monarch-rescue R8
+L nightwing-rescue:R_Small_US-Device-monarch-rescue-butterfly-rescue R8
 U 1 1 6084A57C
 P -3500 3850
 F 0 "R8" H -3432 3896 50  0000 L CNN
@@ -251,7 +251,7 @@ $EndComp
 Wire Wire Line
 	-3500 3950 -3500 4050
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0106
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0106
 U 1 1 60D45238
 P -2650 -50
 F 0 "#PWR0106" H -2650 -300 50  0001 C CNN
@@ -262,7 +262,7 @@ F 3 "" H -2650 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0123
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0123
 U 1 1 607E6824
 P -3350 -50
 F 0 "#PWR0123" H -3350 -300 50  0001 C CNN
@@ -273,7 +273,7 @@ F 3 "" H -3350 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:Jumper-Device-monarch-rescue JP1
+L nightwing-rescue:Jumper-Device-monarch-rescue-butterfly-rescue JP1
 U 1 1 60E3FD21
 P -2700 -1300
 F 0 "JP1" H -2700 -1036 50  0000 C CNN
@@ -290,7 +290,7 @@ Wire Wire Line
 Wire Wire Line
 	-4200 -650 -4200 -550
 $Comp
-L butterfly-rescue:C-Device-monarch-rescue C3
+L nightwing-rescue:C-Device-monarch-rescue-butterfly-rescue C3
 U 1 1 60D8F0AC
 P -4200 -400
 F 0 "C3" H -4085 -354 50  0000 L CNN
@@ -314,7 +314,7 @@ Wire Wire Line
 Wire Wire Line
 	-3350 -550 -3350 -400
 $Comp
-L butterfly-rescue:CP1_Small-Device-monarch-rescue C19
+L nightwing-rescue:CP1_Small-Device-monarch-rescue-butterfly-rescue C19
 U 1 1 6093E73B
 P -3350 -300
 F 0 "C19" H -3259 -254 50  0000 L CNN
@@ -338,7 +338,7 @@ Connection ~ -3350 -550
 Wire Wire Line
 	-3350 -550 -3050 -550
 $Comp
-L butterfly-rescue:MIC5219-5.0YMM-Regulator_Linear-monarch-rescue U2
+L nightwing-rescue:MIC5219-5.0YMM-Regulator_Linear-monarch-rescue-butterfly-rescue U2
 U 1 1 60843220
 P -2650 -450
 F 0 "U2" H -2650 -108 50  0000 C CNN
@@ -357,7 +357,7 @@ Wire Wire Line
 Text GLabel -3500 -550 0    50   Input ~ 0
 RAW
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D25
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D25
 U 1 1 607F0B43
 P -3500 -900
 F 0 "D25" H -3500 -1117 50  0000 C CNN
@@ -389,7 +389,7 @@ Wire Wire Line
 Wire Wire Line
 	-2000 -550 -2000 -400
 $Comp
-L butterfly-rescue:CP1_Small-Device-monarch-rescue C6
+L nightwing-rescue:CP1_Small-Device-monarch-rescue-butterfly-rescue C6
 U 1 1 609BC551
 P -2000 -300
 F 0 "C6" H -1909 -254 50  0000 L CNN
@@ -400,7 +400,7 @@ F 3 "~" H -2000 -300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:C-Device-monarch-rescue C7
+L nightwing-rescue:C-Device-monarch-rescue-butterfly-rescue C7
 U 1 1 60A66C17
 P -1500 -300
 F 0 "C7" H -1385 -254 50  0000 L CNN
@@ -411,7 +411,7 @@ F 3 "~" H -1500 -300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:C-Device-monarch-rescue C8
+L nightwing-rescue:C-Device-monarch-rescue-butterfly-rescue C8
 U 1 1 60A69A80
 P -1050 -300
 F 0 "C8" H -935 -254 50  0000 L CNN
@@ -437,7 +437,7 @@ Wire Wire Line
 Wire Wire Line
 	-1500 -1300 -1500 -550
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0121
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0121
 U 1 1 60BC841F
 P -450 -700
 F 0 "#PWR0121" H -450 -850 50  0001 C CNN
@@ -448,7 +448,7 @@ F 3 "" H -450 -700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:R_US-Device-monarch-rescue R1
+L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R1
 U 1 1 60BC9C7D
 P -450 -250
 F 0 "R1" H -382 -204 50  0000 L CNN
@@ -459,7 +459,7 @@ F 3 "~" H -450 -250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:LED-Device-monarch-rescue RED1
+L nightwing-rescue:LED-Device-monarch-rescue-butterfly-rescue RED1
 U 1 1 60BCAFF0
 P -450 200
 F 0 "RED1" V -411 82  50  0000 R CNN
@@ -482,7 +482,7 @@ Connection ~ -1050 -550
 Wire Wire Line
 	-2400 -1300 -1500 -1300
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0112
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0112
 U 1 1 60D7C583
 P -2000 -50
 F 0 "#PWR0112" H -2000 -300 50  0001 C CNN
@@ -493,7 +493,7 @@ F 3 "" H -2000 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0116
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0116
 U 1 1 60DB3EA6
 P -1500 -50
 F 0 "#PWR0116" H -1500 -300 50  0001 C CNN
@@ -504,7 +504,7 @@ F 3 "" H -1500 -50 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0118
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0118
 U 1 1 60DEB135
 P -1050 -50
 F 0 "#PWR0118" H -1050 -300 50  0001 C CNN
@@ -517,7 +517,7 @@ $EndComp
 Text GLabel 6650 4250 0    50   Input ~ 0
 LED_2
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0119
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0119
 U 1 1 60E22BFC
 P -450 450
 F 0 "#PWR0119" H -450 200 50  0001 C CNN
@@ -528,7 +528,7 @@ F 3 "" H -450 450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0128
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0128
 U 1 1 60B0610C
 P 1650 2300
 F 0 "#PWR0128" H 1650 2050 50  0001 C CNN
@@ -539,7 +539,7 @@ F 3 "" H 1650 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0125
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0125
 U 1 1 60ACEA75
 P 1350 2300
 F 0 "#PWR0125" H 1350 2050 50  0001 C CNN
@@ -550,7 +550,7 @@ F 3 "" H 1350 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0114
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0114
 U 1 1 60A517B4
 P 1850 3750
 F 0 "#PWR0114" H 1850 3500 50  0001 C CNN
@@ -561,7 +561,7 @@ F 3 "" H 1850 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0107
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0107
 U 1 1 60901457
 P -1000 1100
 F 0 "#PWR0107" H -1000 850 50  0001 C CNN
@@ -652,7 +652,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 3000 2050 3000
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0109
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0109
 U 1 1 60806344
 P -1250 1100
 F 0 "#PWR0109" H -1250 950 50  0001 C CNN
@@ -710,7 +710,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1350 3000 1350
 $Comp
-L butterfly-rescue:R_US-Device-monarch-rescue R7
+L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R7
 U 1 1 60900530
 P 2650 1550
 F 0 "R7" V 2600 1400 50  0000 C CNN
@@ -721,7 +721,7 @@ F 3 "~" H 2650 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L butterfly-rescue:R_US-Device-monarch-rescue R5
+L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R5
 U 1 1 608DE27F
 P 2650 1350
 F 0 "R5" V 2600 1200 50  0000 C CNN
@@ -738,7 +738,7 @@ D-
 Wire Wire Line
 	-750 1300 -750 1100
 $Comp
-L butterfly-rescue:C_Small-Device-monarch-rescue C1
+L nightwing-rescue:C_Small-Device-monarch-rescue-butterfly-rescue C1
 U 1 1 607A0A59
 P -750 1400
 F 0 "C1" V -850 1400 50  0000 C CNN
@@ -849,7 +849,7 @@ Connection ~ 6650 5700
 Wire Wire Line
 	6650 5700 6350 5700
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR02
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR02
 U 1 1 609AAAC3
 P 6350 5700
 F 0 "#PWR02" H 6350 5550 50  0001 C CNN
@@ -1315,7 +1315,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4450 6650 4650
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR01
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR01
 U 1 1 607A47CD
 P 6350 4650
 F 0 "#PWR01" H 6350 4500 50  0001 C CNN
@@ -1428,7 +1428,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 -250 6900 -250
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0113
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0113
 U 1 1 6056D6B6
 P 5250 200
 F 0 "#PWR0113" H 5250 50  50  0001 C CNN
@@ -1609,7 +1609,7 @@ F 3 "" H 5650 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D24
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D24
 U 1 1 60709727
 P 5950 7500
 F 0 "D24" V 5996 7617 50  0000 C BNN
@@ -1681,7 +1681,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 7350 5350 7350
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D23
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D23
 U 1 1 60709721
 P 4950 7500
 F 0 "D23" V 4996 7617 50  0000 C BNN
@@ -1703,7 +1703,7 @@ F 3 "" H 4650 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D22
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D22
 U 1 1 6070970F
 P 4100 7500
 F 0 "D22" V 4146 7617 50  0000 C BNN
@@ -1716,7 +1716,7 @@ $EndComp
 Wire Wire Line
 	3350 7350 3500 7350
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D21
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D21
 U 1 1 60709705
 P 3100 7500
 F 0 "D21" V 3146 7617 50  0000 C BNN
@@ -1751,7 +1751,7 @@ $EndComp
 Wire Wire Line
 	1500 7350 1650 7350
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D20
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D20
 U 1 1 607096F2
 P 2250 7500
 F 0 "D20" V 2296 7617 50  0000 C BNN
@@ -1773,7 +1773,7 @@ F 3 "" H 1950 7350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D13
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D13
 U 1 1 607096E0
 P 1250 6750
 F 0 "D13" V 1296 6867 50  0000 C BNN
@@ -1793,7 +1793,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 6900 5950 6900
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D18
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D18
 U 1 1 607096D4
 P 5950 6750
 F 0 "D18" V 5996 6867 50  0000 C BNN
@@ -1804,7 +1804,7 @@ F 3 "~" H 5950 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D17
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D17
 U 1 1 607096CE
 P 4950 6750
 F 0 "D17" V 4996 6867 50  0000 C BNN
@@ -1837,7 +1837,7 @@ F 3 "" H 4650 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D16
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D16
 U 1 1 607096BB
 P 4100 6750
 F 0 "D16" V 4146 6867 50  0000 C BNN
@@ -1855,7 +1855,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 6900 4100 6900
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D15
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D15
 U 1 1 607096B0
 P 3100 6750
 F 0 "D15" V 3146 6867 50  0000 C BNN
@@ -1890,7 +1890,7 @@ $EndComp
 Wire Wire Line
 	1500 6600 1650 6600
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D14
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D14
 U 1 1 6070969B
 P 2250 6750
 F 0 "D14" V 2296 6867 50  0000 C BNN
@@ -1949,7 +1949,7 @@ Connection ~ 1250 5400
 Wire Wire Line
 	1100 5400 1250 5400
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D7
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D7
 U 1 1 606ED5D0
 P 1250 6000
 F 0 "D7" V 1296 6117 50  0000 C BNN
@@ -1969,7 +1969,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 6150 5950 6150
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D12
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D12
 U 1 1 606ED5C2
 P 5950 6000
 F 0 "D12" V 5996 6117 50  0000 C BNN
@@ -1980,7 +1980,7 @@ F 3 "~" H 5950 6000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D11
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D11
 U 1 1 606ED5BC
 P 4950 6000
 F 0 "D11" V 4996 6117 50  0000 C BNN
@@ -2013,7 +2013,7 @@ F 3 "" H 4650 5850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D10
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D10
 U 1 1 606ED5A9
 P 4100 6000
 F 0 "D10" V 4146 6117 50  0000 C BNN
@@ -2031,7 +2031,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 6150 4100 6150
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D9
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D9
 U 1 1 606ED59E
 P 3100 6000
 F 0 "D9" V 3146 6117 50  0000 C BNN
@@ -2066,7 +2066,7 @@ $EndComp
 Wire Wire Line
 	1500 5850 1650 5850
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D8
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D8
 U 1 1 606ED589
 P 2250 6000
 F 0 "D8" V 2296 6117 50  0000 C BNN
@@ -2099,7 +2099,7 @@ F 3 "" H 950 5850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D1
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D1
 U 1 1 606C0569
 P 1250 5250
 F 0 "D1" V 1296 5367 50  0000 C BNN
@@ -2119,7 +2119,7 @@ Connection ~ 4950 5400
 Wire Wire Line
 	4950 5400 5950 5400
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D6
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D6
 U 1 1 606C9673
 P 5950 5250
 F 0 "D6" V 5996 5367 50  0000 C BNN
@@ -2130,7 +2130,7 @@ F 3 "~" H 5950 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D5
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D5
 U 1 1 606C966D
 P 4950 5250
 F 0 "D5" V 4996 5367 50  0000 C BNN
@@ -2167,7 +2167,7 @@ F 3 "" H 4650 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D4
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D4
 U 1 1 606C6A91
 P 4100 5250
 F 0 "D4" V 4146 5367 50  0000 C BNN
@@ -2187,7 +2187,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 5400 4100 5400
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D3
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D3
 U 1 1 606C6A8B
 P 3100 5250
 F 0 "D3" V 3146 5367 50  0000 C BNN
@@ -2226,7 +2226,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 4750 1500 5100
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D2
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D2
 U 1 1 606C31D0
 P 2250 5250
 F 0 "D2" V 2296 5367 50  0000 C BNN
@@ -2316,7 +2316,7 @@ Wire Wire Line
 Wire Wire Line
 	-450 6900 -1000 6900
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0131
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0131
 U 1 1 60B1A86E
 P 1350 7200
 F 0 "#PWR0131" H 1350 6950 50  0001 C CNN
@@ -2327,7 +2327,7 @@ F 3 "" H 1350 7200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L butterfly-rescue:Rotary_Encoder_Switch-Device-monarch-rescue SW19
+L nightwing-rescue:Rotary_Encoder_Switch-Device-monarch-rescue-butterfly-rescue SW19
 U 1 1 60FFF05C
 P 1050 7200
 F 0 "SW19" H 1050 7350 50  0000 C CNN
@@ -2338,7 +2338,7 @@ F 3 "~" H 1050 7460 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L butterfly-rescue:D-Device-monarch-rescue D19
+L nightwing-rescue:D-Device-monarch-rescue-butterfly-rescue D19
 U 1 1 60709732
 P 750 7450
 F 0 "D19" V 796 7567 50  0000 C BNN
@@ -2400,7 +2400,7 @@ A5
 Text GLabel -850 1900 2    50   Input ~ 0
 A4
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0134
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0134
 U 1 1 606FF4BE
 P 4450 800
 F 0 "#PWR0134" H 4450 650 50  0001 C CNN
@@ -2422,7 +2422,7 @@ RX
 Wire Wire Line
 	4450 1400 4600 1400
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0133
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0133
 U 1 1 606CCEB8
 P 3550 2300
 F 0 "#PWR0133" H 3550 2050 50  0001 C CNN
@@ -2433,7 +2433,7 @@ F 3 "" H 3550 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0132
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0132
 U 1 1 606CCEB2
 P 3850 2300
 F 0 "#PWR0132" H 3850 2050 50  0001 C CNN
@@ -2467,7 +2467,7 @@ RX
 Wire Wire Line
 	4450 1500 4600 1500
 $Comp
-L butterfly-rescue:R_US-Device-monarch-rescue R3
+L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R3
 U 1 1 60628AD4
 P 2650 1000
 F 0 "R3" V 2600 850 50  0000 C CNN
@@ -2478,7 +2478,7 @@ F 3 "~" H 2650 1000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L butterfly-rescue:R_US-Device-monarch-rescue R4
+L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R4
 U 1 1 60657B13
 P 2650 1100
 F 0 "R4" V 2600 950 50  0000 C CNN
@@ -2587,7 +2587,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 2000 8850 2000
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0138
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0138
 U 1 1 6088B76D
 P 5200 2000
 F 0 "#PWR0138" H 5200 1850 50  0001 C CNN
@@ -2607,7 +2607,7 @@ Connection ~ 9550 1150
 Wire Wire Line
 	9550 1150 10150 1150
 $Comp
-L butterfly-rescue:Buzzer-Device-monarch-rescue BZ1
+L nightwing-rescue:Buzzer-Device-monarch-rescue-butterfly-rescue BZ1
 U 1 1 606C87A5
 P -100 3850
 F 0 "BZ1" V 150 3750 50  0000 L CNN
@@ -2620,7 +2620,7 @@ $EndComp
 Wire Wire Line
 	-200 3750 -200 2700
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0136
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0136
 U 1 1 6078BEC8
 P -200 4550
 F 0 "#PWR0136" H -200 4300 50  0001 C CNN
@@ -2841,7 +2841,7 @@ Wire Wire Line
 	8250 3700 9550 3700
 NoConn ~ 10150 3450
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0139
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0139
 U 1 1 60B3A95E
 P 5200 3700
 F 0 "#PWR0139" H 5200 3550 50  0001 C CNN
@@ -2870,7 +2870,7 @@ F 3 "" V -4250 -900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0115
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0115
 U 1 1 6084752F
 P -550 4550
 F 0 "#PWR0115" H -550 4400 50  0001 C CNN
@@ -2883,7 +2883,7 @@ $EndComp
 Wire Wire Line
 	-550 3950 -550 4050
 $Comp
-L butterfly-rescue:R_Small_US-Device-monarch-rescue R6
+L nightwing-rescue:R_Small_US-Device-monarch-rescue-butterfly-rescue R6
 U 1 1 60847536
 P -550 3850
 F 0 "R6" H -482 3896 50  0000 L CNN
@@ -2896,7 +2896,7 @@ $EndComp
 Wire Wire Line
 	-550 4350 -550 4550
 $Comp
-L butterfly-rescue:LED-Device-monarch-rescue D27
+L nightwing-rescue:LED-Device-monarch-rescue-butterfly-rescue D27
 U 1 1 6084753D
 P -550 4200
 F 0 "D27" V -603 4280 50  0000 L CNN
@@ -2907,7 +2907,7 @@ F 3 "~" H -550 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0137
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0137
 U 1 1 608DAD16
 P -4900 1100
 F 0 "#PWR0137" H -4900 850 50  0001 C CNN
@@ -2939,7 +2939,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 -650 10150 -650
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0110
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0110
 U 1 1 609D5069
 P -750 1100
 F 0 "#PWR0110" H -750 850 50  0001 C CNN
@@ -2950,7 +2950,7 @@ F 3 "" H -750 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0117
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0117
 U 1 1 60A1F198
 P -4200 -150
 F 0 "#PWR0117" H -4200 -400 50  0001 C CNN
@@ -2961,7 +2961,7 @@ F 3 "" H -4200 -150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0130
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0130
 U 1 1 60AB47AF
 P 5200 2850
 F 0 "#PWR0130" H 5200 2600 50  0001 C CNN
@@ -2973,7 +2973,7 @@ F 3 "" H 5200 2850 50  0001 C CNN
 $EndComp
 Connection ~ 5600 2850
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0140
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0140
 U 1 1 60BD4038
 P 10550 -650
 F 0 "#PWR0140" H 10550 -900 50  0001 C CNN
@@ -2988,7 +2988,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 1150 5600 1150
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0120
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0120
 U 1 1 60C7A5B9
 P 5200 1150
 F 0 "#PWR0120" H 5200 900 50  0001 C CNN
@@ -2999,7 +2999,7 @@ F 3 "" H 5200 1150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0122
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0122
 U 1 1 608A6779
 P 11450 5200
 F 0 "#PWR0122" H 11450 4950 50  0001 C CNN
@@ -3010,7 +3010,7 @@ F 3 "" H 11450 5200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0129
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0129
 U 1 1 608ED804
 P 11450 6200
 F 0 "#PWR0129" H 11450 5950 50  0001 C CNN
@@ -3021,7 +3021,7 @@ F 3 "" H 11450 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0141
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0141
 U 1 1 6093532B
 P 11400 4100
 F 0 "#PWR0141" H 11400 3850 50  0001 C CNN
@@ -3035,7 +3035,7 @@ Wire Wire Line
 	11400 4100 11150 4100
 Connection ~ 11150 4100
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0124
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0124
 U 1 1 609A1212
 P 3000 900
 F 0 "#PWR0124" H 3000 650 50  0001 C CNN
@@ -3053,7 +3053,7 @@ SCK
 Text GLabel -1000 7950 0    50   Input ~ 0
 TX
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0135
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0135
 U 1 1 6082B89B
 P 4850 1000
 F 0 "#PWR0135" H 4850 750 50  0001 C CNN
@@ -3068,7 +3068,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 1100 4850 1000
 $Comp
-L butterfly-rescue:Crystal-Device-monarch-rescue 16mhz1
+L nightwing-rescue:Crystal-Device-monarch-rescue-butterfly-rescue 16mhz1
 U 1 1 60882EA9
 P -4950 3050
 F 0 "16mhz1" V -5000 2600 50  0000 L CNN
@@ -3091,7 +3091,7 @@ Wire Wire Line
 Wire Wire Line
 	-4650 3100 -3500 3100
 $Comp
-L butterfly-rescue:VCC-power-monarch-rescue #PWR0126
+L nightwing-rescue:VCC-power-monarch-rescue-butterfly-rescue #PWR0126
 U 1 1 60797298
 P 1850 3650
 F 0 "#PWR0126" H 1850 3500 50  0001 C CNN
@@ -3112,7 +3112,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 3650 1850 3650
 $Comp
-L butterfly-rescue:GND-power-monarch-rescue #PWR0103
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0103
 U 1 1 60A73B0E
 P 2050 3000
 F 0 "#PWR0103" H 2050 2750 50  0001 C CNN
