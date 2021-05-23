@@ -15,14 +15,6 @@ Comment4 ""
 $EndDescr
 Text GLabel 3900 8850 0    50   Input ~ 0
 ROW3
-Text GLabel 12550 1625 2    50   Input ~ 0
-ROW0
-Text GLabel 12550 1925 2    50   Input ~ 0
-ROW1
-Text GLabel 12550 2025 2    50   Input ~ 0
-ROW2
-Text GLabel 12550 1725 2    50   Input ~ 0
-ROW3
 Connection ~ 7750 8850
 Connection ~ 6900 8850
 Connection ~ 5050 8850
@@ -38,12 +30,12 @@ Wire Wire Line
 $Comp
 L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0114
 U 1 1 60A517B4
-P 2250 4800
-F 0 "#PWR0114" H 2250 4550 50  0001 C CNN
-F 1 "GND" V 2250 4600 50  0000 C CNN
-F 2 "" H 2250 4800 50  0001 C CNN
-F 3 "" H 2250 4800 50  0001 C CNN
-	1    2250 4800
+P 1550 5400
+F 0 "#PWR0114" H 1550 5150 50  0001 C CNN
+F 1 "GND" V 1550 5200 50  0000 C CNN
+F 2 "" H 1550 5400 50  0001 C CNN
+F 3 "" H 1550 5400 50  0001 C CNN
+	1    1550 5400
 	0    -1   -1   0   
 $EndComp
 Text GLabel 3900 6600 0    50   Input ~ 0
@@ -65,12 +57,12 @@ Wire Wire Line
 $Comp
 L Private:OLED J3
 U 1 1 6061FF7E
-P 1550 4600
-F 0 "J3" H 1608 4925 50  0000 C CNN
-F 1 "OLED" H 1608 4834 50  0000 C CNN
-F 2 "reversible-kicad-footprints:OLED-SSD1306-128x64" H 1400 4350 50  0001 C CNN
-F 3 "" H 1450 4350 50  0001 C CNN
-	1    1550 4600
+P 850 5200
+F 0 "J3" H 908 5525 50  0000 C CNN
+F 1 "OLED" H 908 5434 50  0000 C CNN
+F 2 "reversible-kicad-footprints:OLED-SSD1306-128x64" H 700 4950 50  0001 C CNN
+F 3 "" H 750 4950 50  0001 C CNN
+	1    850  5200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -81,8 +73,6 @@ Wire Wire Line
 	1650 1425 1600 1425
 Wire Wire Line
 	1600 1325 1650 1325
-Wire Wire Line
-	2250 4050 2450 4050
 $Comp
 L keyboard_parts:SW_PUSH SW24
 U 1 1 6070971B
@@ -113,8 +103,6 @@ Text GLabel 5300 5950 1    50   Input ~ 0
 COL2
 Text GLabel 6150 5950 1    50   Input ~ 0
 COL3
-Text GLabel 7150 5950 1    50   Input ~ 0
-COL4
 Connection ~ 4300 7050
 Wire Wire Line
 	4300 7050 4300 7800
@@ -628,8 +616,6 @@ F 3 "~" H 7750 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7150 5950 7150 6300
-Text GLabel 8000 5950 1    50   Input ~ 0
-COL5
 $Comp
 L keyboard_parts:SW_PUSH SW6
 U 1 1 606C965C
@@ -724,8 +710,6 @@ F 3 "~" H 5050 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3450 5950 3450 6300
-Text GLabel 1650 4050 0    50   Input ~ 0
-RESET
 $Comp
 L keyboard_parts:SW_PUSH SW2
 U 1 1 6063E22B
@@ -748,16 +732,6 @@ F 3 "" H 3750 6300 60  0000 C CNN
 	1    3750 6300
 	1    0    0    -1  
 $EndComp
-Text GLabel 12550 1125 2    50   Input ~ 0
-COL0
-Text GLabel 12550 1025 2    50   Input ~ 0
-COL1
-Text GLabel 12550 3425 2    50   Input ~ 0
-COL2
-Text GLabel 12550 3525 2    50   Input ~ 0
-COL3
-Text GLabel 12550 3625 2    50   Input ~ 0
-COL4
 $Comp
 L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0131
 U 1 1 60B1A86E
@@ -802,60 +776,10 @@ Wire Wire Line
 Connection ~ 4000 8850
 Wire Wire Line
 	4000 8850 5050 8850
-Text GLabel 12550 3725 2    50   Input ~ 0
-COL5
 Text GLabel 4150 8300 2    50   Input ~ 0
 ROT_B
 Text GLabel 4150 8500 2    50   Input ~ 0
 ROT_A
-Connection ~ 6200 1150
-Wire Wire Line
-	6000 1150 6200 1150
-Wire Wire Line
-	6200 1050 6200 1150
-Wire Wire Line
-	6000 1050 6200 1050
-Text GLabel 6150 1450 2    50   Input ~ 0
-RX
-Wire Wire Line
-	6000 1450 6050 1450
-$Comp
-L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0133
-U 1 1 606CCEB8
-P 5100 2350
-F 0 "#PWR0133" H 5100 2100 50  0001 C CNN
-F 1 "GND" H 5105 2177 50  0000 C CNN
-F 2 "" H 5100 2350 50  0001 C CNN
-F 3 "" H 5100 2350 50  0001 C CNN
-	1    5100 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0132
-U 1 1 606CCEB2
-P 5400 2350
-F 0 "#PWR0132" H 5400 2100 50  0001 C CNN
-F 1 "GND" H 5405 2177 50  0000 C CNN
-F 2 "" H 5400 2350 50  0001 C CNN
-F 3 "" H 5400 2350 50  0001 C CNN
-	1    5400 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L reversible-kicad-symbols:HRO-TYPE-C-31-M-12-HandSoldering-NoSBU J2
-U 1 1 60658E93
-P 5400 1450
-F 0 "J2" H 5507 2317 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 5507 2226 50  0000 C CNN
-F 2 "reversible-kicad-footprints:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 5550 1450 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 5550 1450 50  0001 C CNN
-	1    5400 1450
-	1    0    0    -1  
-$EndComp
-Text GLabel 6150 1550 2    50   Input ~ 0
-RX
-Wire Wire Line
-	6000 1550 6050 1550
 $Comp
 L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R3
 U 1 1 60628AD4
@@ -878,244 +802,199 @@ F 3 "~" H 2000 1125 50  0001 C CNN
 	1    2000 1125
 	0    1    1    0   
 $EndComp
-$Comp
-L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0135
-U 1 1 6082B89B
-P 6400 1050
-F 0 "#PWR0135" H 6400 800 50  0001 C CNN
-F 1 "GND" H 6405 877 50  0000 C CNN
-F 2 "" H 6400 1050 50  0001 C CNN
-F 3 "" H 6400 1050 50  0001 C CNN
-	1    6400 1050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6200 1150 6400 1150
-Wire Wire Line
-	6400 1150 6400 1050
-Text GLabel 2250 4600 2    50   Input ~ 0
+Text GLabel 1550 5200 2    50   Input ~ 0
 SCL
-Text GLabel 2250 4500 2    50   Input ~ 0
+Text GLabel 1550 5100 2    50   Input ~ 0
 SDA
 Wire Wire Line
-	1700 4500 2250 4500
+	1000 5100 1550 5100
 Wire Wire Line
-	1700 4600 2250 4600
+	1000 5200 1550 5200
 Wire Wire Line
-	1700 4700 2250 4700
-$Comp
-L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0103
-U 1 1 60A73B0E
-P 2450 4050
-F 0 "#PWR0103" H 2450 3800 50  0001 C CNN
-F 1 "GND" V 2450 3850 50  0000 C CNN
-F 2 "" H 2450 4050 50  0001 C CNN
-F 3 "" H 2450 4050 50  0001 C CNN
-	1    2450 4050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L reversible-kicad-symbols:HRO-TYPE-C-31-M-12-HandSoldering-NoSBU J1
-U 1 1 6056609A
-P 1000 1425
-F 0 "J1" H 1107 2292 50  0000 C CNN
-F 1 "USB_C_Receptacle_USB2.0" H 1107 2201 50  0000 C CNN
-F 2 "reversible-kicad-footprints:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1150 1425 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1150 1425 50  0001 C CNN
-	1    1000 1425
-	1    0    0    -1  
-$EndComp
+	1000 5300 1550 5300
 $Comp
 L LED:WS2812B L24
 U 1 1 60C62470
-P 1950 9350
-F 0 "L24" H 2050 9500 50  0000 L CNN
-F 1 "WS2812B" H 2294 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 2000 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2050 8975 50  0001 L TNN
-	1    1950 9350
+P 1350 9650
+F 0 "L24" H 1450 9800 50  0000 L CNN
+F 1 "WS2812B" H 1694 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 1400 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1450 9275 50  0001 L TNN
+	1    1350 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B L25
 U 1 1 60D54859
-P 2800 9350
-F 0 "L25" H 2900 9500 50  0000 L CNN
-F 1 "WS2812B" H 3144 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 2850 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2900 8975 50  0001 L TNN
-	1    2800 9350
+P 2200 9650
+F 0 "L25" H 2300 9800 50  0000 L CNN
+F 1 "WS2812B" H 2544 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 2250 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2300 9275 50  0001 L TNN
+	1    2200 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 9350 2500 9350
+	1650 9650 1900 9650
 Wire Wire Line
-	3100 9350 3350 9350
+	2500 9650 2750 9650
 $Comp
 L LED:WS2812B L27
 U 1 1 60F0CEE5
-P 4500 9350
-F 0 "L27" H 4600 9500 50  0000 L CNN
-F 1 "WS2812B" H 4844 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 4550 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4600 8975 50  0001 L TNN
-	1    4500 9350
+P 3900 9650
+F 0 "L27" H 4000 9800 50  0000 L CNN
+F 1 "WS2812B" H 4244 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 3950 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4000 9275 50  0001 L TNN
+	1    3900 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B L28
 U 1 1 60F0CEEB
-P 5350 9350
-F 0 "L28" H 5450 9500 50  0000 L CNN
-F 1 "WS2812B" H 5694 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 5400 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5450 8975 50  0001 L TNN
-	1    5350 9350
+P 4750 9650
+F 0 "L28" H 4850 9800 50  0000 L CNN
+F 1 "WS2812B" H 5094 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 4800 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4850 9275 50  0001 L TNN
+	1    4750 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 9350 4200 9350
+	3350 9650 3600 9650
 Wire Wire Line
-	4800 9350 5050 9350
+	4200 9650 4450 9650
 $Comp
 L LED:WS2812B L29
 U 1 1 60FA562E
-P 6200 9350
-F 0 "L29" H 6300 9500 50  0000 L CNN
-F 1 "WS2812B" H 6544 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 6250 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6300 8975 50  0001 L TNN
-	1    6200 9350
+P 5600 9650
+F 0 "L29" H 5700 9800 50  0000 L CNN
+F 1 "WS2812B" H 5944 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 5650 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5700 9275 50  0001 L TNN
+	1    5600 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B L30
 U 1 1 60FA5634
-P 7050 9350
-F 0 "L30" H 7150 9500 50  0000 L CNN
-F 1 "WS2812B" H 7394 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 7100 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7150 8975 50  0001 L TNN
-	1    7050 9350
+P 6450 9650
+F 0 "L30" H 6550 9800 50  0000 L CNN
+F 1 "WS2812B" H 6794 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 6500 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 6550 9275 50  0001 L TNN
+	1    6450 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5650 9350 5900 9350
+	5050 9650 5300 9650
 Wire Wire Line
-	6500 9350 6750 9350
+	5900 9650 6150 9650
 $Comp
 L LED:WS2812B L31
 U 1 1 60FF515A
-P 7900 9350
-F 0 "L31" H 8000 9500 50  0000 L CNN
-F 1 "WS2812B" H 8244 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 7950 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8000 8975 50  0001 L TNN
-	1    7900 9350
+P 7300 9650
+F 0 "L31" H 7400 9800 50  0000 L CNN
+F 1 "WS2812B" H 7644 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 7350 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7400 9275 50  0001 L TNN
+	1    7300 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7350 9350 7600 9350
+	6750 9650 7000 9650
 $Comp
 L LED:WS2812B L32
 U 1 1 610DC3AD
-P 8750 9350
-F 0 "L32" H 8850 9500 50  0000 L CNN
-F 1 "WS2812B" H 9094 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 8800 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8850 8975 50  0001 L TNN
-	1    8750 9350
+P 8150 9650
+F 0 "L32" H 8250 9800 50  0000 L CNN
+F 1 "WS2812B" H 8494 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 8200 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8250 9275 50  0001 L TNN
+	1    8150 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B L33
 U 1 1 610DC3B3
-P 9600 9350
-F 0 "L33" H 9700 9500 50  0000 L CNN
-F 1 "WS2812B" H 9944 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 9650 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9700 8975 50  0001 L TNN
-	1    9600 9350
+P 9000 9650
+F 0 "L33" H 9100 9800 50  0000 L CNN
+F 1 "WS2812B" H 9344 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 9050 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9100 9275 50  0001 L TNN
+	1    9000 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 9350 8450 9350
+	7600 9650 7850 9650
 Wire Wire Line
-	9050 9350 9300 9350
+	8450 9650 8700 9650
 $Comp
 L LED:WS2812B L34
 U 1 1 610DC3BB
-P 10450 9350
-F 0 "L34" H 10550 9500 50  0000 L CNN
-F 1 "WS2812B" H 10794 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 10500 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10550 8975 50  0001 L TNN
-	1    10450 9350
+P 9850 9650
+F 0 "L34" H 9950 9800 50  0000 L CNN
+F 1 "WS2812B" H 10194 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 9900 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9950 9275 50  0001 L TNN
+	1    9850 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9900 9350 10150 9350
+	9300 9650 9550 9650
 Wire Wire Line
-	10750 9350 11000 9350
-Wire Wire Line
-	11600 9350 11850 9350
-Wire Wire Line
-	12450 9350 12700 9350
-Wire Wire Line
-	13300 9350 13550 9350
-Wire Wire Line
-	14150 9350 14400 9350
-Text GLabel 1650 9350 0    50   Input ~ 0
+	10150 9650 10400 9650
+Text GLabel 1050 9650 0    50   Input ~ 0
 WS_LED
 Wire Wire Line
-	1950 9050 2800 9050
-Connection ~ 2800 9050
-Connection ~ 4500 9050
+	1350 9350 2200 9350
+Connection ~ 2200 9350
+Connection ~ 3900 9350
 Wire Wire Line
-	4500 9050 5350 9050
-Connection ~ 5350 9050
+	3900 9350 4750 9350
+Connection ~ 4750 9350
 Wire Wire Line
-	5350 9050 6200 9050
-Connection ~ 6200 9050
+	4750 9350 5600 9350
+Connection ~ 5600 9350
 Wire Wire Line
-	6200 9050 7050 9050
-Connection ~ 7050 9050
+	5600 9350 6450 9350
+Connection ~ 6450 9350
 Wire Wire Line
-	7050 9050 7900 9050
-Connection ~ 7900 9050
+	6450 9350 7300 9350
+Connection ~ 7300 9350
 Wire Wire Line
-	7900 9050 8750 9050
-Connection ~ 8750 9050
+	7300 9350 8150 9350
+Connection ~ 8150 9350
 Wire Wire Line
-	8750 9050 9600 9050
-Connection ~ 9600 9050
+	8150 9350 9000 9350
+Connection ~ 9000 9350
 Wire Wire Line
-	9600 9050 10450 9050
+	9000 9350 9850 9350
 Wire Wire Line
-	2800 9650 1950 9650
-Connection ~ 7050 9650
+	2200 9950 1350 9950
+Connection ~ 6450 9950
 Wire Wire Line
-	7050 9650 6200 9650
-Connection ~ 7900 9650
+	6450 9950 5600 9950
+Connection ~ 7300 9950
 Wire Wire Line
-	7900 9650 7050 9650
-Connection ~ 8750 9650
+	7300 9950 6450 9950
+Connection ~ 8150 9950
 Wire Wire Line
-	8750 9650 7900 9650
-Connection ~ 9600 9650
+	8150 9950 7300 9950
+Connection ~ 9000 9950
 Wire Wire Line
-	9600 9650 8750 9650
+	9000 9950 8150 9950
 Wire Wire Line
-	10450 9650 9600 9650
+	9850 9950 9000 9950
 $Comp
 L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR019
 U 1 1 61285007
-P 1950 9700
-F 0 "#PWR019" H 1950 9450 50  0001 C CNN
-F 1 "GND" H 1955 9527 50  0000 C CNN
-F 2 "" H 1950 9700 50  0001 C CNN
-F 3 "" H 1950 9700 50  0001 C CNN
-	1    1950 9700
+P 1350 10000
+F 0 "#PWR019" H 1350 9750 50  0001 C CNN
+F 1 "GND" H 1355 9827 50  0000 C CNN
+F 2 "" H 1350 10000 50  0001 C CNN
+F 3 "" H 1350 10000 50  0001 C CNN
+	1    1350 10000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1130,9 +1009,9 @@ F 3 "~" H 14450 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text GLabel 13850 2750 0    50   Input ~ 0
-XTAL1
+OSC_IN
 Text GLabel 13850 3150 0    50   Input ~ 0
-XTAL2
+OSC_OUT
 Wire Wire Line
 	13850 3150 14450 3150
 Wire Wire Line
@@ -1157,323 +1036,15 @@ L keyboard_parts:PPTC F2
 U 1 1 616A3582
 P 2550 825
 F 0 "F2" H 2550 1065 50  0000 C CNN
-F 1 "PPTC" H 2550 974 50  0000 C CNN
+F 1 "PPTC 3A" H 2550 974 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric" V 2550 825 60  0001 C CNN
 F 3 "" V 2550 825 60  0000 C CNN
 	1    2550 825 
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR03
-U 1 1 616E208B
-P 3200 825
-F 0 "#PWR03" H 3200 675 50  0001 C CNN
-F 1 "+5V" V 3215 953 50  0000 L CNN
-F 2 "" H 3200 825 50  0001 C CNN
-F 3 "" H 3200 825 50  0001 C CNN
-	1    3200 825 
-	0    1    1    0   
-$EndComp
 Connection ~ 2100 825 
 Wire Wire Line
 	2100 825  2300 825 
-$Comp
-L keebio:PRTR5V0U2X U1
-U 1 1 60D492B4
-P 1950 3525
-F 0 "U1" H 1950 3800 50  0000 C CNN
-F 1 "PRTR5V0U2X" H 1950 3709 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-143_Handsoldering" H 1900 3625 50  0001 C CNN
-F 3 "" H 1900 3625 50  0001 C CNN
-	1    1950 3525
-	1    0    0    -1  
-$EndComp
-Text GLabel 1600 3575 0    50   Input ~ 0
-DN
-Text GLabel 2300 3575 2    50   Input ~ 0
-DP
-$Comp
-L power:VCC #PWR09
-U 1 1 60D51023
-P 2300 3475
-F 0 "#PWR09" H 2300 3325 50  0001 C CNN
-F 1 "VCC" V 2315 3603 50  0000 L CNN
-F 2 "" H 2300 3475 50  0001 C CNN
-F 3 "" H 2300 3475 50  0001 C CNN
-	1    2300 3475
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 60D51B38
-P 1600 3475
-F 0 "#PWR08" H 1600 3225 50  0001 C CNN
-F 1 "GND" V 1605 3347 50  0000 R CNN
-F 2 "" H 1600 3475 50  0001 C CNN
-F 3 "" H 1600 3475 50  0001 C CNN
-	1    1600 3475
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+5V #PWR04
-U 1 1 6113B95E
-P 11600 575
-F 0 "#PWR04" H 11600 425 50  0001 C CNN
-F 1 "+5V" H 11615 748 50  0000 C CNN
-F 2 "" H 11600 575 50  0001 C CNN
-F 3 "" H 11600 575 50  0001 C CNN
-	1    11600 575 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11600 725  11600 575 
-$Comp
-L power:GND #PWR012
-U 1 1 611E70D5
-P 11250 4725
-F 0 "#PWR012" H 11250 4475 50  0001 C CNN
-F 1 "GND" H 11255 4552 50  0000 C CNN
-F 2 "" H 11250 4725 50  0001 C CNN
-F 3 "" H 11250 4725 50  0001 C CNN
-	1    11250 4725
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11250 4325 11250 4725
-Text GLabel 11100 1225 0    50   Input ~ 0
-XTAL1
-Text GLabel 11100 1425 0    50   Input ~ 0
-XTAL2
-$Comp
-L Device:C_Small C10
-U 1 1 61278705
-P 10650 2575
-F 0 "C10" H 10742 2621 50  0000 L CNN
-F 1 "1u" H 10742 2530 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10650 2575 50  0001 C CNN
-F 3 "~" H 10650 2575 50  0001 C CNN
-	1    10650 2575
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 61279CB6
-P 10650 2675
-F 0 "#PWR010" H 10650 2425 50  0001 C CNN
-F 1 "GND" H 10655 2502 50  0000 C CNN
-F 2 "" H 10650 2675 50  0001 C CNN
-F 3 "" H 10650 2675 50  0001 C CNN
-	1    10650 2675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10650 2475 10650 2325
-Wire Wire Line
-	10650 2325 11100 2325
-Text GLabel 11100 1025 0    50   Input ~ 0
-RESET
-$Comp
-L power:+5V #PWR06
-U 1 1 60DA9C8F
-P 11100 1825
-F 0 "#PWR06" H 11100 1675 50  0001 C CNN
-F 1 "+5V" V 11115 1953 50  0000 L CNN
-F 2 "" H 11100 1825 50  0001 C CNN
-F 3 "" H 11100 1825 50  0001 C CNN
-	1    11100 1825
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 11100 1625
-$Comp
-L Device:R_Small R2
-U 1 1 6122CBB4
-P 13100 3325
-F 0 "R2" V 12904 3325 50  0000 C CNN
-F 1 "10k" V 12995 3325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 13100 3325 50  0001 C CNN
-F 3 "~" H 13100 3325 50  0001 C CNN
-	1    13100 3325
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 6122ABD5
-P 13100 3575
-F 0 "#PWR011" H 13100 3325 50  0001 C CNN
-F 1 "GND" H 13105 3402 50  0000 C CNN
-F 2 "" H 13100 3575 50  0001 C CNN
-F 3 "" H 13100 3575 50  0001 C CNN
-	1    13100 3575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13100 3125 13100 3225
-Wire Wire Line
-	13100 3425 13100 3575
-Text GLabel 12550 2425 2    50   Input ~ 0
-RX
-Wire Wire Line
-	12550 2425 12300 2425
-Text GLabel 12550 2325 2    50   Input ~ 0
-SDA
-Wire Wire Line
-	12300 2325 12550 2325
-Text GLabel 12550 2225 2    50   Input ~ 0
-SCL
-Wire Wire Line
-	12300 2225 12550 2225
-Wire Wire Line
-	14800 750  14800 1000
-$Comp
-L power:+5V #PWR01
-U 1 1 615E5A87
-P 14800 750
-F 0 "#PWR01" H 14800 600 50  0001 C CNN
-F 1 "+5V" H 14815 923 50  0000 C CNN
-F 2 "" H 14800 750 50  0001 C CNN
-F 3 "" H 14800 750 50  0001 C CNN
-	1    14800 750 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15200 1500 14800 1500
-Connection ~ 15200 1500
-Wire Wire Line
-	15200 1350 15200 1500
-Wire Wire Line
-	14800 1500 14400 1500
-Connection ~ 14800 1500
-Wire Wire Line
-	14800 1500 14800 1350
-Wire Wire Line
-	14400 1500 14000 1500
-Connection ~ 14400 1500
-Wire Wire Line
-	14400 1350 14400 1500
-Wire Wire Line
-	14000 1500 14000 1350
-Wire Wire Line
-	15600 1500 15200 1500
-Wire Wire Line
-	15600 1350 15600 1500
-Wire Wire Line
-	14400 1000 14800 1000
-Connection ~ 14400 1000
-Wire Wire Line
-	14400 1150 14400 1000
-Wire Wire Line
-	14800 1000 15200 1000
-Connection ~ 14800 1000
-Wire Wire Line
-	14800 1000 14800 1150
-Wire Wire Line
-	15200 1000 15600 1000
-Connection ~ 15200 1000
-Wire Wire Line
-	15200 1150 15200 1000
-Wire Wire Line
-	15600 1000 15600 1150
-Wire Wire Line
-	14000 1000 14400 1000
-Wire Wire Line
-	14000 1150 14000 1000
-$Comp
-L Device:C_Small C1
-U 1 1 614784EE
-P 14000 1250
-F 0 "C1" H 14050 1350 50  0000 L CNN
-F 1 "0.1uf" H 14050 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14000 1250 50  0001 C CNN
-F 3 "~" H 14000 1250 50  0001 C CNN
-	1    14000 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C9
-U 1 1 6143C3A3
-P 15600 1250
-F 0 "C9" H 15650 1350 50  0000 L CNN
-F 1 "0.1uf" H 15650 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 15600 1250 50  0001 C CNN
-F 3 "~" H 15600 1250 50  0001 C CNN
-	1    15600 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C5
-U 1 1 6143C399
-P 15200 1250
-F 0 "C5" H 15250 1350 50  0000 L CNN
-F 1 "0.1uf" H 15250 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 15200 1250 50  0001 C CNN
-F 3 "~" H 15200 1250 50  0001 C CNN
-	1    15200 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C4
-U 1 1 6140079D
-P 14800 1250
-F 0 "C4" H 14850 1350 50  0000 L CNN
-F 1 "0.1uf" H 14850 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14800 1250 50  0001 C CNN
-F 3 "~" H 14800 1250 50  0001 C CNN
-	1    14800 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C2
-U 1 1 613C1250
-P 14400 1250
-F 0 "C2" H 14450 1350 50  0000 L CNN
-F 1 "0.1uf" H 14450 1150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14400 1250 50  0001 C CNN
-F 3 "~" H 14400 1250 50  0001 C CNN
-	1    14400 1250
-	1    0    0    -1  
-$EndComp
-Text GLabel 12550 1325 2    50   Input ~ 0
-ROT_B
-Text GLabel 12550 1225 2    50   Input ~ 0
-ROT_A
-Wire Wire Line
-	12550 1625 12300 1625
-Wire Wire Line
-	12300 1925 12550 1925
-Wire Wire Line
-	12550 2025 12300 2025
-Wire Wire Line
-	12300 1725 12550 1725
-Wire Wire Line
-	12300 1025 12550 1025
-Wire Wire Line
-	12550 1125 12300 1125
-Wire Wire Line
-	12300 1225 12550 1225
-Wire Wire Line
-	12550 1325 12300 1325
-Wire Wire Line
-	12300 3625 12550 3625
-Wire Wire Line
-	12550 3725 12300 3725
-Wire Wire Line
-	12300 3425 12550 3425
-Wire Wire Line
-	12550 3525 12300 3525
-Text GLabel 12550 3825 2    50   Input ~ 0
-SK_LED
-Text GLabel 12550 3925 2    50   Input ~ 0
-WS_LED
-Wire Wire Line
-	12300 3125 13100 3125
-Wire Wire Line
-	12550 3825 12300 3825
-Wire Wire Line
-	12300 3925 12550 3925
-Text GLabel 12550 3225 2    50   Input ~ 0
-BUZZER
-Wire Wire Line
-	12550 3225 12300 3225
 $Comp
 L nightwing-rescue:Buzzer-Device-monarch-rescue-butterfly-rescue BZ1
 U 1 1 606C87A5
@@ -1502,12 +1073,6 @@ F 3 "" H 14300 2550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	14150 2550 14300 2550
-Connection ~ 13850 9650
-Connection ~ 13000 9650
-Wire Wire Line
-	13850 9650 13000 9650
-Wire Wire Line
-	14700 9650 13850 9650
 Connection ~ 14700 8550
 Connection ~ 14700 7150
 NoConn ~ 11000 8200
@@ -1949,58 +1514,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11400 5725 50  0001
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13850 9050 14700 9050
-Connection ~ 13850 9050
-Wire Wire Line
-	13000 9050 13850 9050
-Connection ~ 13000 9050
-Wire Wire Line
-	12150 9050 13000 9050
-$Comp
-L LED:WS2812B L39
-U 1 1 61132F04
-P 14700 9350
-F 0 "L39" H 14800 9500 50  0000 L CNN
-F 1 "WS2812B" H 15044 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 14750 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14800 8975 50  0001 L TNN
-	1    14700 9350
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2812B L38
-U 1 1 610DC3D7
-P 13850 9350
-F 0 "L38" H 13950 9500 50  0000 L CNN
-F 1 "WS2812B" H 14194 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 13900 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13950 8975 50  0001 L TNN
-	1    13850 9350
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2812B L37
-U 1 1 610DC3CF
-P 13000 9350
-F 0 "L37" H 13100 9500 50  0000 L CNN
-F 1 "WS2812B" H 13344 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 13050 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13100 8975 50  0001 L TNN
-	1    13000 9350
-	1    0    0    -1  
-$EndComp
-$Comp
-L LED:WS2812B L36
-U 1 1 610DC3C9
-P 12150 9350
-F 0 "L36" H 12250 9500 50  0000 L CNN
-F 1 "WS2812B" H 12494 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 12200 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12250 8975 50  0001 L TNN
-	1    12150 9350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	2800 825  3050 825 
 Wire Wire Line
 	1600 825  2100 825 
@@ -2015,9 +1528,6 @@ F 3 "~" H 3050 825 50  0001 C CNN
 	1    3050 825 
 	1    0    0    -1  
 $EndComp
-Connection ~ 3050 825 
-Wire Wire Line
-	3050 825  3200 825 
 $Comp
 L LED:WS2812B L12
 U 1 1 61056FCC
@@ -2029,35 +1539,24 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14800 6425 50  0001
 	1    14700 6800
 	-1   0    0    1   
 $EndComp
-NoConn ~ 15000 9350
 NoConn ~ 6400 7800
 $Comp
 L LED:WS2812B L35
 U 1 1 610DC3C1
-P 11300 9350
-F 0 "L35" H 11400 9500 50  0000 L CNN
-F 1 "WS2812B" H 11644 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 11350 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11400 8975 50  0001 L TNN
-	1    11300 9350
+P 10700 9650
+F 0 "L35" H 10800 9800 50  0000 L CNN
+F 1 "WS2812B" H 11044 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 10750 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10800 9275 50  0001 L TNN
+	1    10700 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12150 9650 13000 9650
+	10700 9350 9850 9350
+Connection ~ 9850 9350
 Wire Wire Line
-	12150 9050 11300 9050
-Connection ~ 12150 9050
-Wire Wire Line
-	11300 9050 10450 9050
-Connection ~ 11300 9050
-Connection ~ 10450 9050
-Wire Wire Line
-	10450 9650 11300 9650
-Connection ~ 10450 9650
-Wire Wire Line
-	11300 9650 12150 9650
-Connection ~ 11300 9650
-Connection ~ 12150 9650
+	9850 9950 10700 9950
+Connection ~ 9850 9950
 Wire Wire Line
 	13000 6400 13000 6450
 Wire Wire Line
@@ -2075,19 +1574,6 @@ F 3 "" H 700 2375 50  0001 C CNN
 	1    700  2375
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 623B15A6
-P 14800 1700
-F 0 "#PWR0101" H 14800 1450 50  0001 C CNN
-F 1 "GND" H 14805 1527 50  0000 C CNN
-F 2 "" H 14800 1700 50  0001 C CNN
-F 3 "" H 14800 1700 50  0001 C CNN
-	1    14800 1700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14800 1700 14800 1500
 $Comp
 L LED:WS2812B L13
 U 1 1 61343820
@@ -2155,16 +1641,16 @@ F 3 "" H 15150 8550 50  0001 C CNN
 	1    15150 8550
 	1    0    0    -1  
 $EndComp
-Connection ~ 1950 9050
+Connection ~ 1350 9350
 $Comp
 L power:+5V #PWR0106
 U 1 1 62984753
-P 1950 9050
-F 0 "#PWR0106" H 1950 8900 50  0001 C CNN
-F 1 "+5V" H 1965 9223 50  0000 C CNN
-F 2 "" H 1950 9050 50  0001 C CNN
-F 3 "" H 1950 9050 50  0001 C CNN
-	1    1950 9050
+P 1350 9350
+F 0 "#PWR0106" H 1350 9200 50  0001 C CNN
+F 1 "+5V" H 1365 9523 50  0000 C CNN
+F 2 "" H 1350 9350 50  0001 C CNN
+F 3 "" H 1350 9350 50  0001 C CNN
+	1    1350 9350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2181,12 +1667,12 @@ $EndComp
 $Comp
 L power:+5V #PWR0108
 U 1 1 629CBFBC
-P 2250 4700
-F 0 "#PWR0108" H 2250 4550 50  0001 C CNN
-F 1 "+5V" V 2265 4828 50  0000 L CNN
-F 2 "" H 2250 4700 50  0001 C CNN
-F 3 "" H 2250 4700 50  0001 C CNN
-	1    2250 4700
+P 1550 5300
+F 0 "#PWR0108" H 1550 5150 50  0001 C CNN
+F 1 "+5V" V 1565 5428 50  0000 L CNN
+F 2 "" H 1550 5300 50  0001 C CNN
+F 3 "" H 1550 5300 50  0001 C CNN
+	1    1550 5300
 	0    1    1    0   
 $EndComp
 Text GLabel 2350 1375 2    50   Input ~ 0
@@ -2229,50 +1715,14 @@ Wire Wire Line
 Connection ~ 1650 1575
 Wire Wire Line
 	1650 1575 1650 1625
-Text GLabel 11100 2125 0    50   Input ~ 0
-D-
-Text GLabel 11100 2025 0    50   Input ~ 0
-D+
 Text GLabel 1750 1375 1    50   Input ~ 0
 DN
 Text GLabel 1750 1575 3    50   Input ~ 0
 DP
-$Comp
-L power:+5V #PWR0109
-U 1 1 60C87472
-P 6000 850
-F 0 "#PWR0109" H 6000 700 50  0001 C CNN
-F 1 "+5V" V 6015 978 50  0000 L CNN
-F 2 "" H 6000 850 50  0001 C CNN
-F 3 "" H 6000 850 50  0001 C CNN
-	1    6000 850 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6000 1350 6050 1350
-Wire Wire Line
-	6050 1350 6050 1450
-Connection ~ 6050 1450
-Wire Wire Line
-	6050 1450 6150 1450
-Wire Wire Line
-	6050 1550 6050 1650
-Wire Wire Line
-	6050 1650 6000 1650
-Connection ~ 6050 1550
-Wire Wire Line
-	6050 1550 6150 1550
 Wire Wire Line
 	14700 6450 13850 6450
 Wire Wire Line
 	14700 6450 14700 6500
-NoConn ~ 12300 2525
-NoConn ~ 12300 2625
-NoConn ~ 12300 2725
-NoConn ~ 12300 2825
-NoConn ~ 12300 2925
-NoConn ~ 12300 1425
-NoConn ~ 12300 1525
 $Comp
 L LED:WS2812B L6
 U 1 1 60A2C651
@@ -2312,592 +1762,1270 @@ $EndComp
 Wire Wire Line
 	1000 2325 1000 2400
 Wire Wire Line
-	3650 9050 4500 9050
+	3050 9350 3900 9350
 Wire Wire Line
-	2800 9050 3650 9050
-Connection ~ 3650 9050
+	2200 9350 3050 9350
+Connection ~ 3050 9350
 $Comp
 L LED:WS2812B L26
 U 1 1 60D9C26F
-P 3650 9350
-F 0 "L26" H 3750 9500 50  0000 L CNN
-F 1 "WS2812B" H 3994 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 3700 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3750 8975 50  0001 L TNN
-	1    3650 9350
+P 3050 9650
+F 0 "L26" H 3150 9800 50  0000 L CNN
+F 1 "WS2812B" H 3394 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 3100 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3150 9275 50  0001 L TNN
+	1    3050 9650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 9650 3650 9650
+	3900 9950 3050 9950
 Wire Wire Line
-	3650 9650 2800 9650
-Connection ~ 3650 9650
-Connection ~ 2800 9650
+	3050 9950 2200 9950
+Connection ~ 3050 9950
+Connection ~ 2200 9950
 Wire Wire Line
-	1950 9650 1950 9700
-Connection ~ 1950 9650
-Connection ~ 11600 725 
+	1350 9950 1350 10000
+Connection ~ 1350 9950
 Wire Wire Line
-	11700 725  11800 725 
+	1000 5400 1550 5400
 Wire Wire Line
-	11600 725  11700 725 
-Connection ~ 11700 725 
+	4750 9950 5600 9950
+Connection ~ 5600 9950
+Wire Wire Line
+	4750 9950 3900 9950
+Connection ~ 4750 9950
+Connection ~ 3900 9950
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U3
-U 1 1 61069264
-P 11700 2525
-F 0 "U3" H 11700 636 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 11700 545 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 11700 2525 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 11700 2525 50  0001 C CNN
-	1    11700 2525
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11250 4325 11600 4325
-Connection ~ 11600 4325
-Wire Wire Line
-	11600 4325 11700 4325
-Wire Wire Line
-	1700 4800 2250 4800
-Wire Wire Line
-	5350 9650 6200 9650
-Connection ~ 6200 9650
-Wire Wire Line
-	5350 9650 4500 9650
-Connection ~ 5350 9650
-Connection ~ 4500 9650
-$Comp
-L MCU_ST_STM32F1:STM32F103R8Tx U?
-U 1 1 60A33738
-P 7500 3425
-F 0 "U?" H 7900 5200 50  0000 C CNN
-F 1 "STM32F103R8Tx" H 8050 1675 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 6900 1725 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 7500 3425 50  0001 C CNN
-	1    7500 3425
-	1    0    0    -1  
-$EndComp
-Text GLabel 8425 2925 2    50   Input ~ 0
-D-
-Wire Wire Line
-	8200 2925 8425 2925
-Text GLabel 8425 3025 2    50   Input ~ 0
-D+
-Wire Wire Line
-	8200 3025 8425 3025
-$Comp
-L Regulator_Linear:AP2204RB-3.3 U?
-U 1 1 60A8C227
-P 3125 2375
-F 0 "U?" H 3125 2617 50  0000 C CNN
-F 1 "AP2204RB-3.3" H 3125 2526 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 3125 2600 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 3125 2375 50  0001 C CNN
-	1    3125 2375
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 60ABAF34
-P 2250 2375
-F 0 "#PWR?" H 2250 2225 50  0001 C CNN
-F 1 "+5V" H 2265 2548 50  0000 C CNN
-F 2 "" H 2250 2375 50  0001 C CNN
-F 3 "" H 2250 2375 50  0001 C CNN
-	1    2250 2375
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60ABC058
-P 4000 2375
-F 0 "#PWR?" H 4000 2225 50  0001 C CNN
-F 1 "+3V3" H 4015 2548 50  0000 C CNN
-F 2 "" H 4000 2375 50  0001 C CNN
-F 3 "" H 4000 2375 50  0001 C CNN
-	1    4000 2375
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60AF45A5
-P 3125 2850
-F 0 "#PWR?" H 3125 2600 50  0001 C CNN
-F 1 "GND" H 3130 2677 50  0000 C CNN
-F 2 "" H 3125 2850 50  0001 C CNN
-F 3 "" H 3125 2850 50  0001 C CNN
-	1    3125 2850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3125 2675 3125 2775
-$Comp
-L Device:C_Small C?
-U 1 1 60B12498
-P 2600 2600
-F 0 "C?" H 2692 2646 50  0000 L CNN
-F 1 "0.1uf" H 2692 2555 50  0000 L CNN
-F 2 "" H 2600 2600 50  0001 C CNN
-F 3 "~" H 2600 2600 50  0001 C CNN
-	1    2600 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 60B130FA
-P 3625 2600
-F 0 "C?" H 3717 2646 50  0000 L CNN
-F 1 "0.1uf" H 3717 2555 50  0000 L CNN
-F 2 "" H 3625 2600 50  0001 C CNN
-F 3 "~" H 3625 2600 50  0001 C CNN
-	1    3625 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3625 2700 3625 2775
-Wire Wire Line
-	3625 2775 3125 2775
-Connection ~ 3125 2775
-Wire Wire Line
-	3125 2775 3125 2850
-Wire Wire Line
-	2600 2375 2600 2500
-Connection ~ 2600 2375
-Wire Wire Line
-	2600 2375 2825 2375
-Wire Wire Line
-	2600 2700 2600 2775
-Wire Wire Line
-	2600 2775 3125 2775
-Wire Wire Line
-	2250 2375 2600 2375
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60C4C45D
-P 7300 1375
-F 0 "#PWR?" H 7300 1225 50  0001 C CNN
-F 1 "+3V3" H 7315 1548 50  0000 C CNN
-F 2 "" H 7300 1375 50  0001 C CNN
-F 3 "" H 7300 1375 50  0001 C CNN
-	1    7300 1375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 1625 7300 1550
-Wire Wire Line
-	7400 1625 7400 1550
-Wire Wire Line
-	7400 1550 7300 1550
-Connection ~ 7300 1550
-Wire Wire Line
-	7300 1550 7300 1375
-Wire Wire Line
-	7800 1625 7800 1550
-Wire Wire Line
-	7800 1550 7700 1550
-Connection ~ 7400 1550
-Wire Wire Line
-	7700 1625 7700 1550
-Connection ~ 7700 1550
-Wire Wire Line
-	7700 1550 7600 1550
-Wire Wire Line
-	7600 1625 7600 1550
-Connection ~ 7600 1550
-Wire Wire Line
-	7600 1550 7500 1550
-Wire Wire Line
-	7500 1625 7500 1550
-Connection ~ 7500 1550
-Wire Wire Line
-	7500 1550 7400 1550
-$Comp
-L power:GND #PWR?
-U 1 1 60D0E4F7
-P 7300 5400
-F 0 "#PWR?" H 7300 5150 50  0001 C CNN
-F 1 "GND" H 7305 5227 50  0000 C CNN
-F 2 "" H 7300 5400 50  0001 C CNN
-F 3 "" H 7300 5400 50  0001 C CNN
-	1    7300 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7300 5225 7300 5325
-Wire Wire Line
-	7600 5225 7600 5325
-Wire Wire Line
-	7600 5325 7500 5325
-Connection ~ 7300 5325
-Wire Wire Line
-	7300 5325 7300 5400
-Wire Wire Line
-	7500 5225 7500 5325
-Connection ~ 7500 5325
-Wire Wire Line
-	7500 5325 7400 5325
-Wire Wire Line
-	7400 5225 7400 5325
-Connection ~ 7400 5325
-Wire Wire Line
-	7400 5325 7300 5325
-Wire Wire Line
-	7700 5225 7700 5325
-Wire Wire Line
-	7700 5325 7600 5325
-Connection ~ 7600 5325
-$Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0115
 U 1 1 60DBC8D5
-P 4800 -1250
-F 0 "#PWR?" H 4800 -1400 50  0001 C CNN
-F 1 "+3V3" H 4815 -1077 50  0000 C CNN
-F 2 "" H 4800 -1250 50  0001 C CNN
-F 3 "" H 4800 -1250 50  0001 C CNN
-	1    4800 -1250
+P 6100 3200
+F 0 "#PWR0115" H 6100 3050 50  0001 C CNN
+F 1 "+3V3" H 6115 3373 50  0000 C CNN
+F 2 "" H 6100 3200 50  0001 C CNN
+F 3 "" H 6100 3200 50  0001 C CNN
+	1    6100 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0116
 U 1 1 60DBDE4A
-P 4800 -800
-F 0 "#PWR?" H 4800 -1050 50  0001 C CNN
-F 1 "GND" H 4805 -973 50  0000 C CNN
-F 2 "" H 4800 -800 50  0001 C CNN
-F 3 "" H 4800 -800 50  0001 C CNN
-	1    4800 -800
+P 6100 3650
+F 0 "#PWR0116" H 6100 3400 50  0001 C CNN
+F 1 "GND" H 6105 3477 50  0000 C CNN
+F 2 "" H 6100 3650 50  0001 C CNN
+F 3 "" H 6100 3650 50  0001 C CNN
+	1    6100 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C6
 U 1 1 60DBF904
-P 5250 -1050
-F 0 "C?" H 5342 -1004 50  0000 L CNN
-F 1 "100nf" H 5342 -1095 50  0000 L CNN
-F 2 "" H 5250 -1050 50  0001 C CNN
-F 3 "~" H 5250 -1050 50  0001 C CNN
-	1    5250 -1050
+P 6550 3400
+F 0 "C6" H 6642 3446 50  0000 L CNN
+F 1 "100nf" H 6642 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6550 3400 50  0001 C CNN
+F 3 "~" H 6550 3400 50  0001 C CNN
+	1    6550 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C7
 U 1 1 60DC0890
-P 5675 -1050
-F 0 "C?" H 5767 -1004 50  0000 L CNN
-F 1 "100nf" H 5767 -1095 50  0000 L CNN
-F 2 "" H 5675 -1050 50  0001 C CNN
-F 3 "~" H 5675 -1050 50  0001 C CNN
-	1    5675 -1050
+P 6975 3400
+F 0 "C7" H 7067 3446 50  0000 L CNN
+F 1 "100nf" H 7067 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6975 3400 50  0001 C CNN
+F 3 "~" H 6975 3400 50  0001 C CNN
+	1    6975 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C8
 U 1 1 60E0BF8E
-P 6100 -1050
-F 0 "C?" H 6192 -1004 50  0000 L CNN
-F 1 "100nf" H 6192 -1095 50  0000 L CNN
-F 2 "" H 6100 -1050 50  0001 C CNN
-F 3 "~" H 6100 -1050 50  0001 C CNN
-	1    6100 -1050
+P 7400 3400
+F 0 "C8" H 7492 3446 50  0000 L CNN
+F 1 "100nf" H 7492 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7400 3400 50  0001 C CNN
+F 3 "~" H 7400 3400 50  0001 C CNN
+	1    7400 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C11
 U 1 1 60E0BF98
-P 6525 -1050
-F 0 "C?" H 6617 -1004 50  0000 L CNN
-F 1 "100nf" H 6617 -1095 50  0000 L CNN
-F 2 "" H 6525 -1050 50  0001 C CNN
-F 3 "~" H 6525 -1050 50  0001 C CNN
-	1    6525 -1050
+P 7825 3400
+F 0 "C11" H 7917 3446 50  0000 L CNN
+F 1 "100nf" H 7917 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7825 3400 50  0001 C CNN
+F 3 "~" H 7825 3400 50  0001 C CNN
+	1    7825 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C12
 U 1 1 60E59C0A
-P 6925 -1050
-F 0 "C?" H 7017 -1004 50  0000 L CNN
-F 1 "100nf" H 7017 -1095 50  0000 L CNN
-F 2 "" H 6925 -1050 50  0001 C CNN
-F 3 "~" H 6925 -1050 50  0001 C CNN
-	1    6925 -1050
+P 8225 3400
+F 0 "C12" H 8317 3446 50  0000 L CNN
+F 1 "100nf" H 8317 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8225 3400 50  0001 C CNN
+F 3 "~" H 8225 3400 50  0001 C CNN
+	1    8225 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C13
 U 1 1 60E59C14
-P 7350 -1050
-F 0 "C?" H 7442 -1004 50  0000 L CNN
-F 1 "100nf" H 7442 -1095 50  0000 L CNN
-F 2 "" H 7350 -1050 50  0001 C CNN
-F 3 "~" H 7350 -1050 50  0001 C CNN
-	1    7350 -1050
+P 8650 3400
+F 0 "C13" H 8742 3446 50  0000 L CNN
+F 1 "100nf" H 8742 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8650 3400 50  0001 C CNN
+F 3 "~" H 8650 3400 50  0001 C CNN
+	1    8650 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C14
 U 1 1 60E59C1E
-P 7775 -1050
-F 0 "C?" H 7867 -1004 50  0000 L CNN
-F 1 "100nf" H 7867 -1095 50  0000 L CNN
-F 2 "" H 7775 -1050 50  0001 C CNN
-F 3 "~" H 7775 -1050 50  0001 C CNN
-	1    7775 -1050
+P 9075 3400
+F 0 "C14" H 9167 3446 50  0000 L CNN
+F 1 "100nf" H 9167 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9075 3400 50  0001 C CNN
+F 3 "~" H 9075 3400 50  0001 C CNN
+	1    9075 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C15
 U 1 1 60E59C28
-P 8200 -1050
-F 0 "C?" H 8292 -1004 50  0000 L CNN
-F 1 "100nf" H 8292 -1095 50  0000 L CNN
-F 2 "" H 8200 -1050 50  0001 C CNN
-F 3 "~" H 8200 -1050 50  0001 C CNN
-	1    8200 -1050
+P 9500 3400
+F 0 "C15" H 9592 3446 50  0000 L CNN
+F 1 "100nf" H 9592 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9500 3400 50  0001 C CNN
+F 3 "~" H 9500 3400 50  0001 C CNN
+	1    9500 3400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C3
 U 1 1 60E81569
-P 4800 -1050
-F 0 "C?" H 4892 -1004 50  0000 L CNN
-F 1 "10uf" H 4892 -1095 50  0000 L CNN
-F 2 "" H 4800 -1050 50  0001 C CNN
-F 3 "~" H 4800 -1050 50  0001 C CNN
-	1    4800 -1050
+P 6100 3400
+F 0 "C3" H 6192 3446 50  0000 L CNN
+F 1 "10uf" H 6192 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 6100 3400 50  0001 C CNN
+F 3 "~" H 6100 3400 50  0001 C CNN
+	1    6100 3400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8200 -1150 8200 -1250
+	9500 3300 9500 3200
 Wire Wire Line
-	8200 -1250 7775 -1250
+	9500 3200 9075 3200
 Wire Wire Line
-	4800 -1250 4800 -1150
+	6100 3200 6100 3300
 Wire Wire Line
-	5250 -1150 5250 -1250
-Connection ~ 5250 -1250
+	6550 3300 6550 3200
+Connection ~ 6550 3200
 Wire Wire Line
-	5250 -1250 4800 -1250
+	6550 3200 6100 3200
 Wire Wire Line
-	5675 -1150 5675 -1250
-Connection ~ 5675 -1250
+	6975 3300 6975 3200
+Connection ~ 6975 3200
 Wire Wire Line
-	5675 -1250 5250 -1250
+	6975 3200 6550 3200
 Wire Wire Line
-	6100 -1150 6100 -1250
-Connection ~ 6100 -1250
+	7400 3300 7400 3200
+Connection ~ 7400 3200
 Wire Wire Line
-	6100 -1250 5675 -1250
+	7400 3200 6975 3200
 Wire Wire Line
-	6525 -1150 6525 -1250
-Connection ~ 6525 -1250
+	7825 3300 7825 3200
+Connection ~ 7825 3200
 Wire Wire Line
-	6525 -1250 6100 -1250
+	7825 3200 7400 3200
 Wire Wire Line
-	6925 -1150 6925 -1250
-Connection ~ 6925 -1250
+	8225 3300 8225 3200
+Connection ~ 8225 3200
 Wire Wire Line
-	6925 -1250 6525 -1250
+	8225 3200 7825 3200
 Wire Wire Line
-	7350 -1150 7350 -1250
-Connection ~ 7350 -1250
+	8650 3300 8650 3200
+Connection ~ 8650 3200
 Wire Wire Line
-	7350 -1250 6925 -1250
+	8650 3200 8225 3200
 Wire Wire Line
-	7775 -1150 7775 -1250
-Connection ~ 7775 -1250
+	9075 3300 9075 3200
+Connection ~ 9075 3200
 Wire Wire Line
-	7775 -1250 7350 -1250
+	9075 3200 8650 3200
 Wire Wire Line
-	4800 -950 4800 -800
+	6100 3500 6100 3650
 Wire Wire Line
-	4800 -800 5250 -800
+	6100 3650 6550 3650
 Wire Wire Line
-	8200 -950 8200 -800
+	9500 3500 9500 3650
 Wire Wire Line
-	7775 -950 7775 -800
-Connection ~ 7775 -800
+	9075 3500 9075 3650
+Connection ~ 9075 3650
 Wire Wire Line
-	7775 -800 8200 -800
+	9075 3650 9500 3650
 Wire Wire Line
-	7350 -950 7350 -800
-Connection ~ 7350 -800
+	8650 3500 8650 3650
+Connection ~ 8650 3650
 Wire Wire Line
-	7350 -800 7775 -800
+	8650 3650 9075 3650
 Wire Wire Line
-	6925 -950 6925 -800
-Connection ~ 6925 -800
+	8225 3500 8225 3650
+Connection ~ 8225 3650
 Wire Wire Line
-	6925 -800 7350 -800
+	8225 3650 8650 3650
 Wire Wire Line
-	6525 -950 6525 -800
-Connection ~ 6525 -800
+	7825 3500 7825 3650
+Connection ~ 7825 3650
 Wire Wire Line
-	6525 -800 6925 -800
+	7825 3650 8225 3650
 Wire Wire Line
-	6100 -950 6100 -800
-Connection ~ 6100 -800
+	7400 3500 7400 3650
+Connection ~ 7400 3650
 Wire Wire Line
-	6100 -800 6525 -800
+	7400 3650 7825 3650
 Wire Wire Line
-	5675 -950 5675 -800
-Connection ~ 5675 -800
+	6975 3500 6975 3650
+Connection ~ 6975 3650
 Wire Wire Line
-	5675 -800 6100 -800
+	6975 3650 7400 3650
 Wire Wire Line
-	5250 -950 5250 -800
-Connection ~ 5250 -800
+	6550 3500 6550 3650
+Connection ~ 6550 3650
 Wire Wire Line
-	5250 -800 5675 -800
-Connection ~ 4800 -800
-Connection ~ 4800 -1250
-Text GLabel 6800 1825 0    50   Input ~ 0
-NRST
+	6550 3650 6975 3650
+Connection ~ 6100 3650
+Connection ~ 6100 3200
 Wire Wire Line
-	4150 750  4025 750 
-Connection ~ 4150 750 
+	5050 2575 4925 2575
+Connection ~ 5050 2575
 Wire Wire Line
-	4150 600  4150 750 
+	5050 2425 5050 2575
 Wire Wire Line
-	4025 750  4025 775 
+	4925 2575 4925 2600
 Wire Wire Line
-	4300 750  4150 750 
+	5200 2575 5050 2575
 Wire Wire Line
-	4300 950  4300 750 
+	5200 2775 5200 2575
 Wire Wire Line
-	4300 1150 4300 1500
+	5200 2975 5200 3325
 Wire Wire Line
-	4025 1375 4025 1500
+	4925 3200 4925 3325
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0117
 U 1 1 613F9501
-P 4300 1500
-F 0 "#PWR?" H 4300 1250 50  0001 C CNN
-F 1 "GND" H 4305 1327 50  0000 C CNN
-F 2 "" H 4300 1500 50  0001 C CNN
-F 3 "" H 4300 1500 50  0001 C CNN
-	1    4300 1500
+P 5200 3325
+F 0 "#PWR0117" H 5200 3075 50  0001 C CNN
+F 1 "GND" H 5205 3152 50  0000 C CNN
+F 2 "" H 5200 3325 50  0001 C CNN
+F 3 "" H 5200 3325 50  0001 C CNN
+	1    5200 3325
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C16
 U 1 1 611BBADB
-P 4300 1050
-F 0 "C?" H 4392 1096 50  0000 L CNN
-F 1 "100nf" H 4392 1005 50  0000 L CNN
-F 2 "" H 4300 1050 50  0001 C CNN
-F 3 "~" H 4300 1050 50  0001 C CNN
-	1    4300 1050
+P 5200 2875
+F 0 "C16" H 5292 2921 50  0000 L CNN
+F 1 "100nf" H 5292 2830 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5200 2875 50  0001 C CNN
+F 3 "~" H 5200 2875 50  0001 C CNN
+	1    5200 2875
 	1    0    0    -1  
 $EndComp
-Text GLabel 4150 600  0    50   Input ~ 0
+Text GLabel 5050 2425 0    50   Input ~ 0
 NRST
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0118
 U 1 1 6118F9D6
-P 4025 1500
-F 0 "#PWR?" H 4025 1250 50  0001 C CNN
-F 1 "GND" H 4030 1327 50  0000 C CNN
-F 2 "" H 4025 1500 50  0001 C CNN
-F 3 "" H 4025 1500 50  0001 C CNN
-	1    4025 1500
-	1    0    0    -1  
-$EndComp
-Text GLabel 6800 2025 0    50   Input ~ 0
-BOOT0
-$Comp
-L keyboard_parts:SW_PUSH RESET_SW1
-U 1 1 606B5FE8
-P 1950 4050
-F 0 "RESET_SW1" H 1950 4305 50  0000 C CNN
-F 1 "SW_PUSH" H 1950 4214 50  0000 C CNN
-F 2 "reversible-kicad-footprints:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 1950 4050 60  0001 C CNN
-F 3 "" H 1950 4050 60  0000 C CNN
-	1    1950 4050
+P 4925 3325
+F 0 "#PWR0118" H 4925 3075 50  0001 C CNN
+F 1 "GND" H 4930 3152 50  0000 C CNN
+F 2 "" H 4925 3325 50  0001 C CNN
+F 3 "" H 4925 3325 50  0001 C CNN
+	1    4925 3325
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW?
+L keyboard_parts:SW_PUSH SW25
 U 1 1 6126AE31
-P 4025 1075
-F 0 "SW?" H 4050 1225 50  0000 C CNN
-F 1 "RESET" H 4025 1000 50  0000 C CNN
-F 2 "reversible-kicad-footprints:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 4025 1075 60  0001 C CNN
-F 3 "" H 4025 1075 60  0000 C CNN
-	1    4025 1075
+P 4925 2900
+F 0 "SW25" H 4950 3050 50  0000 C CNN
+F 1 "RESET" H 4925 2825 50  0000 C CNN
+F 2 "reversible-kicad-footprints:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 4925 2900 60  0001 C CNN
+F 3 "" H 4925 2900 60  0000 C CNN
+	1    4925 2900
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4050 3450 0    50   Input ~ 0
+Text GLabel 3175 3150 0    50   Input ~ 0
 BOOT0
 $Comp
-L keyboard_parts:SW_PUSH SW?
+L keyboard_parts:SW_PUSH SW26
 U 1 1 617CC9A8
-P 4750 3450
-F 0 "SW?" H 4750 3705 50  0000 C CNN
-F 1 "BOOT0" H 4750 3614 50  0000 C CNN
-F 2 "" H 4750 3450 60  0000 C CNN
-F 3 "" H 4750 3450 60  0000 C CNN
-	1    4750 3450
+P 3875 3150
+F 0 "SW26" H 3875 3405 50  0000 C CNN
+F 1 "BOOT0" H 3875 3314 50  0000 C CNN
+F 2 "reversible-kicad-footprints:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 3875 3150 60  0001 C CNN
+F 3 "" H 3875 3150 60  0000 C CNN
+	1    3875 3150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R1
 U 1 1 617CEEDD
-P 4250 3450
-F 0 "R?" V 4045 3450 50  0000 C CNN
-F 1 "10k" V 4136 3450 50  0000 C CNN
-F 2 "" H 4250 3450 50  0001 C CNN
-F 3 "~" H 4250 3450 50  0001 C CNN
-	1    4250 3450
+P 3375 3150
+F 0 "R1" V 3170 3150 50  0000 C CNN
+F 1 "10k" V 3261 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3375 3150 50  0001 C CNN
+F 3 "~" H 3375 3150 50  0001 C CNN
+	1    3375 3150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4050 3450 4150 3450
+	3175 3150 3275 3150
 Wire Wire Line
-	4350 3450 4400 3450
+	3475 3150 3525 3150
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0119
 U 1 1 618DED7A
-P 5050 3150
-F 0 "#PWR?" H 5050 3000 50  0001 C CNN
-F 1 "+3V3" H 5065 3323 50  0000 C CNN
-F 2 "" H 5050 3150 50  0001 C CNN
-F 3 "" H 5050 3150 50  0001 C CNN
-	1    5050 3150
+P 4175 2850
+F 0 "#PWR0119" H 4175 2700 50  0001 C CNN
+F 1 "+3V3" H 4190 3023 50  0000 C CNN
+F 2 "" H 4175 2850 50  0001 C CNN
+F 3 "" H 4175 2850 50  0001 C CNN
+	1    4175 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4400 3450 4400 3625
-Connection ~ 4400 3450
+	3525 3150 3525 3325
+Connection ~ 3525 3150
 Wire Wire Line
-	4400 3450 4450 3450
+	3525 3150 3575 3150
 Wire Wire Line
-	5050 3450 5050 3150
-Wire Wire Line
-	3425 2375 3625 2375
-Wire Wire Line
-	3625 2500 3625 2375
-Connection ~ 3625 2375
-Wire Wire Line
-	3625 2375 4000 2375
+	4175 3150 4175 2850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0120
 U 1 1 618E028B
-P 4400 3625
-F 0 "#PWR?" H 4400 3375 50  0001 C CNN
-F 1 "GND" H 4405 3452 50  0000 C CNN
-F 2 "" H 4400 3625 50  0001 C CNN
-F 3 "" H 4400 3625 50  0001 C CNN
-	1    4400 3625
+P 3525 3325
+F 0 "#PWR0120" H 3525 3075 50  0001 C CNN
+F 1 "GND" H 3530 3152 50  0000 C CNN
+F 2 "" H 3525 3325 50  0001 C CNN
+F 3 "" H 3525 3325 50  0001 C CNN
+	1    3525 3325
 	1    0    0    -1  
 $EndComp
-Text GLabel 8425 4525 2    50   Input ~ 0
+Text GLabel 11275 1725 0    50   Input ~ 0
+BOOT0
+Text GLabel 11275 1525 0    50   Input ~ 0
+NRST
+Connection ~ 12075 5025
+Wire Wire Line
+	12175 5025 12075 5025
+Wire Wire Line
+	12175 4925 12175 5025
+Wire Wire Line
+	11875 5025 11775 5025
+Connection ~ 11875 5025
+Wire Wire Line
+	11875 4925 11875 5025
+Wire Wire Line
+	11975 5025 11875 5025
+Connection ~ 11975 5025
+Wire Wire Line
+	11975 4925 11975 5025
+Wire Wire Line
+	11775 5025 11775 5100
+Connection ~ 11775 5025
+Wire Wire Line
+	12075 5025 11975 5025
+Wire Wire Line
+	12075 4925 12075 5025
+Wire Wire Line
+	11775 4925 11775 5025
+$Comp
+L power:GND #PWR0121
+U 1 1 60D0E4F7
+P 11775 5100
+F 0 "#PWR0121" H 11775 4850 50  0001 C CNN
+F 1 "GND" H 11780 4927 50  0000 C CNN
+F 2 "" H 11775 5100 50  0001 C CNN
+F 3 "" H 11775 5100 50  0001 C CNN
+	1    11775 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11975 1250 11875 1250
+Connection ~ 11975 1250
+Wire Wire Line
+	11975 1325 11975 1250
+Wire Wire Line
+	12075 1250 11975 1250
+Connection ~ 12075 1250
+Wire Wire Line
+	12075 1325 12075 1250
+Wire Wire Line
+	12175 1250 12075 1250
+Connection ~ 12175 1250
+Wire Wire Line
+	12175 1325 12175 1250
+Connection ~ 11875 1250
+Wire Wire Line
+	12275 1250 12175 1250
+Wire Wire Line
+	12275 1325 12275 1250
+Wire Wire Line
+	11775 1250 11775 1075
+Connection ~ 11775 1250
+Wire Wire Line
+	11875 1250 11775 1250
+Wire Wire Line
+	11875 1325 11875 1250
+Wire Wire Line
+	11775 1325 11775 1250
+$Comp
+L power:+3V3 #PWR0122
+U 1 1 60C4C45D
+P 11775 1075
+F 0 "#PWR0122" H 11775 925 50  0001 C CNN
+F 1 "+3V3" H 11790 1248 50  0000 C CNN
+F 2 "" H 11775 1075 50  0001 C CNN
+F 3 "" H 11775 1075 50  0001 C CNN
+	1    11775 1075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12675 2725 12900 2725
+Text GLabel 12900 2725 2    50   Input ~ 0
+D+
+Wire Wire Line
+	12675 2625 12900 2625
+Text GLabel 12900 2625 2    50   Input ~ 0
+D-
+$Comp
+L MCU_ST_STM32F1:STM32F103R8Tx U4
+U 1 1 60A33738
+P 11975 3125
+F 0 "U4" H 12375 4900 50  0000 C CNN
+F 1 "STM32F103R8Tx" H 12525 1375 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 11375 1425 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 11975 3125 50  0001 C CNN
+	1    11975 3125
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 5950 1    50   Input ~ 0
+COL5
+Text GLabel 7150 5950 1    50   Input ~ 0
+COL4
+Text GLabel 11275 2825 0    50   Input ~ 0
+OSC_IN
+Text GLabel 11275 2925 0    50   Input ~ 0
+OSC_OUT
+Text GLabel 3275 4675 0    50   Input ~ 0
+SPLIT_HAND_PIN
+$Comp
+L power:+3V3 #PWR0123
+U 1 1 60BE41AF
+P 3525 4250
+F 0 "#PWR0123" H 3525 4100 50  0001 C CNN
+F 1 "+3V3" H 3540 4423 50  0000 C CNN
+F 2 "" H 3525 4250 50  0001 C CNN
+F 3 "" H 3525 4250 50  0001 C CNN
+	1    3525 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 60BE5314
+P 3525 5075
+F 0 "#PWR0124" H 3525 4825 50  0001 C CNN
+F 1 "GND" H 3530 4902 50  0000 C CNN
+F 2 "" H 3525 5075 50  0001 C CNN
+F 3 "" H 3525 5075 50  0001 C CNN
+	1    3525 5075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R6
+U 1 1 60C14817
+P 3525 4425
+F 0 "R6" H 3593 4471 50  0000 L CNN
+F 1 "9.1k (Left)" H 3593 4380 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3525 4425 50  0001 C CNN
+F 3 "~" H 3525 4425 50  0001 C CNN
+	1    3525 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 60C14E0E
+P 3525 4900
+F 0 "R8" H 3593 4946 50  0000 L CNN
+F 1 "9.1k (Right)" H 3593 4855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3525 4900 50  0001 C CNN
+F 3 "~" H 3525 4900 50  0001 C CNN
+	1    3525 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 4525 3525 4675
+Wire Wire Line
+	3275 4675 3525 4675
+Connection ~ 3525 4675
+Wire Wire Line
+	3525 4675 3525 4800
+Wire Wire Line
+	3525 4325 3525 4250
+Wire Wire Line
+	3525 5000 3525 5075
+Text Notes 3725 4750 0    50   ~ 0
+Left=High\nRight=Low
+Text GLabel 12900 4325 2    50   Input ~ 0
+SPLIT_COMMS+
+Text GLabel 12900 4225 2    50   Input ~ 0
+SPLIT_COMMS-
+Wire Wire Line
+	12900 4325 12675 4325
+Wire Wire Line
+	12675 4225 12900 4225
+Wire Wire Line
+	8250 1925 8050 1925
+Wire Wire Line
+	8250 2025 8050 2025
+Text GLabel 5700 1625 0    50   Input ~ 0
+SPLIT_COMMS-
+Wire Wire Line
+	8250 1625 8200 1625
+$Comp
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0101
+U 1 1 60AF2E2F
+P 8850 725
+F 0 "#PWR0101" H 8850 475 50  0001 C CNN
+F 1 "GND" H 8855 552 50  0000 C CNN
+F 2 "" H 8850 725 50  0001 C CNN
+F 3 "" H 8850 725 50  0001 C CNN
+	1    8850 725 
+	-1   0    0    1   
+$EndComp
+Text GLabel 5700 1525 0    50   Input ~ 0
+SPLIT_COMMS+
+Wire Wire Line
+	8250 1525 8200 1525
+$Comp
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0103
+U 1 1 60AF2E37
+P 7550 1900
+F 0 "#PWR0103" H 7550 1650 50  0001 C CNN
+F 1 "GND" H 7555 1727 50  0000 C CNN
+F 2 "" H 7550 1900 50  0001 C CNN
+F 3 "" H 7550 1900 50  0001 C CNN
+	1    7550 1900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 1725 8200 1725
+Wire Wire Line
+	8200 1725 8200 1625
+Connection ~ 8200 1625
+Wire Wire Line
+	8200 1525 8200 1425
+Wire Wire Line
+	8200 1425 8250 1425
+Connection ~ 8200 1525
+$Comp
+L power:+5V #PWR0109
+U 1 1 60AF2E45
+P 7300 2225
+F 0 "#PWR0109" H 7300 2075 50  0001 C CNN
+F 1 "+5V" V 7300 2350 50  0000 L CNN
+F 2 "" H 7300 2225 50  0001 C CNN
+F 3 "" H 7300 2225 50  0001 C CNN
+	1    7300 2225
+	0    -1   -1   0   
+$EndComp
+$Comp
+L keyboard_parts:PPTC F1
+U 1 1 60AF2E51
+P 7750 2225
+F 0 "F1" H 7750 2465 50  0000 C CNN
+F 1 "PPTC 1.5A" H 7750 2374 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 7750 2225 60  0001 C CNN
+F 3 "" V 7750 2225 60  0000 C CNN
+	1    7750 2225
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 2225 8000 2225
+Wire Wire Line
+	7500 2225 7300 2225
+Connection ~ 8050 1925
+Wire Wire Line
+	7550 1925 7550 1900
+Wire Wire Line
+	8050 1925 7550 1925
+$Comp
+L Device:R_Small_US R10
+U 1 1 60BC1B3F
+P 7050 1200
+F 0 "R10" H 7200 1150 50  0000 R CNN
+F 1 "9.1k" H 7275 1250 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7050 1200 50  0001 C CNN
+F 3 "~" H 7050 1200 50  0001 C CNN
+	1    7050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 60BC31EA
+P 7200 1200
+F 0 "R11" H 7268 1246 50  0000 L CNN
+F 1 "9.1k" H 7268 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7200 1200 50  0001 C CNN
+F 3 "~" H 7200 1200 50  0001 C CNN
+	1    7200 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0126
+U 1 1 60CCBC75
+P 7125 1000
+F 0 "#PWR0126" H 7125 850 50  0001 C CNN
+F 1 "+3V3" H 7140 1173 50  0000 C CNN
+F 2 "" H 7125 1000 50  0001 C CNN
+F 3 "" H 7125 1000 50  0001 C CNN
+	1    7125 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7125 1000 7125 1100
+Wire Wire Line
+	7125 1100 7050 1100
+Wire Wire Line
+	7200 1100 7125 1100
+Connection ~ 7125 1100
+Wire Wire Line
+	7050 1300 7050 1350
+Wire Wire Line
+	7050 1350 7125 1350
+Wire Wire Line
+	7200 1350 7200 1300
+$Comp
+L Device:R_Small_US R2
+U 1 1 60E8911C
+P 6275 1200
+F 0 "R2" H 6425 1150 50  0000 R CNN
+F 1 "9.1k" H 6500 1250 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6275 1200 50  0001 C CNN
+F 3 "~" H 6275 1200 50  0001 C CNN
+	1    6275 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0127
+U 1 1 60E89128
+P 6350 1000
+F 0 "#PWR0127" H 6350 850 50  0001 C CNN
+F 1 "+3V3" H 6365 1173 50  0000 C CNN
+F 2 "" H 6350 1000 50  0001 C CNN
+F 3 "" H 6350 1000 50  0001 C CNN
+	1    6350 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1000 6350 1100
+Wire Wire Line
+	6350 1100 6275 1100
+Wire Wire Line
+	6425 1100 6350 1100
+Connection ~ 6350 1100
+Wire Wire Line
+	6275 1300 6275 1350
+Wire Wire Line
+	6275 1350 6350 1350
+Wire Wire Line
+	6425 1350 6425 1300
+Wire Wire Line
+	5700 1625 6350 1625
+Wire Wire Line
+	5700 1525 7125 1525
+Wire Wire Line
+	7125 1350 7125 1525
+Connection ~ 7125 1350
+Wire Wire Line
+	7125 1350 7200 1350
+Connection ~ 7125 1525
+Wire Wire Line
+	7125 1525 8200 1525
+Wire Wire Line
+	6350 1350 6350 1625
+Connection ~ 6350 1350
+Wire Wire Line
+	6350 1350 6425 1350
+Connection ~ 6350 1625
+Wire Wire Line
+	6350 1625 8200 1625
+Text GLabel 12875 4125 2    50   Input ~ 0
+ROT_B
+Text GLabel 12875 4025 2    50   Input ~ 0
+ROT_A
+Text GLabel 11075 4425 0    50   Input ~ 0
+BUZZER
+Text GLabel 12875 2525 2    50   Input ~ 0
+ROW3
+Text GLabel 12875 2425 2    50   Input ~ 0
+ROW2
+Text GLabel 12875 2325 2    50   Input ~ 0
+ROW1
+Text GLabel 11075 4125 0    50   Input ~ 0
+ROW0
+Text GLabel 12875 3625 2    50   Input ~ 0
+COL0
+Text GLabel 12875 2925 2    50   Input ~ 0
+COL5
+Text GLabel 12875 3025 2    50   Input ~ 0
+COL4
+Text GLabel 11075 4225 0    50   Input ~ 0
+COL3
+Text GLabel 11075 4325 0    50   Input ~ 0
+COL2
+Text GLabel 12875 3525 2    50   Input ~ 0
+COL1
+Text GLabel 11075 3925 0    50   Input ~ 0
+WS_LED
+Text GLabel 11075 4025 0    50   Input ~ 0
+SK_LED
+Wire Wire Line
+	12875 3625 12675 3625
+Wire Wire Line
+	12675 3525 12875 3525
+Wire Wire Line
+	11075 4325 11275 4325
+Wire Wire Line
+	11275 4225 11075 4225
+Wire Wire Line
+	12875 3025 12675 3025
+Wire Wire Line
+	12675 2925 12875 2925
+Wire Wire Line
+	11075 4025 11275 4025
+Wire Wire Line
+	11275 3925 11075 3925
+Wire Wire Line
+	11075 4125 11275 4125
+Wire Wire Line
+	12675 2325 12875 2325
+Wire Wire Line
+	12875 2425 12675 2425
+Wire Wire Line
+	12675 2525 12875 2525
+Wire Wire Line
+	11275 4425 11075 4425
+Wire Wire Line
+	12875 4025 12675 4025
+Wire Wire Line
+	12675 4125 12875 4125
+Wire Wire Line
+	8050 2025 8050 1925
+$Comp
+L reversible-kicad-symbols:HRO-TYPE-C-31-M-12-HandSoldering-NoSBU J2
+U 1 1 60AF2E4B
+P 8850 1625
+F 0 "J2" H 8957 2492 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 8957 2401 50  0000 C CNN
+F 2 "reversible-kicad-footprints:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 9000 1625 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 9000 1625 50  0001 C CNN
+	1    8850 1625
+	-1   0    0    1   
+$EndComp
+$Comp
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0128
+U 1 1 60AF2E29
+P 9150 725
+F 0 "#PWR0128" H 9150 475 50  0001 C CNN
+F 1 "GND" H 9155 552 50  0000 C CNN
+F 2 "" H 9150 725 50  0001 C CNN
+F 3 "" H 9150 725 50  0001 C CNN
+	1    9150 725 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12900 3925 12675 3925
+Wire Wire Line
+	12675 3825 12900 3825
+Text GLabel 12900 3825 2    50   Input ~ 0
 SCL
-Text GLabel 8425 4625 2    50   Input ~ 0
+Text GLabel 12900 3925 2    50   Input ~ 0
 SDA
+$Comp
+L Device:R_Small_US R9
+U 1 1 60E89122
+P 6425 1200
+F 0 "R9" H 6493 1246 50  0000 L CNN
+F 1 "9.1k" H 6493 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6425 1200 50  0001 C CNN
+F 3 "~" H 6425 1200 50  0001 C CNN
+	1    6425 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 12925 3425 2    50   Input ~ 0
+SPLIT_HAND_PIN
 Wire Wire Line
-	8425 4525 8200 4525
+	12925 3425 12675 3425
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60C121DF
+P 1400 6075
+F 0 "H1" H 1500 6121 50  0000 L CNN
+F 1 "MountingHole" H 1500 6030 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 1400 6075 50  0001 C CNN
+F 3 "~" H 1400 6075 50  0001 C CNN
+	1    1400 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60C16F14
+P 1400 6300
+F 0 "H3" H 1500 6346 50  0000 L CNN
+F 1 "MountingHole" H 1500 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 1400 6300 50  0001 C CNN
+F 3 "~" H 1400 6300 50  0001 C CNN
+	1    1400 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60C4342B
+P 1400 6525
+F 0 "H5" H 1500 6571 50  0000 L CNN
+F 1 "MountingHole" H 1500 6480 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 1400 6525 50  0001 C CNN
+F 3 "~" H 1400 6525 50  0001 C CNN
+	1    1400 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60C43431
+P 1400 6750
+F 0 "H7" H 1500 6796 50  0000 L CNN
+F 1 "MountingHole" H 1500 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 1400 6750 50  0001 C CNN
+F 3 "~" H 1400 6750 50  0001 C CNN
+	1    1400 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60C6FD8C
+P 2200 6075
+F 0 "H2" H 2300 6121 50  0000 L CNN
+F 1 "MountingHole" H 2300 6030 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 2200 6075 50  0001 C CNN
+F 3 "~" H 2200 6075 50  0001 C CNN
+	1    2200 6075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60C6FD92
+P 2200 6300
+F 0 "H4" H 2300 6346 50  0000 L CNN
+F 1 "MountingHole" H 2300 6255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 2200 6300 50  0001 C CNN
+F 3 "~" H 2200 6300 50  0001 C CNN
+	1    2200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60C6FD98
+P 2200 6525
+F 0 "H6" H 2300 6571 50  0000 L CNN
+F 1 "MountingHole" H 2300 6480 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 2200 6525 50  0001 C CNN
+F 3 "~" H 2200 6525 50  0001 C CNN
+	1    2200 6525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 60C6FD9E
+P 2200 6750
+F 0 "H8" H 2300 6796 50  0000 L CNN
+F 1 "MountingHole" H 2300 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 2200 6750 50  0001 C CNN
+F 3 "~" H 2200 6750 50  0001 C CNN
+	1    2200 6750
+	1    0    0    -1  
+$EndComp
+Text GLabel 11075 3825 0    50   Input ~ 0
+PLUG_DETECT
 Wire Wire Line
-	8425 4625 8200 4625
+	11275 3825 11075 3825
+$Comp
+L power:+5V #PWR03
+U 1 1 616E208B
+P 4150 825
+F 0 "#PWR03" H 4150 675 50  0001 C CNN
+F 1 "+5V" V 4165 953 50  0000 L CNN
+F 2 "" H 4150 825 50  0001 C CNN
+F 3 "" H 4150 825 50  0001 C CNN
+	1    4150 825 
+	0    1    1    0   
+$EndComp
+Connection ~ 3050 825 
+Wire Wire Line
+	3600 825  4150 825 
+Wire Wire Line
+	3050 825  3600 825 
+Connection ~ 3600 825 
+Wire Wire Line
+	3600 825  3600 900 
+Wire Wire Line
+	3600 1200 3600 1275
+Connection ~ 3600 1200
+Wire Wire Line
+	3925 1200 3600 1200
+Text GLabel 3925 1200 2    50   Input ~ 0
+PLUG_DETECT
+Wire Wire Line
+	3600 1800 3600 1875
+Wire Wire Line
+	3600 1475 3600 1600
+Wire Wire Line
+	3600 1100 3600 1200
+$Comp
+L power:GND #PWR0129
+U 1 1 60BBD6E1
+P 3600 1875
+F 0 "#PWR0129" H 3600 1625 50  0001 C CNN
+F 1 "GND" H 3605 1702 50  0000 C CNN
+F 2 "" H 3600 1875 50  0001 C CNN
+F 3 "" H 3600 1875 50  0001 C CNN
+	1    3600 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R14
+U 1 1 60B9332A
+P 3600 1700
+F 0 "R14" H 3668 1746 50  0000 L CNN
+F 1 "68k" H 3668 1655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3600 1700 50  0001 C CNN
+F 3 "~" H 3600 1700 50  0001 C CNN
+	1    3600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R13
+U 1 1 60B69471
+P 3600 1375
+F 0 "R13" H 3668 1421 50  0000 L CNN
+F 1 "68k" H 3668 1330 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3600 1375 50  0001 C CNN
+F 3 "~" H 3600 1375 50  0001 C CNN
+	1    3600 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R12
+U 1 1 60B6846A
+P 3600 1000
+F 0 "R12" H 3668 1046 50  0000 L CNN
+F 1 "68k" H 3668 955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3600 1000 50  0001 C CNN
+F 3 "~" H 3600 1000 50  0001 C CNN
+	1    3600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO1
+U 1 1 60E5FCEE
+P 1450 7250
+F 0 "#LOGO1" H 1450 7525 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 1450 7025 50  0001 C CNN
+F 2 "" H 1450 7250 50  0001 C CNN
+F 3 "~" H 1450 7250 50  0001 C CNN
+	1    1450 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16025 9650 16275 9650
+Wire Wire Line
+	16575 9950 15725 9950
+Wire Wire Line
+	15725 9350 16575 9350
+$Comp
+L LED:WS2812B L42
+U 1 1 60F5B51B
+P 16575 9650
+F 0 "L42" H 16675 9800 50  0000 L CNN
+F 1 "WS2812B" H 16919 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 16625 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 16675 9275 50  0001 L TNN
+	1    16575 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B L41
+U 1 1 60F5B521
+P 15725 9650
+F 0 "L41" H 15825 9800 50  0000 L CNN
+F 1 "WS2812B" H 16069 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 15775 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 15825 9275 50  0001 L TNN
+	1    15725 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B L40
+U 1 1 60F5B527
+P 11550 9650
+F 0 "L40" H 11650 9800 50  0000 L CNN
+F 1 "WS2812B" H 11894 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 11600 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11650 9275 50  0001 L TNN
+	1    11550 9650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 16875 9650
+Wire Wire Line
+	12350 9950 13200 9950
+$Comp
+L LED:WS2812B L36
+U 1 1 610DC3C9
+P 12350 9650
+F 0 "L36" H 12450 9800 50  0000 L CNN
+F 1 "WS2812B" H 12694 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 12400 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12450 9275 50  0001 L TNN
+	1    12350 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B L37
+U 1 1 610DC3CF
+P 13200 9650
+F 0 "L37" H 13300 9800 50  0000 L CNN
+F 1 "WS2812B" H 13544 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 13250 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13300 9275 50  0001 L TNN
+	1    13200 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B L38
+U 1 1 610DC3D7
+P 14050 9650
+F 0 "L38" H 14150 9800 50  0000 L CNN
+F 1 "WS2812B" H 14394 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 14100 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14150 9275 50  0001 L TNN
+	1    14050 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B L39
+U 1 1 61132F04
+P 14900 9650
+F 0 "L39" H 15000 9800 50  0000 L CNN
+F 1 "WS2812B" H 15244 9605 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 14950 9350 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 15000 9275 50  0001 L TNN
+	1    14900 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 9350 13200 9350
+Connection ~ 13200 9350
+Wire Wire Line
+	13200 9350 14050 9350
+Connection ~ 14050 9350
+Wire Wire Line
+	14050 9350 14900 9350
+Wire Wire Line
+	14900 9950 14050 9950
+Wire Wire Line
+	14050 9950 13200 9950
+Connection ~ 13200 9950
+Connection ~ 14050 9950
+Wire Wire Line
+	14350 9650 14600 9650
+Wire Wire Line
+	13500 9650 13750 9650
+Wire Wire Line
+	12650 9650 12900 9650
+Wire Wire Line
+	10700 9350 11550 9350
+Connection ~ 10700 9350
+Wire Wire Line
+	11000 9650 11250 9650
+Wire Wire Line
+	10700 9950 11550 9950
+Connection ~ 10700 9950
+Wire Wire Line
+	11550 9350 12350 9350
+Connection ~ 11550 9350
+Connection ~ 12350 9350
+Wire Wire Line
+	11850 9650 12050 9650
+Wire Wire Line
+	11550 9950 12350 9950
+Connection ~ 11550 9950
+Connection ~ 12350 9950
+Wire Wire Line
+	15200 9650 15425 9650
+Wire Wire Line
+	14900 9950 15725 9950
+Connection ~ 14900 9950
+Connection ~ 15725 9950
+Wire Wire Line
+	14900 9350 15725 9350
+Connection ~ 14900 9350
+Connection ~ 15725 9350
+Wire Wire Line
+	2075 3775 2450 3775
+Connection ~ 2075 3775
+Wire Wire Line
+	2075 3900 2075 3775
+Wire Wire Line
+	1875 3775 2075 3775
+Wire Wire Line
+	700  3775 1050 3775
+Wire Wire Line
+	1050 4175 1575 4175
+Wire Wire Line
+	1050 4100 1050 4175
+Wire Wire Line
+	1050 3775 1275 3775
+Connection ~ 1050 3775
+Wire Wire Line
+	1050 3775 1050 3900
+Wire Wire Line
+	1575 4175 1575 4250
+Connection ~ 1575 4175
+Wire Wire Line
+	2075 4175 1575 4175
+Wire Wire Line
+	2075 4100 2075 4175
+$Comp
+L Device:C_Small C18
+U 1 1 60B130FA
+P 2075 4000
+F 0 "C18" H 2167 4046 50  0000 L CNN
+F 1 "0.1uf" H 2167 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2075 4000 50  0001 C CNN
+F 3 "~" H 2075 4000 50  0001 C CNN
+	1    2075 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C17
+U 1 1 60B12498
+P 1050 4000
+F 0 "C17" H 1142 4046 50  0000 L CNN
+F 1 "0.1uf" H 1142 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 4000 50  0001 C CNN
+F 3 "~" H 1050 4000 50  0001 C CNN
+	1    1050 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1575 4075 1575 4175
+$Comp
+L power:GND #PWR0113
+U 1 1 60AF45A5
+P 1575 4250
+F 0 "#PWR0113" H 1575 4000 50  0001 C CNN
+F 1 "GND" H 1580 4077 50  0000 C CNN
+F 2 "" H 1575 4250 50  0001 C CNN
+F 3 "" H 1575 4250 50  0001 C CNN
+	1    1575 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0112
+U 1 1 60ABC058
+P 2450 3775
+F 0 "#PWR0112" H 2450 3625 50  0001 C CNN
+F 1 "+3V3" H 2465 3948 50  0000 C CNN
+F 2 "" H 2450 3775 50  0001 C CNN
+F 3 "" H 2450 3775 50  0001 C CNN
+	1    2450 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 60ABAF34
+P 700 3775
+F 0 "#PWR0111" H 700 3625 50  0001 C CNN
+F 1 "+5V" H 715 3948 50  0000 C CNN
+F 2 "" H 700 3775 50  0001 C CNN
+F 3 "" H 700 3775 50  0001 C CNN
+	1    700  3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:AP2204RB-3.3 U2
+U 1 1 60A8C227
+P 1575 3775
+F 0 "U2" H 1575 4017 50  0000 C CNN
+F 1 "AP2204RB-3.3" H 1575 3926 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 1575 4000 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2204.pdf" H 1575 3775 50  0001 C CNN
+	1    1575 3775
+	1    0    0    -1  
+$EndComp
+$Comp
+L reversible-kicad-symbols:HRO-TYPE-C-31-M-12-HandSoldering-NoSBU J1
+U 1 1 6056609A
+P 1000 1425
+F 0 "J1" H 1107 2292 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 1107 2201 50  0000 C CNN
+F 2 "reversible-kicad-footprints:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 1150 1425 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1150 1425 50  0001 C CNN
+	1    1000 1425
+	1    0    0    -1  
+$EndComp
+$Comp
+L keebio:PRTR5V0U2X U1
+U 1 1 60D492B4
+P 1175 3050
+F 0 "U1" H 1175 3325 50  0000 C CNN
+F 1 "PRTR5V0U2X" H 1175 3234 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-143_Handsoldering" H 1125 3150 50  0001 C CNN
+F 3 "" H 1125 3150 50  0001 C CNN
+	1    1175 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 825  3100 0    50   Input ~ 0
+DN
+Text GLabel 1525 3100 2    50   Input ~ 0
+DP
+$Comp
+L power:VCC #PWR09
+U 1 1 60D51023
+P 1525 3000
+F 0 "#PWR09" H 1525 2850 50  0001 C CNN
+F 1 "VCC" V 1540 3128 50  0000 L CNN
+F 2 "" H 1525 3000 50  0001 C CNN
+F 3 "" H 1525 3000 50  0001 C CNN
+	1    1525 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 60D51B38
+P 825 3000
+F 0 "#PWR08" H 825 2750 50  0001 C CNN
+F 1 "GND" V 830 2872 50  0000 R CNN
+F 2 "" H 825 3000 50  0001 C CNN
+F 3 "" H 825 3000 50  0001 C CNN
+	1    825  3000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
