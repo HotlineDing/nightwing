@@ -15,13 +15,11 @@ Comment4 ""
 $EndDescr
 Text GLabel 3900 8850 0    50   Input ~ 0
 ROW3
-Text GLabel 10750 2000 2    50   Input ~ 0
+Text GLabel 10750 3200 2    50   Input ~ 0
 ROW0
-Text GLabel 10750 2300 2    50   Input ~ 0
-ROW1
-Text GLabel 10750 2400 2    50   Input ~ 0
+Text GLabel 10750 1800 2    50   Input ~ 0
 ROW2
-Text GLabel 10750 2100 2    50   Input ~ 0
+Text GLabel 10750 3800 2    50   Input ~ 0
 ROW3
 Connection ~ 7750 8850
 Connection ~ 6900 8850
@@ -759,15 +757,15 @@ F 3 "" H 3750 6300 60  0000 C CNN
 	1    3750 6300
 	1    0    0    -1  
 $EndComp
-Text GLabel 10750 1500 2    50   Input ~ 0
+Text GLabel 10750 4100 2    50   Input ~ 0
 COL0
-Text GLabel 10750 1400 2    50   Input ~ 0
+Text GLabel 10750 4200 2    50   Input ~ 0
 COL1
-Text GLabel 10750 3800 2    50   Input ~ 0
+Text GLabel 10750 2400 2    50   Input ~ 0
 COL2
-Text GLabel 10750 3900 2    50   Input ~ 0
+Text GLabel 10750 2300 2    50   Input ~ 0
 COL3
-Text GLabel 10750 4000 2    50   Input ~ 0
+Text GLabel 10750 2000 2    50   Input ~ 0
 COL4
 $Comp
 L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0131
@@ -813,17 +811,16 @@ Wire Wire Line
 Connection ~ 4000 8850
 Wire Wire Line
 	4000 8850 5050 8850
-Text GLabel 10750 4100 2    50   Input ~ 0
+Text GLabel 10750 1900 2    50   Input ~ 0
 COL5
 Text GLabel 4150 8300 2    50   Input ~ 0
 ROT_B
 Text GLabel 4150 8500 2    50   Input ~ 0
 ROT_A
-Connection ~ 6200 1150
 Wire Wire Line
 	6000 1150 6200 1150
 Wire Wire Line
-	6200 1050 6200 1150
+	6200 1050 6200 1100
 Wire Wire Line
 	6000 1050 6200 1050
 Text GLabel 6150 1450 2    50   Input ~ 0
@@ -892,18 +889,16 @@ $EndComp
 $Comp
 L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0135
 U 1 1 6082B89B
-P 6400 1050
-F 0 "#PWR0135" H 6400 800 50  0001 C CNN
-F 1 "GND" H 6405 877 50  0000 C CNN
-F 2 "" H 6400 1050 50  0001 C CNN
-F 3 "" H 6400 1050 50  0001 C CNN
-	1    6400 1050
-	-1   0    0    1   
+P 6575 1200
+F 0 "#PWR0135" H 6575 950 50  0001 C CNN
+F 1 "GND" H 6580 1027 50  0000 C CNN
+F 2 "" H 6575 1200 50  0001 C CNN
+F 3 "" H 6575 1200 50  0001 C CNN
+	1    6575 1200
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 1150 6400 1150
-Wire Wire Line
-	6400 1150 6400 1050
+	6575 1100 6575 1200
 Text GLabel 2250 4600 2    50   Input ~ 0
 SCL
 Text GLabel 2250 4500 2    50   Input ~ 0
@@ -1071,11 +1066,11 @@ Wire Wire Line
 Wire Wire Line
 	11600 9350 11850 9350
 Wire Wire Line
-	12450 9350 12700 9350
+	13275 9350 13525 9350
 Wire Wire Line
-	13300 9350 13550 9350
+	14125 9350 14375 9350
 Wire Wire Line
-	14150 9350 14400 9350
+	14975 9350 15225 9350
 Text GLabel 1650 9350 0    50   Input ~ 0
 WS_LED
 Wire Wire Line
@@ -1132,26 +1127,26 @@ $EndComp
 $Comp
 L nightwing-rescue:Crystal-Device-monarch-rescue-butterfly-rescue X1
 U 1 1 612C758C
-P 14450 2950
-F 0 "X1" V 14400 2500 50  0000 L CNN
-F 1 "16mhz" V 14500 2500 50  0000 L CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 14450 2950 50  0001 C CNN
-F 3 "~" H 14450 2950 50  0001 C CNN
-	1    14450 2950
+P 12825 3600
+F 0 "X1" V 12775 3150 50  0000 L CNN
+F 1 "16mhz" V 12875 3150 50  0000 L CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 12825 3600 50  0001 C CNN
+F 3 "~" H 12825 3600 50  0001 C CNN
+	1    12825 3600
 	0    1    1    0   
 $EndComp
-Text GLabel 13850 2750 0    50   Input ~ 0
+Text GLabel 12225 3400 0    50   Input ~ 0
 XTAL1
-Text GLabel 13850 3150 0    50   Input ~ 0
+Text GLabel 12225 3800 0    50   Input ~ 0
 XTAL2
 Wire Wire Line
-	13850 3150 14450 3150
+	12225 3800 12825 3800
 Wire Wire Line
-	14450 3150 14450 3100
+	12825 3800 12825 3750
 Wire Wire Line
-	14450 2800 14450 2750
+	12825 3450 12825 3400
 Wire Wire Line
-	14450 2750 13850 2750
+	12825 3400 12225 3400
 $Comp
 L power:VCC #PWR02
 U 1 1 6169B998
@@ -1443,82 +1438,66 @@ F 3 "~" H 14400 1250 50  0001 C CNN
 	1    14400 1250
 	1    0    0    -1  
 $EndComp
-Text GLabel 10750 1700 2    50   Input ~ 0
-ROT_B
-Text GLabel 10750 1600 2    50   Input ~ 0
-ROT_A
 Wire Wire Line
 	10750 2000 10500 2000
 Wire Wire Line
-	10500 2300 10750 2300
+	10750 1800 10500 1800
 Wire Wire Line
-	10750 2400 10500 2400
+	10500 4100 10750 4100
 Wire Wire Line
-	10500 2100 10750 2100
+	10750 4000 10500 4000
 Wire Wire Line
-	10500 1400 10750 1400
+	10500 2400 10750 2400
 Wire Wire Line
-	10750 1500 10500 1500
+	10750 3200 10500 3200
 Wire Wire Line
-	10500 1600 10750 1600
+	10500 4300 10750 4300
 Wire Wire Line
-	10750 1700 10500 1700
-Wire Wire Line
-	10500 4000 10750 4000
-Wire Wire Line
-	10750 4100 10500 4100
-Wire Wire Line
-	10500 3800 10750 3800
-Wire Wire Line
-	10750 3900 10500 3900
-Text GLabel 10750 4200 2    50   Input ~ 0
+	10750 2300 10500 2300
+Text GLabel 10750 3000 2    50   Input ~ 0
 SK_LED
-Text GLabel 10750 4300 2    50   Input ~ 0
-WS_LED
 Wire Wire Line
 	10500 3500 11300 3500
 Wire Wire Line
-	10750 4200 10500 4200
-Wire Wire Line
-	10500 4300 10750 4300
-Text GLabel 10750 3600 2    50   Input ~ 0
+	10750 3000 10500 3000
+Text GLabel 10750 4300 2    50   Input ~ 0
 BUZZER
 Wire Wire Line
-	10750 3600 10500 3600
+	10750 4200 10500 4200
 $Comp
 L nightwing-rescue:Buzzer-Device-monarch-rescue-butterfly-rescue BZ1
 U 1 1 606C87A5
-P 14050 2450
-F 0 "BZ1" V 14300 2350 50  0000 L CNN
-F 1 "Buzzer" V 14200 2300 50  0000 L CNN
-F 2 "private:Buzzer" V 14025 2550 50  0001 C CNN
-F 3 "~" V 14025 2550 50  0001 C CNN
-	1    14050 2450
+P 12425 3100
+F 0 "BZ1" V 12675 3000 50  0000 L CNN
+F 1 "Buzzer" V 12575 2950 50  0000 L CNN
+F 2 "private:Buzzer" V 12400 3200 50  0001 C CNN
+F 3 "~" V 12400 3200 50  0001 C CNN
+	1    12425 3100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 13800 2550 0    50   Input ~ 0
+Text GLabel 12175 3200 0    50   Input ~ 0
 BUZZER
 Wire Wire Line
-	13950 2550 13800 2550
+	12325 3200 12175 3200
 $Comp
 L power:GND #PWR07
 U 1 1 61DDD2A6
-P 14300 2550
-F 0 "#PWR07" H 14300 2300 50  0001 C CNN
-F 1 "GND" V 14305 2422 50  0000 R CNN
-F 2 "" H 14300 2550 50  0001 C CNN
-F 3 "" H 14300 2550 50  0001 C CNN
-	1    14300 2550
+P 12675 3200
+F 0 "#PWR07" H 12675 2950 50  0001 C CNN
+F 1 "GND" V 12680 3072 50  0000 R CNN
+F 2 "" H 12675 3200 50  0001 C CNN
+F 3 "" H 12675 3200 50  0001 C CNN
+	1    12675 3200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	14150 2550 14300 2550
-Connection ~ 13850 9650
-Connection ~ 13000 9650
+	12525 3200 12675 3200
+Connection ~ 14675 9650
+Connection ~ 13825 9650
 Wire Wire Line
-	13850 9650 13000 9650
+	14675 9650 13825 9650
 Wire Wire Line
-	14700 9650 13850 9650
+	15525 9650 14675 9650
 Connection ~ 14700 8550
 Connection ~ 14700 7150
 NoConn ~ 11000 8200
@@ -1960,55 +1939,55 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11400 5725 50  0001
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13850 9050 14700 9050
-Connection ~ 13850 9050
+	14675 9050 15525 9050
+Connection ~ 14675 9050
 Wire Wire Line
-	13000 9050 13850 9050
-Connection ~ 13000 9050
+	13825 9050 14675 9050
+Connection ~ 13825 9050
 Wire Wire Line
-	12150 9050 13000 9050
+	12975 9050 13825 9050
 $Comp
 L LED:WS2812B L39
 U 1 1 61132F04
-P 14700 9350
-F 0 "L39" H 14800 9500 50  0000 L CNN
-F 1 "WS2812B" H 15044 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 14750 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14800 8975 50  0001 L TNN
-	1    14700 9350
+P 15525 9350
+F 0 "L39" H 15625 9500 50  0000 L CNN
+F 1 "WS2812B" H 15869 9305 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 15575 9050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 15625 8975 50  0001 L TNN
+	1    15525 9350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B L38
 U 1 1 610DC3D7
-P 13850 9350
-F 0 "L38" H 13950 9500 50  0000 L CNN
-F 1 "WS2812B" H 14194 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 13900 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13950 8975 50  0001 L TNN
-	1    13850 9350
+P 14675 9350
+F 0 "L38" H 14775 9500 50  0000 L CNN
+F 1 "WS2812B" H 15019 9305 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 14725 9050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14775 8975 50  0001 L TNN
+	1    14675 9350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B L37
 U 1 1 610DC3CF
-P 13000 9350
-F 0 "L37" H 13100 9500 50  0000 L CNN
-F 1 "WS2812B" H 13344 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 13050 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13100 8975 50  0001 L TNN
-	1    13000 9350
+P 13825 9350
+F 0 "L37" H 13925 9500 50  0000 L CNN
+F 1 "WS2812B" H 14169 9305 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 13875 9050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13925 8975 50  0001 L TNN
+	1    13825 9350
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED:WS2812B L36
 U 1 1 610DC3C9
-P 12150 9350
-F 0 "L36" H 12250 9500 50  0000 L CNN
-F 1 "WS2812B" H 12494 9305 50  0001 L CNN
-F 2 "reversible-kicad-footprints:ws2812_reversible" H 12200 9050 50  0001 L TNN
-F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12250 8975 50  0001 L TNN
-	1    12150 9350
+P 12975 9350
+F 0 "L36" H 13075 9500 50  0000 L CNN
+F 1 "WS2812B" H 13319 9305 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 13025 9050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13075 8975 50  0001 L TNN
+	1    12975 9350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2040,7 +2019,6 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 14800 6425 50  0001
 	1    14700 6800
 	-1   0    0    1   
 $EndComp
-NoConn ~ 15000 9350
 NoConn ~ 6400 7800
 $Comp
 L LED:WS2812B L35
@@ -2054,21 +2032,15 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 11400 8975 50  0001
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12150 9650 13000 9650
-Wire Wire Line
-	12150 9050 11300 9050
-Connection ~ 12150 9050
+	12975 9650 13825 9650
+Connection ~ 12975 9050
 Wire Wire Line
 	11300 9050 10450 9050
-Connection ~ 11300 9050
 Connection ~ 10450 9050
 Wire Wire Line
 	10450 9650 11300 9650
 Connection ~ 10450 9650
-Wire Wire Line
-	11300 9650 12150 9650
-Connection ~ 11300 9650
-Connection ~ 12150 9650
+Connection ~ 12975 9650
 Wire Wire Line
 	13000 6400 13000 6450
 Wire Wire Line
@@ -2277,13 +2249,6 @@ Wire Wire Line
 	14700 6450 13850 6450
 Wire Wire Line
 	14700 6450 14700 6500
-NoConn ~ 10500 2900
-NoConn ~ 10500 3000
-NoConn ~ 10500 3100
-NoConn ~ 10500 3200
-NoConn ~ 10500 3300
-NoConn ~ 10500 1800
-NoConn ~ 10500 1900
 $Comp
 L LED:WS2812B L6
 U 1 1 60A2C651
@@ -2378,15 +2343,99 @@ Wire Wire Line
 	5350 9650 4500 9650
 Connection ~ 5350 9650
 Connection ~ 4500 9650
+Wire Wire Line
+	16575 9350 16825 9350
 $Comp
-L MCU_ST_STM32F1:STM32F103R8Tx U?
-U 1 1 60A33738
-P 12475 3100
-F 0 "U?" H 12475 1211 50  0000 C CNN
-F 1 "STM32F103R8Tx" H 12475 1120 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 11875 1400 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 12475 3100 50  0001 C CNN
-	1    12475 3100
+L LED:WS2812B L42
+U 1 1 60BC96B0
+P 17125 9350
+F 0 "L42" H 17225 9500 50  0000 L CNN
+F 1 "WS2812B" H 17469 9305 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 17175 9050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 17225 8975 50  0001 L TNN
+	1    17125 9350
 	1    0    0    -1  
 $EndComp
+$Comp
+L LED:WS2812B L41
+U 1 1 60BC96B6
+P 16275 9350
+F 0 "L41" H 16375 9500 50  0000 L CNN
+F 1 "WS2812B" H 16619 9305 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 16325 9050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 16375 8975 50  0001 L TNN
+	1    16275 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B L40
+U 1 1 60BC96BC
+P 12150 9350
+F 0 "L40" H 12250 9500 50  0000 L CNN
+F 1 "WS2812B" H 12494 9305 50  0001 L CNN
+F 2 "reversible-kicad-footprints:ws2812_reversible" H 12200 9050 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 12250 8975 50  0001 L TNN
+	1    12150 9350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 9050 12150 9050
+Connection ~ 11300 9050
+Wire Wire Line
+	12150 9050 12975 9050
+Connection ~ 12150 9050
+Wire Wire Line
+	12150 9650 12975 9650
+Connection ~ 12150 9650
+Wire Wire Line
+	11300 9650 12150 9650
+Connection ~ 11300 9650
+Wire Wire Line
+	12675 9350 12450 9350
+Wire Wire Line
+	15525 9050 16275 9050
+Connection ~ 15525 9050
+Wire Wire Line
+	16275 9050 17125 9050
+Connection ~ 16275 9050
+Wire Wire Line
+	17125 9650 16275 9650
+Wire Wire Line
+	16275 9650 15525 9650
+Connection ~ 16275 9650
+Connection ~ 15525 9650
+NoConn ~ 17425 9350
+NoConn ~ 16825 6550
+NoConn ~ 15925 9925
+Wire Wire Line
+	15975 9350 15825 9350
+Wire Wire Line
+	10750 3900 10500 3900
+Wire Wire Line
+	10500 3800 10750 3800
+Text GLabel 10750 4000 2    50   Input ~ 0
+ROT_A
+Text GLabel 10750 3900 2    50   Input ~ 0
+ROT_B
+Wire Wire Line
+	10750 1900 10500 1900
+Wire Wire Line
+	10500 3300 10750 3300
+Text GLabel 10750 3300 2    50   Input ~ 0
+ROW1
+Wire Wire Line
+	10500 3100 10750 3100
+Text GLabel 10750 3100 2    50   Input ~ 0
+WS_LED
+Connection ~ 6200 1100
+Wire Wire Line
+	6200 1100 6200 1150
+Wire Wire Line
+	6200 1100 6575 1100
+NoConn ~ 10500 1400
+NoConn ~ 10500 1500
+NoConn ~ 10500 1600
+NoConn ~ 10500 1700
+NoConn ~ 10500 2100
+NoConn ~ 10500 3600
 $EndSCHEMATC

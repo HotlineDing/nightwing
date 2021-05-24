@@ -41,10 +41,6 @@ $EndComp
 Text GLabel 3900 6600 0    50   Input ~ 0
 ROW0
 Wire Wire Line
-	1650 1375 1850 1375
-Wire Wire Line
-	1650 1575 1850 1575
-Wire Wire Line
 	2150 1125 2350 1125
 Wire Wire Line
 	2350 1025 2350 1125
@@ -1000,26 +996,26 @@ $EndComp
 $Comp
 L nightwing-rescue:Crystal-Device-monarch-rescue-butterfly-rescue X1
 U 1 1 612C758C
-P 14450 2950
-F 0 "X1" V 14400 2500 50  0000 L CNN
-F 1 "16mhz" V 14500 2500 50  0000 L CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 14450 2950 50  0001 C CNN
-F 3 "~" H 14450 2950 50  0001 C CNN
-	1    14450 2950
+P 9550 4700
+F 0 "X1" V 9500 4250 50  0000 L CNN
+F 1 "16mhz" V 9600 4250 50  0000 L CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 9550 4700 50  0001 C CNN
+F 3 "~" H 9550 4700 50  0001 C CNN
+	1    9550 4700
 	0    1    1    0   
 $EndComp
-Text GLabel 13850 2750 0    50   Input ~ 0
+Text GLabel 8950 4500 0    50   Input ~ 0
 OSC_IN
-Text GLabel 13850 3150 0    50   Input ~ 0
+Text GLabel 8950 4900 0    50   Input ~ 0
 OSC_OUT
 Wire Wire Line
-	13850 3150 14450 3150
+	8950 4900 9550 4900
 Wire Wire Line
-	14450 3150 14450 3100
+	9550 4900 9550 4850
 Wire Wire Line
-	14450 2800 14450 2750
+	9550 4550 9550 4500
 Wire Wire Line
-	14450 2750 13850 2750
+	9550 4500 8950 4500
 $Comp
 L power:VCC #PWR02
 U 1 1 6169B998
@@ -1048,31 +1044,31 @@ Wire Wire Line
 $Comp
 L nightwing-rescue:Buzzer-Device-monarch-rescue-butterfly-rescue BZ1
 U 1 1 606C87A5
-P 14050 2450
-F 0 "BZ1" V 14300 2350 50  0000 L CNN
-F 1 "Buzzer" V 14200 2300 50  0000 L CNN
-F 2 "private:Buzzer" V 14025 2550 50  0001 C CNN
-F 3 "~" V 14025 2550 50  0001 C CNN
-	1    14050 2450
+P 9150 4200
+F 0 "BZ1" V 9400 4100 50  0000 L CNN
+F 1 "Buzzer" V 9300 4050 50  0000 L CNN
+F 2 "private:Buzzer" V 9125 4300 50  0001 C CNN
+F 3 "~" V 9125 4300 50  0001 C CNN
+	1    9150 4200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 13800 2550 0    50   Input ~ 0
+Text GLabel 8900 4300 0    50   Input ~ 0
 BUZZER
 Wire Wire Line
-	13950 2550 13800 2550
+	9050 4300 8900 4300
 $Comp
 L power:GND #PWR07
 U 1 1 61DDD2A6
-P 14300 2550
-F 0 "#PWR07" H 14300 2300 50  0001 C CNN
-F 1 "GND" V 14305 2422 50  0000 R CNN
-F 2 "" H 14300 2550 50  0001 C CNN
-F 3 "" H 14300 2550 50  0001 C CNN
-	1    14300 2550
+P 9400 4300
+F 0 "#PWR07" H 9400 4050 50  0001 C CNN
+F 1 "GND" V 9405 4172 50  0000 R CNN
+F 2 "" H 9400 4300 50  0001 C CNN
+F 3 "" H 9400 4300 50  0001 C CNN
+	1    9400 4300
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	14150 2550 14300 2550
+	9250 4300 9400 4300
 Connection ~ 14700 8550
 Connection ~ 14700 7150
 NoConn ~ 11000 8200
@@ -1675,36 +1671,6 @@ F 3 "" H 1550 5300 50  0001 C CNN
 	1    1550 5300
 	0    1    1    0   
 $EndComp
-Text GLabel 2350 1375 2    50   Input ~ 0
-D-
-Text GLabel 2350 1575 2    50   Input ~ 0
-D+
-$Comp
-L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R5
-U 1 1 608DE27F
-P 2000 1375
-F 0 "R5" V 1950 1225 50  0000 C CNN
-F 1 "22" V 1950 1525 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2040 1365 50  0001 C CNN
-F 3 "~" H 2000 1375 50  0001 C CNN
-	1    2000 1375
-	0    1    1    0   
-$EndComp
-$Comp
-L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R7
-U 1 1 60900530
-P 2000 1575
-F 0 "R7" V 1950 1425 50  0000 C CNN
-F 1 "22" V 1950 1725 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2040 1565 50  0001 C CNN
-F 3 "~" H 2000 1575 50  0001 C CNN
-	1    2000 1575
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2150 1375 2350 1375
-Wire Wire Line
-	2150 1575 2350 1575
 Wire Wire Line
 	1650 1325 1650 1375
 Wire Wire Line
@@ -2283,14 +2249,6 @@ Wire Wire Line
 	3525 5000 3525 5075
 Text Notes 3725 4750 0    50   ~ 0
 Left=High\nRight=Low
-Text GLabel 12900 4325 2    50   Input ~ 0
-SPLIT_COMMS+
-Text GLabel 12900 4225 2    50   Input ~ 0
-SPLIT_COMMS-
-Wire Wire Line
-	12900 4325 12675 4325
-Wire Wire Line
-	12675 4225 12900 4225
 Wire Wire Line
 	8250 1925 8050 1925
 Wire Wire Line
@@ -2471,50 +2429,28 @@ Text GLabel 12875 4125 2    50   Input ~ 0
 ROT_B
 Text GLabel 12875 4025 2    50   Input ~ 0
 ROT_A
-Text GLabel 11075 4425 0    50   Input ~ 0
-BUZZER
 Text GLabel 12875 2525 2    50   Input ~ 0
 ROW3
 Text GLabel 12875 2425 2    50   Input ~ 0
 ROW2
 Text GLabel 12875 2325 2    50   Input ~ 0
 ROW1
-Text GLabel 11075 4125 0    50   Input ~ 0
-ROW0
 Text GLabel 12875 3625 2    50   Input ~ 0
 COL0
 Text GLabel 12875 2925 2    50   Input ~ 0
 COL5
 Text GLabel 12875 3025 2    50   Input ~ 0
 COL4
-Text GLabel 11075 4225 0    50   Input ~ 0
-COL3
-Text GLabel 11075 4325 0    50   Input ~ 0
-COL2
 Text GLabel 12875 3525 2    50   Input ~ 0
 COL1
-Text GLabel 11075 3925 0    50   Input ~ 0
-WS_LED
-Text GLabel 11075 4025 0    50   Input ~ 0
-SK_LED
 Wire Wire Line
 	12875 3625 12675 3625
 Wire Wire Line
 	12675 3525 12875 3525
 Wire Wire Line
-	11075 4325 11275 4325
-Wire Wire Line
-	11275 4225 11075 4225
-Wire Wire Line
 	12875 3025 12675 3025
 Wire Wire Line
 	12675 2925 12875 2925
-Wire Wire Line
-	11075 4025 11275 4025
-Wire Wire Line
-	11275 3925 11075 3925
-Wire Wire Line
-	11075 4125 11275 4125
 Wire Wire Line
 	12675 2325 12875 2325
 Wire Wire Line
@@ -2522,11 +2458,7 @@ Wire Wire Line
 Wire Wire Line
 	12675 2525 12875 2525
 Wire Wire Line
-	11275 4425 11075 4425
-Wire Wire Line
 	12875 4025 12675 4025
-Wire Wire Line
-	12675 4125 12875 4125
 Wire Wire Line
 	8050 2025 8050 1925
 $Comp
@@ -2662,10 +2594,6 @@ F 3 "~" H 2200 6750 50  0001 C CNN
 	1    2200 6750
 	1    0    0    -1  
 $EndComp
-Text GLabel 11075 3825 0    50   Input ~ 0
-PLUG_DETECT
-Wire Wire Line
-	11275 3825 11075 3825
 $Comp
 L power:+5V #PWR03
 U 1 1 616E208B
@@ -2917,7 +2845,7 @@ L Device:C_Small C18
 U 1 1 60B130FA
 P 2075 4000
 F 0 "C18" H 2167 4046 50  0000 L CNN
-F 1 "0.1uf" H 2167 3955 50  0000 L CNN
+F 1 "100nf" H 2167 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2075 4000 50  0001 C CNN
 F 3 "~" H 2075 4000 50  0001 C CNN
 	1    2075 4000
@@ -2928,7 +2856,7 @@ L Device:C_Small C17
 U 1 1 60B12498
 P 1050 4000
 F 0 "C17" H 1142 4046 50  0000 L CNN
-F 1 "0.1uf" H 1142 3955 50  0000 L CNN
+F 1 "100nf" H 1142 3955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1050 4000 50  0001 C CNN
 F 3 "~" H 1050 4000 50  0001 C CNN
 	1    1050 4000
@@ -2991,41 +2919,113 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1150 14
 	1    1000 1425
 	1    0    0    -1  
 $EndComp
-$Comp
-L keebio:PRTR5V0U2X U1
-U 1 1 60D492B4
-P 1175 3050
-F 0 "U1" H 1175 3325 50  0000 C CNN
-F 1 "PRTR5V0U2X" H 1175 3234 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-143_Handsoldering" H 1125 3150 50  0001 C CNN
-F 3 "" H 1125 3150 50  0001 C CNN
-	1    1175 3050
-	1    0    0    -1  
-$EndComp
-Text GLabel 825  3100 0    50   Input ~ 0
+Text GLabel 1900 2375 0    50   Input ~ 0
 DN
-Text GLabel 1525 3100 2    50   Input ~ 0
-DP
+Wire Wire Line
+	1650 1575 1850 1575
+Wire Wire Line
+	1650 1375 1850 1375
+Wire Wire Line
+	2150 1575 2350 1575
+Wire Wire Line
+	2150 1375 2350 1375
+Text GLabel 2350 1575 2    50   Input ~ 0
+D+
+Text GLabel 2350 1375 2    50   Input ~ 0
+D-
 $Comp
-L power:VCC #PWR09
-U 1 1 60D51023
-P 1525 3000
-F 0 "#PWR09" H 1525 2850 50  0001 C CNN
-F 1 "VCC" V 1540 3128 50  0000 L CNN
-F 2 "" H 1525 3000 50  0001 C CNN
-F 3 "" H 1525 3000 50  0001 C CNN
-	1    1525 3000
+L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R7
+U 1 1 60900530
+P 2000 1575
+F 0 "R7" V 1950 1425 50  0000 C CNN
+F 1 "22" V 1950 1725 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2040 1565 50  0001 C CNN
+F 3 "~" H 2000 1575 50  0001 C CNN
+	1    2000 1575
+	0    1    1    0   
+$EndComp
+$Comp
+L nightwing-rescue:R_US-Device-monarch-rescue-butterfly-rescue R5
+U 1 1 608DE27F
+P 2000 1375
+F 0 "R5" V 1950 1225 50  0000 C CNN
+F 1 "22" V 1950 1525 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2040 1365 50  0001 C CNN
+F 3 "~" H 2000 1375 50  0001 C CNN
+	1    2000 1375
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 60D51B38
-P 825 3000
-F 0 "#PWR08" H 825 2750 50  0001 C CNN
-F 1 "GND" V 830 2872 50  0000 R CNN
-F 2 "" H 825 3000 50  0001 C CNN
-F 3 "" H 825 3000 50  0001 C CNN
-	1    825  3000
+P 1900 2275
+F 0 "#PWR08" H 1900 2025 50  0001 C CNN
+F 1 "GND" V 1905 2147 50  0000 R CNN
+F 2 "" H 1900 2275 50  0001 C CNN
+F 3 "" H 1900 2275 50  0001 C CNN
+	1    1900 2275
 	0    1    1    0   
 $EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 60D51023
+P 2600 2275
+F 0 "#PWR09" H 2600 2125 50  0001 C CNN
+F 1 "VCC" V 2615 2403 50  0000 L CNN
+F 2 "" H 2600 2275 50  0001 C CNN
+F 3 "" H 2600 2275 50  0001 C CNN
+	1    2600 2275
+	0    1    1    0   
+$EndComp
+Text GLabel 2600 2375 2    50   Input ~ 0
+DP
+$Comp
+L keebio:PRTR5V0U2X U1
+U 1 1 60D492B4
+P 2250 2325
+F 0 "U1" H 2250 2600 50  0000 C CNN
+F 1 "PRTR5V0U2X" H 2250 2509 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-143_Handsoldering" H 2200 2425 50  0001 C CNN
+F 3 "" H 2200 2425 50  0001 C CNN
+	1    2250 2325
+	1    0    0    -1  
+$EndComp
+Text GLabel 12900 4225 2    50   Input ~ 0
+SPLIT_COMMS-
+Text GLabel 12900 4325 2    50   Input ~ 0
+SPLIT_COMMS+
+Wire Wire Line
+	12900 4325 12675 4325
+Wire Wire Line
+	12675 4225 12900 4225
+Wire Wire Line
+	12675 4125 12875 4125
+Wire Wire Line
+	11275 3825 11075 3825
+Text GLabel 11075 3825 0    50   Input ~ 0
+PLUG_DETECT
+Wire Wire Line
+	11275 4425 11075 4425
+Wire Wire Line
+	11075 4125 11275 4125
+Wire Wire Line
+	11275 3925 11075 3925
+Wire Wire Line
+	11075 4025 11275 4025
+Wire Wire Line
+	11275 4225 11075 4225
+Wire Wire Line
+	11075 4325 11275 4325
+Text GLabel 11075 4025 0    50   Input ~ 0
+SK_LED
+Text GLabel 11075 3925 0    50   Input ~ 0
+WS_LED
+Text GLabel 11075 4325 0    50   Input ~ 0
+COL2
+Text GLabel 11075 4225 0    50   Input ~ 0
+COL3
+Text GLabel 11075 4125 0    50   Input ~ 0
+ROW0
+Text GLabel 11075 4425 0    50   Input ~ 0
+BUZZER
 $EndSCHEMATC
