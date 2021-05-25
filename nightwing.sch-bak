@@ -725,10 +725,10 @@ Wire Wire Line
 Text GLabel 1650 4050 0    50   Input ~ 0
 RESET
 $Comp
-L keyboard_parts:SW_PUSH RESET_SW1
+L keyboard_parts:SW_PUSH RESET1
 U 1 1 606B5FE8
 P 1950 4050
-F 0 "RESET_SW1" H 1950 4305 50  0000 C CNN
+F 0 "RESET1" H 1950 4305 50  0000 C CNN
 F 1 "SW_PUSH" H 1950 4214 50  0000 C CNN
 F 2 "reversible-kicad-footprints:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 1950 4050 60  0001 C CNN
 F 3 "" H 1950 4050 60  0000 C CNN
@@ -1172,12 +1172,12 @@ $EndComp
 $Comp
 L power:+5V #PWR03
 U 1 1 616E208B
-P 3850 800
-F 0 "#PWR03" H 3850 650 50  0001 C CNN
-F 1 "+5V" V 3865 928 50  0000 L CNN
-F 2 "" H 3850 800 50  0001 C CNN
-F 3 "" H 3850 800 50  0001 C CNN
-	1    3850 800 
+P 4050 800
+F 0 "#PWR03" H 4050 650 50  0001 C CNN
+F 1 "+5V" V 4065 928 50  0000 L CNN
+F 2 "" H 4050 800 50  0001 C CNN
+F 3 "" H 4050 800 50  0001 C CNN
+	1    4050 800 
 	0    1    1    0   
 $EndComp
 Connection ~ 2750 800 
@@ -1442,8 +1442,6 @@ Wire Wire Line
 	10750 2000 10500 2000
 Wire Wire Line
 	10750 1800 10500 1800
-Wire Wire Line
-	10500 2100 10750 2100
 Wire Wire Line
 	10500 4100 10750 4100
 Wire Wire Line
@@ -1993,23 +1991,21 @@ F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 13075 8975 50  0001
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 800  3700 800 
-Wire Wire Line
 	2250 800  2750 800 
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 620A3387
-P 3700 800
-F 0 "#FLG0101" H 3700 875 50  0001 C CNN
-F 1 "PWR_FLAG" H 3700 973 50  0000 C CNN
-F 2 "" H 3700 800 50  0001 C CNN
-F 3 "~" H 3700 800 50  0001 C CNN
-	1    3700 800 
+P 3900 800
+F 0 "#FLG0101" H 3900 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 3900 973 50  0000 C CNN
+F 2 "" H 3900 800 50  0001 C CNN
+F 3 "~" H 3900 800 50  0001 C CNN
+	1    3900 800 
 	1    0    0    -1  
 $EndComp
-Connection ~ 3700 800 
+Connection ~ 3900 800 
 Wire Wire Line
-	3700 800  3850 800 
+	3900 800  4050 800 
 $Comp
 L LED:WS2812B L12
 U 1 1 61056FCC
@@ -2434,4 +2430,205 @@ Wire Wire Line
 	6200 1100 6200 1150
 Wire Wire Line
 	6200 1100 6575 1100
+NoConn ~ 10500 1600
+NoConn ~ 10500 1700
+NoConn ~ 10500 2100
+NoConn ~ 10500 3600
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60AEF2D9
+P 5100 4150
+F 0 "H1" H 5200 4196 50  0000 L CNN
+F 1 "MountingHole" H 5200 4105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5100 4150 50  0001 C CNN
+F 3 "~" H 5100 4150 50  0001 C CNN
+	1    5100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60AF3792
+P 5850 4150
+F 0 "H2" H 5950 4196 50  0000 L CNN
+F 1 "MountingHole" H 5950 4105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5850 4150 50  0001 C CNN
+F 3 "~" H 5850 4150 50  0001 C CNN
+	1    5850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 60B11EC5
+P 5100 4375
+F 0 "H3" H 5200 4421 50  0000 L CNN
+F 1 "MountingHole" H 5200 4330 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5100 4375 50  0001 C CNN
+F 3 "~" H 5100 4375 50  0001 C CNN
+	1    5100 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60B11ECB
+P 5850 4375
+F 0 "H4" H 5950 4421 50  0000 L CNN
+F 1 "MountingHole" H 5950 4330 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5850 4375 50  0001 C CNN
+F 3 "~" H 5850 4375 50  0001 C CNN
+	1    5850 4375
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 60B30D4E
+P 5100 4575
+F 0 "H5" H 5200 4621 50  0000 L CNN
+F 1 "MountingHole" H 5200 4530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5100 4575 50  0001 C CNN
+F 3 "~" H 5100 4575 50  0001 C CNN
+	1    5100 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 60B30D54
+P 5850 4575
+F 0 "H6" H 5950 4621 50  0000 L CNN
+F 1 "MountingHole" H 5950 4530 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5850 4575 50  0001 C CNN
+F 3 "~" H 5850 4575 50  0001 C CNN
+	1    5850 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 60B30D5A
+P 5100 4800
+F 0 "H7" H 5200 4846 50  0000 L CNN
+F 1 "MountingHole" H 5200 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5100 4800 50  0001 C CNN
+F 3 "~" H 5100 4800 50  0001 C CNN
+	1    5100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 60B30D60
+P 5850 4800
+F 0 "H8" H 5950 4846 50  0000 L CNN
+F 1 "MountingHole" H 5950 4755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5850 4800 50  0001 C CNN
+F 3 "~" H 5850 4800 50  0001 C CNN
+	1    5850 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 60B97D96
+P 5100 5000
+F 0 "H9" H 5200 5046 50  0000 L CNN
+F 1 "MountingHole" H 5200 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5100 5000 50  0001 C CNN
+F 3 "~" H 5100 5000 50  0001 C CNN
+	1    5100 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 60B97D9C
+P 5850 5000
+F 0 "H10" H 5950 5046 50  0000 L CNN
+F 1 "MountingHole" H 5950 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965" H 5850 5000 50  0001 C CNN
+F 3 "~" H 5850 5000 50  0001 C CNN
+	1    5850 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR05
+U 1 1 60B0B905
+P 5800 2825
+F 0 "#PWR05" H 5800 2675 50  0001 C CNN
+F 1 "+5V" H 5815 2998 50  0000 C CNN
+F 2 "" H 5800 2825 50  0001 C CNN
+F 3 "" H 5800 2825 50  0001 C CNN
+	1    5800 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 60B0C514
+P 5800 3525
+F 0 "#PWR013" H 5800 3275 50  0001 C CNN
+F 1 "GND" H 5805 3352 50  0000 C CNN
+F 2 "" H 5800 3525 50  0001 C CNN
+F 3 "" H 5800 3525 50  0001 C CNN
+	1    5800 3525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 60B0E8DF
+P 5800 3000
+F 0 "R1" H 5868 3046 50  0000 L CNN
+F 1 "5.1k" H 5868 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5800 3000 50  0001 C CNN
+F 3 "~" H 5800 3000 50  0001 C CNN
+	1    5800 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R6
+U 1 1 60B0F74D
+P 5800 3350
+F 0 "R6" H 5868 3396 50  0000 L CNN
+F 1 "5.1k" H 5868 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5800 3350 50  0001 C CNN
+F 3 "~" H 5800 3350 50  0001 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5525 3175 0    50   Input ~ 0
+SPLIT_HAND_PIN
+Wire Wire Line
+	5800 3100 5800 3175
+Wire Wire Line
+	5800 3450 5800 3525
+Wire Wire Line
+	5800 2900 5800 2825
+Wire Wire Line
+	5525 3175 5800 3175
+Connection ~ 5800 3175
+Wire Wire Line
+	5800 3175 5800 3250
+Text GLabel 10750 1400 2    50   Input ~ 0
+SPLIT_HAND_PIN
+Text GLabel 3700 1150 3    50   Input ~ 0
+PLUG_DETECT
+$Comp
+L Device:R_Small_US R8
+U 1 1 60DC7688
+P 3700 950
+F 0 "R8" H 3768 996 50  0000 L CNN
+F 1 "5.1k" H 3768 905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3700 950 50  0001 C CNN
+F 3 "~" H 3700 950 50  0001 C CNN
+	1    3700 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 800  3700 800 
+Wire Wire Line
+	3700 800  3700 850 
+Connection ~ 3700 800 
+Wire Wire Line
+	3700 800  3900 800 
+Wire Wire Line
+	3700 1050 3700 1150
+Text GLabel 10750 1500 2    50   Input ~ 0
+PLUG_DETECT
+Wire Wire Line
+	10500 1400 10750 1400
+Wire Wire Line
+	10750 1500 10500 1500
 $EndSCHEMATC

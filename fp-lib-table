@@ -8,4 +8,5 @@
   (lib (name Type-C)(type KiCad)(uri /home/ding/kicad_keyboard_library/Type-C.pretty)(options "")(descr ""))
   (lib (name reversible-kicad-footprints)(type KiCad)(uri /home/ding/reference_keyboards/djinn/Rev2a/reversible-kicad/reversible-kicad-footprints)(options "")(descr ""))
   (lib (name MX_Only)(type KiCad)(uri /home/ding/kicad_keyboard_library/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
+  (lib (name DjinnFootprints)(type KiCad)(uri /home/ding/reference_keyboards/djinn/Rev2a/DjinnFootprints)(options "")(descr ""))
 )
