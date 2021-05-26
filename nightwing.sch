@@ -2430,7 +2430,6 @@ Wire Wire Line
 	6200 1100 6200 1150
 Wire Wire Line
 	6200 1100 6575 1100
-NoConn ~ 8875 1375
 NoConn ~ 8875 1475
 NoConn ~ 8875 1875
 NoConn ~ 8875 3375
@@ -2631,4 +2630,35 @@ Wire Wire Line
 	8875 1175 9125 1175
 Wire Wire Line
 	9125 1275 8875 1275
+Wire Wire Line
+	2250 3650 2450 3650
+Text GLabel 1650 3650 0    50   Input ~ 0
+BOOT
+$Comp
+L keyboard_parts:SW_PUSH BOOT1
+U 1 1 60CF7BA1
+P 1950 3650
+F 0 "BOOT1" H 1950 3905 50  0000 C CNN
+F 1 "SW_PUSH" H 1950 3814 50  0000 C CNN
+F 2 "reversible-kicad-footprints:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 1950 3650 60  0001 C CNN
+F 3 "" H 1950 3650 60  0000 C CNN
+	1    1950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0111
+U 1 1 60CF7BA7
+P 2450 3650
+F 0 "#PWR0111" H 2450 3400 50  0001 C CNN
+F 1 "GND" V 2450 3450 50  0000 C CNN
+F 2 "" H 2450 3650 50  0001 C CNN
+F 3 "" H 2450 3650 50  0001 C CNN
+	1    2450 3650
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 8875 2675
+Text GLabel 9125 1375 2    50   Input ~ 0
+BOOT
+Wire Wire Line
+	9125 1375 8875 1375
 $EndSCHEMATC

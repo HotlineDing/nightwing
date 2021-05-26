@@ -1,4 +1,4 @@
-19931613278072176
+19942967286128176
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -85617,6 +85617,27 @@ drawing
 0
 0
 private
+maze
+
+
+0
+0
+0
+private
+name
+
+
+0
+0
+0
+private
+nameb
+
+
+0
+0
+0
+private
 night
 
 
@@ -85625,6 +85646,13 @@ night
 0
 private
 nightwing
+
+
+0
+0
+0
+private
+nightwing_icon
 
 
 0
@@ -85659,6 +85687,13 @@ nightwing_qrcode
 0
 0
 private
+nightwing_small
+
+
+0
+0
+0
+private
 nightwing_text
 
 
@@ -85667,6 +85702,13 @@ nightwing_text
 0
 private
 nightwing_text_f
+
+
+0
+0
+0
+private
+nightwing_text_small
 
 
 0
@@ -85702,6 +85744,13 @@ nightwing_texte
 0
 private
 oled_breakout
+
+
+0
+0
+0
+private
+qmk_logo
 
 
 0
