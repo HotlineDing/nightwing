@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "5.1.10"
     },
-    "CreationDate":  "2021-05-25T21:23:54-05:00"
+    "CreationDate":  "2021-05-26T10:29:04-05:00"
   },
   "GeneralSpecs":
   {
@@ -60,6 +60,16 @@
       "FilePolarity":  "Positive"
     },
     {
+      "Path":  "nightwing-F_Mask.gbr",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "nightwing-B_Mask.gbr",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
       "Path":  "nightwing-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
@@ -82,6 +92,10 @@
       "Notes":  "Layer F.SilkS"
     },
     {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
+    },
+    {
       "Type":  "Copper",
       "Notes":  "Layer F.Cu"
     },
@@ -93,6 +107,10 @@
     {
       "Type":  "Copper",
       "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
     },
     {
       "Type":  "Legend",
