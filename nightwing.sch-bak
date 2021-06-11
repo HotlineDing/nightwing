@@ -61,7 +61,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 1000 2500 1000
 $Comp
-L Private:OLED J3
+L nightwing-rescue:OLED-Private J3
 U 1 1 6061FF7E
 P 1550 4600
 F 0 "J3" H 1608 4925 50  0000 C CNN
@@ -82,7 +82,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 4050 2450 4050
 $Comp
-L keyboard_parts:SW_PUSH SW24
+L nightwing-rescue:SW_PUSH-keyboard_parts SW24
 U 1 1 6070971B
 P 6700 8175
 F 0 "SW24" H 6700 8430 50  0000 C CNN
@@ -176,7 +176,7 @@ F 3 "~" H 6000 8325 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW23
+L nightwing-rescue:SW_PUSH-keyboard_parts SW23
 U 1 1 60709715
 P 5700 8175
 F 0 "SW23" H 5700 8430 50  0000 C CNN
@@ -211,7 +211,7 @@ F 3 "~" H 4150 8325 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW22
+L nightwing-rescue:SW_PUSH-keyboard_parts SW22
 U 1 1 607096FF
 P 4850 8175
 F 0 "SW22" H 4850 8430 50  0000 C CNN
@@ -222,7 +222,7 @@ F 3 "" H 4850 8175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW21
+L nightwing-rescue:SW_PUSH-keyboard_parts SW21
 U 1 1 607096F9
 P 3850 8175
 F 0 "SW21" H 3850 8430 50  0000 C CNN
@@ -246,7 +246,7 @@ F 3 "~" H 3300 8325 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW20
+L nightwing-rescue:SW_PUSH-keyboard_parts SW20
 U 1 1 607096EC
 P 3000 8175
 F 0 "SW20" H 3000 8430 50  0000 C CNN
@@ -299,7 +299,7 @@ F 3 "~" H 6000 7575 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW18
+L nightwing-rescue:SW_PUSH-keyboard_parts SW18
 U 1 1 607096C7
 P 6700 7425
 F 0 "SW18" H 6700 7680 50  0000 C CNN
@@ -310,7 +310,7 @@ F 3 "" H 6700 7425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW17
+L nightwing-rescue:SW_PUSH-keyboard_parts SW17
 U 1 1 607096C1
 P 5700 7425
 F 0 "SW17" H 5700 7680 50  0000 C CNN
@@ -350,7 +350,7 @@ F 3 "~" H 4150 7575 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW16
+L nightwing-rescue:SW_PUSH-keyboard_parts SW16
 U 1 1 607096A9
 P 4850 7425
 F 0 "SW16" H 4850 7680 50  0000 C CNN
@@ -361,7 +361,7 @@ F 3 "" H 4850 7425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW15
+L nightwing-rescue:SW_PUSH-keyboard_parts SW15
 U 1 1 607096A3
 P 3850 7425
 F 0 "SW15" H 3850 7680 50  0000 C CNN
@@ -387,7 +387,7 @@ $EndComp
 Text GLabel 2150 7725 0    50   Input ~ 0
 ROW2
 $Comp
-L keyboard_parts:SW_PUSH SW14
+L nightwing-rescue:SW_PUSH-keyboard_parts SW14
 U 1 1 60709693
 P 3000 7425
 F 0 "SW14" H 3000 7680 50  0000 C CNN
@@ -398,7 +398,7 @@ F 3 "" H 3000 7425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW13
+L nightwing-rescue:SW_PUSH-keyboard_parts SW13
 U 1 1 6070968D
 P 2000 7425
 F 0 "SW13" H 2000 7680 50  0000 C CNN
@@ -475,7 +475,7 @@ F 3 "~" H 6000 6825 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW12
+L nightwing-rescue:SW_PUSH-keyboard_parts SW12
 U 1 1 606ED5B5
 P 6700 6675
 F 0 "SW12" H 6700 6930 50  0000 C CNN
@@ -486,7 +486,7 @@ F 3 "" H 6700 6675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW11
+L nightwing-rescue:SW_PUSH-keyboard_parts SW11
 U 1 1 606ED5AF
 P 5700 6675
 F 0 "SW11" H 5700 6930 50  0000 C CNN
@@ -526,7 +526,7 @@ F 3 "~" H 4150 6825 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW10
+L nightwing-rescue:SW_PUSH-keyboard_parts SW10
 U 1 1 606ED597
 P 4850 6675
 F 0 "SW10" H 4850 6930 50  0000 C CNN
@@ -537,7 +537,7 @@ F 3 "" H 4850 6675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW9
+L nightwing-rescue:SW_PUSH-keyboard_parts SW9
 U 1 1 606ED591
 P 3850 6675
 F 0 "SW9" H 3850 6930 50  0000 C CNN
@@ -561,7 +561,7 @@ F 3 "~" H 3300 6825 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW8
+L nightwing-rescue:SW_PUSH-keyboard_parts SW8
 U 1 1 606ED582
 P 3000 6675
 F 0 "SW8" H 3000 6930 50  0000 C CNN
@@ -572,7 +572,7 @@ F 3 "" H 3000 6675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW7
+L nightwing-rescue:SW_PUSH-keyboard_parts SW7
 U 1 1 606ED57C
 P 2000 6675
 F 0 "SW7" H 2000 6930 50  0000 C CNN
@@ -629,7 +629,7 @@ Wire Wire Line
 Text GLabel 6250 5575 1    50   Input ~ 0
 COL5
 $Comp
-L keyboard_parts:SW_PUSH SW6
+L nightwing-rescue:SW_PUSH-keyboard_parts SW6
 U 1 1 606C965C
 P 6700 5925
 F 0 "SW6" H 6700 6180 50  0000 C CNN
@@ -640,7 +640,7 @@ F 3 "" H 6700 5925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW5
+L nightwing-rescue:SW_PUSH-keyboard_parts SW5
 U 1 1 606C9656
 P 5700 5925
 F 0 "SW5" H 5700 6180 50  0000 C CNN
@@ -684,7 +684,7 @@ $EndComp
 Wire Wire Line
 	3550 5575 3550 5925
 $Comp
-L keyboard_parts:SW_PUSH SW4
+L nightwing-rescue:SW_PUSH-keyboard_parts SW4
 U 1 1 606C6A7A
 P 4850 5925
 F 0 "SW4" H 4850 6180 50  0000 C CNN
@@ -695,7 +695,7 @@ F 3 "" H 4850 5925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW3
+L nightwing-rescue:SW_PUSH-keyboard_parts SW3
 U 1 1 606C6A74
 P 3850 5925
 F 0 "SW3" H 3850 6180 50  0000 C CNN
@@ -725,7 +725,7 @@ Wire Wire Line
 Text GLabel 1650 4050 0    50   Input ~ 0
 RESET
 $Comp
-L keyboard_parts:SW_PUSH RESET1
+L nightwing-rescue:SW_PUSH-keyboard_parts RESET1
 U 1 1 606B5FE8
 P 1950 4050
 F 0 "RESET1" H 1950 4305 50  0000 C CNN
@@ -736,7 +736,7 @@ F 3 "" H 1950 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW2
+L nightwing-rescue:SW_PUSH-keyboard_parts SW2
 U 1 1 6063E22B
 P 3000 5925
 F 0 "SW2" H 3000 6180 50  0000 C CNN
@@ -747,7 +747,7 @@ F 3 "" H 3000 5925 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:SW_PUSH SW1
+L nightwing-rescue:SW_PUSH-keyboard_parts SW1
 U 1 1 6063DEB9
 P 2000 5925
 F 0 "SW1" H 2000 6180 50  0000 C CNN
@@ -850,7 +850,7 @@ F 3 "" H 5400 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L reversible-kicad-symbols:HRO-TYPE-C-31-M-12-HandSoldering-NoSBU J2
+L nightwing-rescue:HRO-TYPE-C-31-M-12-HandSoldering-NoSBU-reversible-kicad-symbols J2
 U 1 1 60658E93
 P 5400 1450
 F 0 "J2" H 5507 2317 50  0000 C CNN
@@ -921,7 +921,7 @@ F 3 "" H 2450 4050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L reversible-kicad-symbols:HRO-TYPE-C-31-M-12-HandSoldering-NoSBU J1
+L nightwing-rescue:HRO-TYPE-C-31-M-12-HandSoldering-NoSBU-reversible-kicad-symbols J1
 U 1 1 6056609A
 P 1650 1400
 F 0 "J1" H 1757 2267 50  0000 C CNN
@@ -1159,7 +1159,7 @@ F 3 "" H 2750 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard_parts:PPTC F2
+L nightwing-rescue:PPTC-keyboard_parts F2
 U 1 1 616A3582
 P 3200 800
 F 0 "F2" H 3200 1040 50  0000 C CNN
@@ -1184,7 +1184,7 @@ Connection ~ 2750 800
 Wire Wire Line
 	2750 800  2950 800 
 $Comp
-L keebio:PRTR5V0U2X U1
+L nightwing-rescue:PRTR5V0U2X-keebio U1
 U 1 1 60D492B4
 P 3150 2650
 F 0 "U1" H 3150 2925 50  0000 C CNN
@@ -2430,7 +2430,6 @@ Wire Wire Line
 	6200 1100 6200 1150
 Wire Wire Line
 	6200 1100 6575 1100
-NoConn ~ 8875 1375
 NoConn ~ 8875 1475
 NoConn ~ 8875 1875
 NoConn ~ 8875 3375
@@ -2567,10 +2566,10 @@ F 3 "" H 5800 3525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R1
+L Device:R_Small_US LEFT
 U 1 1 60B0E8DF
 P 5800 3000
-F 0 "R1" H 5868 3046 50  0000 L CNN
+F 0 "LEFT" H 5868 3046 50  0000 L CNN
 F 1 "5.1k" H 5868 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5800 3000 50  0001 C CNN
 F 3 "~" H 5800 3000 50  0001 C CNN
@@ -2578,10 +2577,10 @@ F 3 "~" H 5800 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R6
+L Device:R_Small_US RIGHT
 U 1 1 60B0F74D
 P 5800 3350
-F 0 "R6" H 5868 3396 50  0000 L CNN
+F 0 "RIGHT" H 5868 3396 50  0000 L CNN
 F 1 "5.1k" H 5868 3305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 5800 3350 50  0001 C CNN
 F 3 "~" H 5800 3350 50  0001 C CNN
@@ -2636,10 +2635,10 @@ Wire Wire Line
 Text GLabel 1650 3650 0    50   Input ~ 0
 BOOT
 $Comp
-L keyboard_parts:SW_PUSH BOOT
+L nightwing-rescue:SW_PUSH-keyboard_parts BOOT1
 U 1 1 60CF7BA1
 P 1950 3650
-F 0 "BOOT" H 1950 3905 50  0000 C CNN
+F 0 "BOOT1" H 1950 3905 50  0000 C CNN
 F 1 "SW_PUSH" H 1950 3814 50  0000 C CNN
 F 2 "reversible-kicad-footprints:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 1950 3650 60  0001 C CNN
 F 3 "" H 1950 3650 60  0000 C CNN
@@ -2647,18 +2646,19 @@ F 3 "" H 1950 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR?
+L nightwing-rescue:GND-power-monarch-rescue-butterfly-rescue #PWR0111
 U 1 1 60CF7BA7
 P 2450 3650
-F 0 "#PWR?" H 2450 3400 50  0001 C CNN
+F 0 "#PWR0111" H 2450 3400 50  0001 C CNN
 F 1 "GND" V 2450 3450 50  0000 C CNN
 F 2 "" H 2450 3650 50  0001 C CNN
 F 3 "" H 2450 3650 50  0001 C CNN
 	1    2450 3650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9125 2675 2    50   Input ~ 0
+NoConn ~ 8875 2675
+Text GLabel 9125 1375 2    50   Input ~ 0
 BOOT
 Wire Wire Line
-	9125 2675 8875 2675
+	9125 1375 8875 1375
 $EndSCHEMATC
